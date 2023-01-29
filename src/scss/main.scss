@@ -1,4 +1,4 @@
-@import "./varuables.scss";
+@import "./variables.scss";
 * {
 	padding: 0;
 	margin: 0;
@@ -35,6 +35,6 @@ body {
 }
 .wrapper {
 	height: auto;
-	width: $w_90;
+	width: 80%;
 	margin: 0 auto;
 }
