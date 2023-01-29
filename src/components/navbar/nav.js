@@ -47,19 +47,34 @@ const Nav = ({ onClick }) => {
 					textShadow: navTextShadow,
 				}}
 			>
-				<Link className="nav__links-link" to="/">
-					Biz haqimizda
-				</Link>
-				<Link className="nav__links-link" to="/company">
-					Ota-onalar uchun
-				</Link>
-				<Link className="nav__links-link" to="/services">
-					O'smirlar uchun
-				</Link>
-				<Link className="nav__links-link" to="/news">
-					{" "}
-					Modulli o'quv dasturlar
-				</Link>
+				<div className="nav__links-div">
+					<div className="nav__links-div-line top"></div>
+					<Link className="nav__links-div-link" to="/">
+						Biz haqimizda
+					</Link>
+					<div className="nav__links-div-line bottom"></div>
+				</div>
+				<div className="nav__links-div">
+					<div className="nav__links-div-line top"></div>
+					<Link className="nav__links-div-link" to="/">
+						Ota-onalar uchun
+					</Link>
+					<div className="nav__links-div-line bottom"></div>
+				</div>
+				<div className="nav__links-div">
+					<div className="nav__links-div-line top"></div>
+					<Link className="nav__links-div-link" to="/">
+						O'smirlar uchun
+					</Link>
+					<div className="nav__links-div-line bottom"></div>
+				</div>
+				<div className="nav__links-div last">
+					<div className="nav__links-div-line top"></div>
+					<Link className="nav__links-div-link" to="/">
+						Modulli o'quv dasturlar
+					</Link>
+					<div className="nav__links-div-line bottom"></div>
+				</div>
 			</div>
 			<div className="nav__mobile">
 				<div className="nav__mobile-elements">

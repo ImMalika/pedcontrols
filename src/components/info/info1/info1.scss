@@ -1,0 +1,53 @@
+@import "../../../scss/variables.scss";
+.info1 {
+	padding: 10% 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 4rem;
+	& :nth-child(2) {
+		.info1__div-img {
+			order: 2;
+		}
+		.info1__div-texts {
+			order: 1;
+			justify-self: flex-end;
+			text-align: end;
+			.info1__div-texts-btn {
+				align-self: flex-end;
+			}
+		}
+	}
+	&__div {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		&-img {
+			width: 47%;
+			height: 300px;
+			border-radius: $br_r_5;
+			object-fit: cover;
+		}
+		&-texts {
+			width: 47%;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: center;
+			gap: 1rem;
+			&-text {
+				color: #666;
+			}
+			&-btn {
+				border: none;
+				background: #2447a7;
+				border-radius: $br_r_5;
+				cursor: pointer;
+				padding: 1% 5%;
+				color: $light;
+			}
+		}
+	}
+}
