@@ -1,16 +1,16 @@
-import img2 from "../../media/img2.jpeg";
-import img4 from "../../media/img4.jpg";
+import img1 from "../../media/myimg1.jpg";
+import img2 from "../../media/myimg2.jpg";
 
 export const cardsData = [
     {
-        img: img2,
-        title: "cardsTitle1",
+        img: img1,
+        title: "Ota-onalar uchun",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis.",
     },
 
     {
-        img: img4,
-        title: "cardsTitle2",
+        img: img2,
+        title: "O'smirlar uchun",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis.",
     }
 ]
