@@ -9,7 +9,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    margin:  0;
+    margin: 0;
     padding: 5% 20%;
     display: flex;
     justify-content: space-between;
@@ -17,7 +17,7 @@
     flex-wrap: wrap;
     transition: .5s;
 
-    
+
 
     &__card {
         margin: 5% 0;
@@ -34,7 +34,8 @@
         box-shadow: 12px 14px 10px lightgrey;
         transition: .5s;
         overflow: hidden;
-
+        background-color: white;
+        cursor: pointer;
         &:hover {
             img {
                 overflow: hidden;
@@ -60,9 +61,10 @@
             width: 70%;
             margin: 0 auto;
             height: 98px;
-            border-radius: 0 45px 0;
+            border-radius: 0 55px 0;
             text-align: center;
             transform: translateY(-50%);
+            // background-color: rgb(11, 154, 107);
             background-color: rgb(12, 194, 134);
             color: white;
             padding: 5%;
@@ -72,23 +74,24 @@
 
         }
     }
-    
+
     .border1 {
         position: absolute;
-        bottom: 30%;
-        right: 4%;
+        bottom: 22%;
+        right: 3%;
         z-index: 1;
-        width: 320px;
+        width: 340px;
         opacity: 35%;
         transform: rotate(30deg);
     }
+
     .border2 {
         position: absolute;
         top: 10%;
-        left: 3%;
+        left: 2%;
         width: 340px;
         opacity: 35%;
         z-index: -1;
-        
+
     }
 }
