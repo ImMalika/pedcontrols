@@ -1,0 +1,94 @@
+@import "../../scss/variables.scss";
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 124;
+	width: $w_100;
+	padding: 0 10%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+	background: #181a1be5;
+	transition: 0.3s;
+	&__logo {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		width: 23%;
+		cursor: pointer;
+		height: 100%;
+		// border: 1px solid red;
+		&-img {
+			height: 90%;
+			object-fit: cover;
+			margin: 2.5% 0;
+		}
+		h4 {
+			color: #2447a7;
+			font-size: 20px;
+		}
+	}
+	&__links {
+		// border: 2px solid red;
+		width: 65%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		&-link {
+			display: inline-block;
+			font-size: 1rem;
+			font-family: emoji;
+			text-transform: uppercase;
+			font-weight: 600;
+		}
+	}
+	&__mobile {
+		display: none;
+		&-elements {
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			gap: 3%;
+			p {
+				font-size: 1.3em;
+				transform: rotateY(180deg);
+				justify-self: flex-end;
+			}
+		}
+	}
+	.fa-solid {
+		margin-right: 0.3rem;
+	}
+}
+@media (min-width: $xxl) {
+	.nav {
+	}
+}
+@media (max-width: $xl) {
+	.nav {
+	}
+}
+@media (max-width: $lg) {
+	.nav {
+	}
+}
+@media (max-width: $md) {
+	.nav {
+	}
+}
+@media (max-width: $sm) {
+	.nav {
+	}
+}
+@media (max-width: $xs) {
+	.nav {
+	}
+}
