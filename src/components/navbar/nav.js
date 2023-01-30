@@ -13,8 +13,8 @@ const Nav = ({ onClick }) => {
 		"1px 1px 10px rgba(255, 255, 255, 0.545)"
 	);
 	const listenScrollEvent = () => {
-		window.scrollY > 150 ? setnavColorBg("#181a1be5") : setnavColorBg("#fff");
-		window.scrollY > 150 ? setnavSize("80px") : setnavSize("110px");
+		window.scrollY > 150 ? setnavColorBg("#fff") : setnavColorBg("#fff");
+		window.scrollY > 150 ? setnavSize("70px") : setnavSize("90px");
 		window.scrollY > 150 ? setnavColor("#fff") : setnavColor("#2447A7");
 		window.scrollY > 150
 			? setnavTextShadow("none")
@@ -26,7 +26,6 @@ const Nav = ({ onClick }) => {
 			window.removeEventListener("scroll", listenScrollEvent);
 		};
 	}, []);
-
 	return (
 		<nav
 			className="nav"
@@ -43,7 +42,7 @@ const Nav = ({ onClick }) => {
 			<div
 				className="nav__links"
 				style={{
-					color: navColor,
+					// color: navColor,
 					textShadow: navTextShadow,
 				}}
 			>
