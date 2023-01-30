@@ -58,6 +58,7 @@
 			justify-content: space-between;
 			align-items: center;
 			gap: 0.1rem;
+			transition: 1s;
 			&:hover &-link {
 				color: $reddish;
 			}
