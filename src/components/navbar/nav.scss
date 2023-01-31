@@ -18,6 +18,8 @@
 	overflow: hidden;
 	background: #181a1be5;
 	transition: 0.3s;
+	border-bottom: 1px solid lightgrey;
+	box-shadow: 1px 2px 3px lightgray;
 	&__logo {
 		display: flex;
 		align-items: center;
