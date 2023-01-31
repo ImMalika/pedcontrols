@@ -5,7 +5,19 @@
 	box-sizing: border-box;
 }
 .home {
+	.cardsMain {
+		// border: 1px solid red;
+		padding: 5% 0;
+		h2 {
+			text-align: center;
+			font-size: 3rem;
+			margin-bottom: 2%;
+			color: $light;
+		}
+	}
 	.info1Div {
+		background: #dcffe3;
+		padding: 3% 0 10% 0;
 		h2 {
 			width: 100%;
 			margin: 5% auto;
@@ -24,6 +36,7 @@
 			margin: 5% auto;
 			text-align: center;
 			font-size: 3rem;
+			color: $light;
 		}
 		&__col1 {
 			position: relative;
@@ -31,29 +44,51 @@
 			width: 50%;
 			p {
 				// text-align: center;
-				color: #666;
+				color: $light;
 				font-size: 1.3rem;
 			}
 			h3 {
 				// text-align: center;
 				margin: 5% auto;
 				font-size: 2rem;
+				color: $light;
 			}
 		}
 		&__col2 {
 			width: 47%;
 			text-align: end;
 			h3 {
-				// text-align: center;
+				color: $light;
 				margin: 5% 3%;
 				font-size: 2rem;
 			}
 			p {
 				// text-align: center;
-				color: #666;
+				color: $light;
 				font-size: 1.3rem;
 				margin: 0 3%;
 			}
 		}
+	}
+	.resoursesDiv {
+		padding: 5% 10%;
+		h2 {
+			font-size: 3rem;
+			text-align: center;
+			margin: 5% 0;
+			color: $light;
+		}
+	}
+	.homeBG {
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: -123;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.379);
+		background-image: linear-gradient(#0cc28562, rgba(0, 0, 0, 0.579)),
+			url("https://leverageedu.com/blog/wp-content/uploads/2020/04/Types-of-Education.jpg");
+		background-size: cover;
 	}
 }

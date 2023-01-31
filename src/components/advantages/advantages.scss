@@ -1,0 +1,40 @@
+@import "../../scss/variables.scss";
+.advantages {
+	background: #dcffe3;
+	padding:5% 10% 10% 10%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	h2 {
+		width: 100%;
+		text-align: center;
+		font-size: 3rem;
+		margin: 5% 0;
+	}
+	&__card {
+		box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.302);
+		padding: 2%;
+		border-radius: 20px;
+		background: $light;
+		width: 31%;
+		height: 440px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		gap: 0.7rem;
+		text-align: start;
+		&:hover {
+			transform: scale(1.05);
+			box-shadow: 5px 7px 15px rgba(0, 0, 0, 0.502);
+		}
+		h2 {
+			font-size: 1.5rem;
+		}
+		p {
+			font-size: 1.1rem;
+			color: $dark;
+		}
+	}
+}
