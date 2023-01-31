@@ -1,0 +1,35 @@
+@import "../../../scss/variables.scss";
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.home {
+	.info1Div {
+		h2 {
+			width: 100%;
+			margin: 5% auto;
+			text-align: center;
+			font-size: 3rem;
+		}
+	}
+	.info2 {
+		padding: 7% 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		h2 {
+			width: 100%;
+			margin: 5% auto;
+			text-align: center;
+			font-size: 3rem;
+		}
+		&__col1 {
+			width: 47%;
+		}
+		&__col2 {
+			width: 47%;
+		}
+	}
+}
