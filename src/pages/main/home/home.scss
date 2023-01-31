@@ -17,7 +17,7 @@
 		padding: 7% 0;
 		display: flex;
 		justify-content: space-between;
-		align-items: center;
+		align-items: flex-start;
 		flex-wrap: wrap;
 		h2 {
 			width: 100%;
@@ -26,10 +26,34 @@
 			font-size: 3rem;
 		}
 		&__col1 {
-			width: 47%;
+			position: relative;
+			// border: 1px solid red;
+			width: 50%;
+			p {
+				// text-align: center;
+				color: #666;
+				font-size: 1.3rem;
+			}
+			h3 {
+				// text-align: center;
+				margin: 5% auto;
+				font-size: 2rem;
+			}
 		}
 		&__col2 {
 			width: 47%;
+			text-align: end;
+			h3 {
+				// text-align: center;
+				margin: 5% 3%;
+				font-size: 2rem;
+			}
+			p {
+				// text-align: center;
+				color: #666;
+				font-size: 1.3rem;
+				margin: 0 3%;
+			}
 		}
 	}
 }
