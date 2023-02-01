@@ -1,6 +1,5 @@
 import React from 'react'
-import "./parents";
-
+import "./parents.scss";
 
 const Parents = () => {
   return (
@@ -10,4 +9,4 @@ const Parents = () => {
   )
 }
 
-export default Parents
+export {Parents}

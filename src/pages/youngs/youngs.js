@@ -1,5 +1,5 @@
 import React from 'react';
-import "./youngs";
+import "./youngs.scss";
 
 const Youngs = () => {
   return (
@@ -7,4 +7,4 @@ const Youngs = () => {
   )
 }
 
-export default Youngs;
+export {Youngs};
