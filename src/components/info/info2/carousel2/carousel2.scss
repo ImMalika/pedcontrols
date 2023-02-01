@@ -7,10 +7,9 @@
 .carousel2 {
 	position: relative;
 	.link {
-		color: red;
 		position: absolute;
 		bottom: 10%;
-		right: 0;
+		right: 1%;
 		z-index: 12;
 		background: #0cc286;
 		color: $light;
@@ -18,10 +17,13 @@
 		font-size: 1.5rem;
 		box-shadow: 0 5px 10px rgba(0, 0, 0, 0.703);
 		border-radius: 0 40px 0 40px;
+		&:hover {
+			transform: scale(1.05);
+		}
 	}
-img{
-border-radius: 10px ;
-}
+	img {
+		border-radius: 10px;
+	}
 }
 .carousel .slider-wrapper {
 	width: 500px;

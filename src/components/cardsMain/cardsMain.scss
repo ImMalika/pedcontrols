@@ -6,88 +6,83 @@
 }
 
 .cards {
-
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    padding: 5% 20%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    transition: .5s;
-
-
-
-    &__card {
-        margin: 5% 0;
-        width: 47%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 1rem;
-        padding-bottom: 1rem;
-        border-radius: 30px;
-        z-index: 123;
-        border: 0px solid lightgray;
-        box-shadow: 12px 14px 10px lightgrey;
-        transition: .5s;
-        overflow: hidden;
-        background-color: white;
-        cursor: pointer;
-        &:hover {
-            img {
-                overflow: hidden;
-                transition: .5s;
-                transform: scale(1.1);
-            }}
-             img {
+	position: relative;
+	width: 100%;
+	// height: 90vh;
+	margin: 0;
+	padding: 0% 20%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	transition: 0.5s;
+	&__card {
+		margin: 5% 0;
+		width: 47%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1rem;
+		padding-bottom: 1rem;
+		border-radius: 30px;
+		z-index: 123;
+		border: 0px solid lightgray;
+		box-shadow: 12px 10px 15px rgba(0, 0, 0, 0.308);
+		transition: 0.5s;
+		overflow: hidden;
+		background-color: white;
+		cursor: pointer;
+		&:hover {
+			img {
+				overflow: hidden;
+				transition: 0.5s;
+				transform: scale(1.1);
+			}
+		}
+		img {
 			width: 100%;
 			height: 380px;
 			object-fit: cover;
 			overflow: hidden;
 			transition: 0.2s;
 		}
-        &:hover h2{
-            transform: translateY(4%);
-        }
-        h2 {
+		&:hover .link {
+			transform: translateY(4%);
+		}
+		.link {
 			width: 70%;
 			margin: 0 auto;
-			height: 98px;
+			// height: 98px;
 			border-radius: 0 45px 0;
 			text-align: center;
 			transform: translateY(-50%);
 			background-color: rgb(12, 194, 134);
 			color: white;
-			padding: 5%;
+			padding: 5% 5% 7% 5%;
 			font-size: 2rem;
 			font-family: serif;
 			transition: 0.5s;
 			cursor: pointer;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.608);
 		}
-    }
-    .border1 {
-        position: absolute;
-        bottom: 30%;
-        right: 4%;
-        z-index: 1;
-        width: 320px;
-        opacity: 35%;
-        transform: rotate(30deg);
-    }
-    .border2 {
-        position: absolute;
-        top: 10%;
-        left: 3%;
-        width: 340px;
-        opacity: 35%;
-        z-index: -1;
-    }
+	}
+	.border1 {
+		position: absolute;
+		bottom: 30%;
+		right: 4%;
+		z-index: 1;
+		width: 320px;
+		opacity: 60%;
+		transform: rotate(35deg);
+	}
+	.border2 {
+		position: absolute;
+		top: 10%;
+		left: 3%;
+		width: 340px;
+		opacity: 60%;
+		z-index: -1;
+		transform: rotate(-20deg);
+	}
 }
-
-	
-
-

@@ -16,18 +16,20 @@ a:hover {
 	color: $denger;
 	background-color: rgba(255, 255, 255, 0.147);
 	border: 1px solid rgb(255, 255, 255);
-	width: 6px;
+	width: 9px;
 	height: 0px;
 }
 ::-webkit-scrollbar-thumb {
+	border: 1px solid $light;
 	color: $light;
-	background-color: $reddish;
+	background-color: #0cc286;
 	border-radius: 15px;
 }
 ::-webkit-scrollbar-button {
-	background-color: $reddish;
-	color: $reddish;
-	border: 1px solid $dark;
+	background-color: #0cc286;
+	color: #0cc286;
+	// border: 1px solid $dark;
+	display: none;
 }
 body {
 	overflow-x: hidden;

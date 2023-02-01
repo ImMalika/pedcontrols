@@ -19,11 +19,15 @@ const Home = () => {
 			<Nav />
 			{/* <NavMain /> */}
 			<SliderMain />
-			<CardsMain />
+			<div className="cardsMain">
+				<h2>Ota-ona va O'smilar uchun maslahatlar!</h2>
+				<CardsMain />
+			</div>
 			<div className="info1Div">
 				<h2>Biz haqimizda</h2>
 				<Info1 />
 			</div>
+			<div className="homeBG"></div>
 			<div className="info2 wrapper">
 				<h2>Modulli oquv dasturlari</h2>
 				<div className="info2__col1">
@@ -37,12 +41,17 @@ const Home = () => {
 				<div className="info2__col2">
 					<Carousel2 />
 					<h3>Modulli oquv dasturlari haqida</h3>
-<p>Поможем подтянуть и углубить школьные знания, улучшить оценки,
-						повысить интерес к учебе</p>
+					<p>
+						Поможем подтянуть и углубить школьные знания, улучшить оценки,
+						повысить интерес к учебе
+					</p>
 				</div>
 			</div>
 			<Advantages />
-			<Resourses />
+			<div className="resoursesDiv">
+				<h2>Foydali resurslar</h2>
+				<Resourses />
+			</div>
 			<Footer />
 		</div>
 	);

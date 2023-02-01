@@ -7,11 +7,11 @@ import { Link } from "react-router-dom";
 const Carousel1 = () => {
 	const data = [
 		{
-			img: "https://www.educationperfect.com/wp-content/uploads/2022/11/Generic_Happyhighschoolgirlusinglaptopinclassroom_1500px.webp",
+			img: "https://www.bankofengland.co.uk/-/media/boe/images/education-and-engagement/education/teacher-resource-image-1-web.jpg?h=347&la=en&mh=347&mw=520&w=520&hash=76512627AB76D24E22CFC00C41AD0BA59F624BA9",
 			title: "img 1",
 		},
 		{
-			img: "https://www.bankofengland.co.uk/-/media/boe/images/education-and-engagement/education/teacher-resource-image-1-web.jpg?h=347&la=en&mh=347&mw=520&w=520&hash=76512627AB76D24E22CFC00C41AD0BA59F624BA9",
+			img: "https://www.educationperfect.com/wp-content/uploads/2022/11/Generic_Happyhighschoolgirlusinglaptopinclassroom_1500px.webp",
 			title: "img 2",
 		},
 		{
