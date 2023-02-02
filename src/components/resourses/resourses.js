@@ -8,26 +8,32 @@ const Resourses = () => {
 	const data = [
 		{
 			img: "https://www.uzedu.uz/uploads/2021/10/BFjwSXUVJKvUcxglIP2feU2wdVXfW7_O.jpg",
+			link: "https://kitob.uz/",
 			title: "Kitob.uz",
 		},
 		{
 			img: "https://www.kitob.uz/statics/logo-ozrxtv.png",
+			link: "https://uzedu.uz/y3",
 			title: "uzedu",
 		},
 		{
 			img: "https://www.uzedu.uz/uploads/2022/05/SC1ESlOWETZZRPIyeQalEuTys5jpMnxK.jpg",
+			link: "https://itsm.uz/uz/edu-kids",
 			title: "edukids",
 		},
 		{
 			img: "https://i.pinimg.com/originals/62/82/54/628254829d04e22d93e1da811eda18dc.jpg",
+			link: "https://educare.uzedu.uz/",
 			title: "edu care",
 		},
 		{
 			img: "https://www.uzedu.uz/uploads/2022/04/4FHTwbvpBYgqHjMtUrOImiMLIDJQ1Giv.jpg",
+			link: "https://artshop.uzedu.uz/ru",
 			title: "art shop",
 		},
 		{
 			img: "https://anydhhnsep.cloudimg.io/v7/http://sitmguwahati.org/images/mou-partners-logo/itobuz-logo.png?v=1.3",
+			link: "https://itobuz.com/",
 			title: "itobuz",
 		},
 	];
@@ -59,7 +65,9 @@ const Resourses = () => {
 				{data.map((item, index) => (
 					<div className={index === imageIndex ? "slide active" : "slide"}>
 						<img src={item.img} alt={item.img} />
-						<Link to="/cas" className="link">{item.title}</Link>
+						<a href={item.link} target="_blank" className="link">
+							{item.title}
+						</a>
 					</div>
 				))}
 			</Slider>

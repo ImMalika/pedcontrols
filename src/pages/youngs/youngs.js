@@ -1,10 +1,14 @@
-import React from 'react';
-import "./youngs";
+import React from "react";
+import "./youngs.scss";
+import { Link } from "react-router-dom";
 
 const Youngs = () => {
-  return (
-    <div>Youngs</div>
-  )
-}
+	return (
+		<div>
+			<h1>Youngs</h1>
+			<Link to="/">Home</Link>
+		</div>
+	);
+};
 
-export default Youngs;
+export { Youngs };
