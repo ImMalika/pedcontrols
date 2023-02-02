@@ -6,8 +6,9 @@
 	align-items: center;
 	flex-wrap: wrap;
 	gap: 4rem;
-	position: relative;
-	& :nth-child(4) {
+	// position: relative;
+	// border: 1px solid red;
+	& :nth-child(3) {
 		.info1__div-img {
 			order: 2;
 		}
@@ -22,21 +23,24 @@
 	}
 	&__img {
 		position: absolute;
-		z-index: 0;
+		z-index: -0;
 		opacity: 60%;
-		width: 340px;
+		// width: 340px;
+	}
+	.img1 {
+		opacity: 70%;
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		transform: rotate(0deg);
+		bottom: 0%;
+		left: 0%;
+		// border: 1px solid red;
 	}
 	.img2 {
 		top: 0%;
 		right: -4%;
 		transform: rotate(30deg);
-	}
-	.img1 {
-		opacity: 70%;
-		width: 900px;
-		transform: rotate(0deg);
-		bottom: -5%;
-		left: 0%;
 	}
 	&__div {
 		width: 100%;
@@ -66,7 +70,7 @@
 			justify-content: center;
 			gap: 1rem;
 			&-text {
-				color: #666;
+				color: #fff;
 				font-size: 1.2rem;
 			}
 			&-btn {
