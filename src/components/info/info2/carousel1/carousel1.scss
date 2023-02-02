@@ -36,8 +36,8 @@
 			bottom: -15%;
 			left: 15%;
 			font-size: 1.4rem;
-			background: #0cc286;
-			border-radius: 0 35px 0 35px;
+			background: $primary;
+			border-radius: 0 20px 0 20px;
 			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
 			&:hover {
 				transform: scale(1.07);
@@ -65,7 +65,7 @@
 		text-align: center;
 		transition: 0.1ms;
 		&:hover {
-			color: #68edff;
+			color: $primary;
 			transition: 0.1ms;
 		}
 	}

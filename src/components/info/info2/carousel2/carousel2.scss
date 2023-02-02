@@ -11,12 +11,12 @@
 		bottom: 10%;
 		right: 1%;
 		z-index: 12;
-		background: #0cc286;
+		background: $primary;
 		color: $light;
 		padding: 2% 5%;
 		font-size: 1.5rem;
 		box-shadow: 0 5px 10px rgba(0, 0, 0, 0.703);
-		border-radius: 0 40px 0 40px;
+		border-radius: 0 33px 0 33px;
 		&:hover {
 			transform: scale(1.05);
 		}

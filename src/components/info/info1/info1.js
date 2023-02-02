@@ -1,7 +1,7 @@
 import React from "react";
 import "./info1.scss";
 import { Link } from "react-router-dom";
-import border1 from "../../../media/abc.png";
+import border1 from "../../../media/Satga.png";
 import border2 from "../../../media/myimg4.png";
 const Info1Data = [
 	{
