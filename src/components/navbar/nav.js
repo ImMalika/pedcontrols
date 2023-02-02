@@ -46,13 +46,7 @@ const Nav = ({ onClick }) => {
 					textShadow: navTextShadow,
 				}}
 			>
-				<div className="nav__links-div">
-					<div className="nav__links-div-line top"></div>
-					<Link className="nav__links-div-link" to="/aboutUs">
-						Biz haqimizda
-					</Link>
-					<div className="nav__links-div-line bottom"></div>
-				</div>
+
 				<div className="nav__links-div">
 					<div className="nav__links-div-line top"></div>
 					<Link className="nav__links-div-link" to="/parents">
@@ -71,6 +65,13 @@ const Nav = ({ onClick }) => {
 					<div className="nav__links-div-line top"></div>
 					<Link className="nav__links-div-link" to="/study">
 						Modulli o'quv dasturlar
+					</Link>
+					<div className="nav__links-div-line bottom"></div>
+				</div>
+				<div className="nav__links-div">
+					<div className="nav__links-div-line top"></div>
+					<Link className="nav__links-div-link" to="/aboutUs">
+						Biz haqimizda
 					</Link>
 					<div className="nav__links-div-line bottom"></div>
 				</div>

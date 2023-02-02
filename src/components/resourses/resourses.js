@@ -64,9 +64,8 @@ const Resourses = () => {
 			<Slider {...settings}>
 				{data.map((item, index) => (
 					<div className={index === imageIndex ? "slide active" : "slide"}>
-						<img src={item.img} alt={item.img} />
-						<a href={item.link} target="_blank" className="link">
-							{item.title}
+						<a href={item.link} target="_blank">
+							<img src={item.img} alt={item.img} />
 						</a>
 					</div>
 				))}

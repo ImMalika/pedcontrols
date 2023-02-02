@@ -32,9 +32,11 @@
 		transform: rotate(30deg);
 	}
 	.img1 {
-		transform: rotate(-20deg);
-		bottom: 5%;
-		left: -5%;
+		opacity: 70%;
+		width: 900px;
+		transform: rotate(0deg);
+		bottom: -5%;
+		left: 0%;
 	}
 	&__div {
 		width: 100%;
@@ -49,8 +51,9 @@
 			border-radius: 20px;
 			object-fit: cover;
 			box-shadow: 7px 7px 13px rgba(0, 0, 0, 0.308);
-
+			opacity: 0.9;
 			&:hover {
+				opacity: 1;
 				transform: scale(1.05);
 				box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.308);
 			}
@@ -68,13 +71,13 @@
 			}
 			&-btn {
 				border: none;
-				background: #0cc286;
+				background: $primary;
 				border-radius: $br_r_5;
 				cursor: pointer;
 				padding: 1% 5%;
 				color: $light;
 				font-size: 1.7rem;
-				border-radius: 0 40px 0;
+				border-radius: 0 30px 0;
 				font-family: emoji;
 				padding: 3% 10%;
 				box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.608);
