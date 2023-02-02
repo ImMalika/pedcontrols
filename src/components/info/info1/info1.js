@@ -27,7 +27,7 @@ const Info1 = () => {
 					<img className="info1__div-img" src={item.img} alt="" />
 					<div className="info1__div-texts">
 						<p className="info1__div-texts-text">{item.description}</p>
-						<Link to={item.btnTitle} className="info1__div-texts-btn">
+						<Link to="/aboutUs" className="info1__div-texts-btn">
 							{item.btnTitle}
 						</Link>
 					</div>
