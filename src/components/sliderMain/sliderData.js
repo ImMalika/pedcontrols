@@ -26,6 +26,10 @@ export const sliderData = [
 		title: "Biz barchamiz - ogohmiz!",
 		description: "this is the fourth slider image",
 		// url: img4, // Buni kommentga oling
+
 		url: img4Family_Portrait, // Mana shuni kommentdan chiqaring
+
+		url: img1, // Mana shuni kommentdan chiqaring
+
 	},
-];
+]; 
