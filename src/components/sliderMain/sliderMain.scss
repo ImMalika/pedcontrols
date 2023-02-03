@@ -5,9 +5,9 @@
 }
 .slider-container {
 	width: 100%;
-	height: 100vh;
+	height: 89vh;
 	position: relative;
-	margin: 5% auto;
+	margin: 5.5% auto;
 	overflow: hidden;
 	.active {
 		transform: translate(0%, 0%);
@@ -25,9 +25,10 @@
 	}
 	.slide-img {
 		width: 100%;
-		height: 100%;
+		height: 89%;
 		object-fit: cover;
 		position: absolute;
+		// border: 2px solid red;
 	}
 	.slide-title,
 	.slide-text {
@@ -39,6 +40,7 @@
 		text-align: center;
 		top: 40%;
 		z-index: 10;
+		text-shadow: 1px 3px 5px #000;
 	}
 	.slide-text {
 		top: 65%;

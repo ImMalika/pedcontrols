@@ -1,4 +1,4 @@
-@import "../../../scss/variables.scss";
+@import "../../scss/variables.scss";
 .info1 {
 	padding: 0 10%;
 	display: flex;
@@ -22,25 +22,15 @@
 		}
 	}
 	&__img {
-		position: absolute;
-		z-index: -0;
-		opacity: 60%;
-		// width: 340px;
-	}
-	.img1 {
-		opacity: 70%;
 		height: 100%;
 		width: 100%;
-		object-fit: cover;
-		transform: rotate(0deg);
+		position: absolute;
 		bottom: 0%;
 		left: 0%;
-		// border: 1px solid red;
-	}
-	.img2 {
-		top: 0%;
-		right: -4%;
-		transform: rotate(30deg);
+		z-index: -0;
+		opacity: 70%;
+		object-fit: cover;
+		transform: rotateX(180deg);
 	}
 	&__div {
 		width: 100%;

@@ -4,13 +4,12 @@ import { Nav } from "../../../components/navbar/nav";
 // import NavMain from "../../../components/navMain/navMain";
 import SliderMain from "../../../components/sliderMain/sliderMain";
 import CardsMain from "../../../components/cardsMain/cardsMain";
-import Info1 from "../../../components/info/info1/info1";
-// import Info2 from "../../../components/info/info2/info2";
+import InfoUs from "../../../components/infoUs/infoUs";
+import { Carousel2 } from "../../../components/infoCarousels/carousel2/carousel2";
+import Carousel1 from "../../../components/infoCarousels/carousel1/carousel1";
 import Resourses from "../../../components/resourses/resourses";
 import Advantages from "../../../components/advantages/advantages";
 import Footer from "../../../components/footer/footer";
-import { Carousel2 } from "../../../components/info/info2/carousel2/carousel2";
-import Carousel1 from "../../../components/info/info2/carousel1/carousel1";
 // import { InsideAir } from "../../../components/info/info2/insideAir";
 
 const Home = () => {
@@ -25,7 +24,7 @@ const Home = () => {
 			</div>
 			<div className="info1Div">
 				<h2>Biz haqimizda</h2>
-				<Info1 />
+				<InfoUs />
 			</div>
 			<div className="homeBG"></div>
 			<div className="info2 wrapper">
