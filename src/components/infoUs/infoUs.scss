@@ -46,11 +46,12 @@
 			// border: 1px solid red;
 		}
 		&-Texts {
+			background: #0b1aa175;
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
 			gap: 1rem;
-			box-shadow: 2px 5px 10px #000;
+			box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.73);
 			border-radius: 20px;
 			padding: 2% 5%;
 			position: relative;
@@ -60,7 +61,7 @@
 			}
 			&-Logo {
 				border-radius: 50%;
-width: 6%;
+				width: 6%;
 			}
 		}
 	}
