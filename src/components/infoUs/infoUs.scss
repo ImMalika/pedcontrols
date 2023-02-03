@@ -1,14 +1,12 @@
 @import "../../scss/variables.scss";
 .info1 {
-	padding: 0 10%;
+	padding: 5% 0 3%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
 	gap: 4rem;
-	// position: relative;
-	// border: 1px solid red;
-	& :nth-child(3) {
+	& :nth-child(4) {
 		.info1__div-img {
 			order: 2;
 		}
@@ -31,6 +29,40 @@
 		opacity: 70%;
 		object-fit: cover;
 		transform: rotateX(180deg);
+	}
+	&__pedTitlesDiv {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 3rem;
+		h2 {
+			width: 100%;
+			text-align: center;
+			font-size: 3rem;
+			color: $light;
+			position: relative;
+			z-index: 12;
+			// border: 1px solid red;
+		}
+		&-Texts {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 1rem;
+			box-shadow: 2px 5px 10px #000;
+			border-radius: 20px;
+			padding: 2% 5%;
+			position: relative;
+			z-index: 12124;
+			p {
+				color: $light;
+			}
+			&-Logo {
+				border-radius: 50%;
+width: 6%;
+			}
+		}
 	}
 	&__div {
 		width: 100%;

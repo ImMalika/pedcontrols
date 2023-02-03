@@ -23,7 +23,7 @@ const Home = () => {
 				<CardsMain />
 			</div>
 			<div className="info1Div">
-				<h2>Biz haqimizda</h2>
+				
 				<InfoUs />
 			</div>
 			<div className="homeBG"></div>
