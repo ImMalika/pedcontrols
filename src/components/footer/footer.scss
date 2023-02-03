@@ -8,10 +8,11 @@
 .footer {
 	width: 100%;
 	padding: 3% 10%;
-	background: $primary;
+	// background: ;
+	background: linear-gradient(to right, #005baf, #006acd, #17aff8);
+background: linear-gradient(to right,#00063a,#1023ce,#75AFD1, );
 	color: $light;
-display: flex;
-align-items: center;
-justify-content: space-between;
-
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }

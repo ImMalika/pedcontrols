@@ -12,12 +12,16 @@
 	.active {
 		transform: translate(0%, 0%);
 		transition: all 1.5s ease;
+		z-index: 1;
 	}
 	.inactive {
 		transform: translate(10%, 0%);
 		opacity: 0.8;
+		.slide-title,
+		.slide-text {
+			display: none;
+		}
 	}
-
 	.slides {
 		height: 100vh;
 		width: 100%;
