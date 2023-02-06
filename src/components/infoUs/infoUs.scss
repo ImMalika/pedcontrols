@@ -46,7 +46,7 @@
 			// border: 1px solid red;
 		}
 		&-Texts {
-			background: #0b1aa175;
+			background: #1087ffad;
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
@@ -62,6 +62,7 @@
 			&-Logo {
 				border-radius: 50%;
 				width: 6%;
+				box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.66);
 			}
 		}
 	}
@@ -98,7 +99,7 @@
 			}
 			&-btn {
 				border: none;
-				background: $primary;
+				background: linear-gradient(to right bottom, #000528, #1829c7, #86c0fe);
 				border-radius: $br_r_5;
 				cursor: pointer;
 				padding: 1% 5%;

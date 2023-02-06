@@ -5,10 +5,14 @@ import Footer from "../../components/footer/footer";
 import mainImg from "../../media/1.jpg";
 import { Nav } from "../../components/navbar/nav";
 import navParents from "../../components/data/data.json";
+import { useParams } from "react-router-dom";
 const Parents = () => {
+	const categ = useParams();
+	console.log(categ);
 	return (
 		<div>
-			<Nav dataLink={navParents.navParents} />
+			{/* {navParents.navParents.map((item) => (param = item.title))} */}
+			<Nav dataLink={navParents.navParents} params={categ} />
 			<h1 className="aboutTitle">Ota-onalar uchun maslahatlar</h1>
 			<div className="aboutUs__wrapper">
 				<div className="aboutUs__wrapper-img">

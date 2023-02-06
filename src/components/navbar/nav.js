@@ -3,7 +3,8 @@ import { useState, useEffect } from "react";
 import navLogo from "../../media/logo.png";
 import "./nav.scss";
 import { Link } from "react-router-dom";
-const Nav = ({ dataLink, onClick }) => {
+const Nav = ({ dataLink, onClick, params }) => {
+console.log(params);
 	const [navSize, setnavSize] = useState("100px");
 	// const [navColorBg, setnavColorBg] = useState("#fff");
 	// const [navColor, setnavColor] = useState("#2447A7");
