@@ -5,18 +5,18 @@ import "./nav.scss";
 import { Link } from "react-router-dom";
 const Nav = ({ dataLink, onClick }) => {
 	const [navSize, setnavSize] = useState("100px");
-	const [navColorBg, setnavColorBg] = useState("#fff");
-	const [navColor, setnavColor] = useState("#2447A7");
-	const [navTextShadow, setnavTextShadow] = useState(
-		"1px 1px 10px rgba(255, 255, 255, 0.545)"
-	);
+	// const [navColorBg, setnavColorBg] = useState("#fff");
+	// const [navColor, setnavColor] = useState("#2447A7");
+	// const [navTextShadow, setnavTextShadow] = useState(
+	// 	"1px 1px 10px rgba(255, 255, 255, 0.545)"
+	// );
 	const listenScrollEvent = () => {
 		// window.scrollY > 150 ? setnavColorBg("#fff") : setnavColorBg("#fff");
 		window.scrollY > 150 ? setnavSize("70px") : setnavSize("90px");
-		window.scrollY > 150 ? setnavColor("#fff") : setnavColor("#2447A7");
-		window.scrollY > 150
-			? setnavTextShadow("none")
-			: setnavTextShadow("1px 1px 10px rgba(255, 255, 255, 0.545)");
+		// window.scrollY > 150 ? setnavColor("#fff") : setnavColor("#2447A7");
+		// window.scrollY > 150
+		// 	? setnavTextShadow("none")
+		// 	: setnavTextShadow("1px 1px 10px rgba(255, 255, 255, 0.545)");
 	};
 	useEffect(() => {
 		window.addEventListener("scroll", listenScrollEvent);
