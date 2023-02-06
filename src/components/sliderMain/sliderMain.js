@@ -9,12 +9,6 @@ import SliderBg from "./sliderBg";
 const len = sliderData.length - 1;
 const SliderMain = ({ props }) => {
 	const [activeIndex, setActiveIndex] = useState(0);
-	// useEffect(() => {
-	// 	const interval2 = setInterval(() => {
-	// 		setActiveIndex(activeIndex === len ? 0 : activeIndex - 1);
-	// 	}, 5000);
-	// 	return () => clearInterval(interval2);
-	// }, [activeIndex]);
 	useEffect(() => {
 		const interval = setInterval(() => {
 			setActiveIndex(activeIndex === len ? 0 : activeIndex + 1);

@@ -13,7 +13,7 @@ const Nav = ({ onClick }) => {
 		"1px 1px 10px rgba(255, 255, 255, 0.545)"
 	);
 	const listenScrollEvent = () => {
-		window.scrollY > 150 ? setnavColorBg("#fff") : setnavColorBg("#fff");
+		// window.scrollY > 150 ? setnavColorBg("#fff") : setnavColorBg("#fff");
 		window.scrollY > 150 ? setnavSize("70px") : setnavSize("90px");
 		window.scrollY > 150 ? setnavColor("#fff") : setnavColor("#2447A7");
 		window.scrollY > 150
@@ -30,7 +30,7 @@ const Nav = ({ onClick }) => {
 		<nav
 			className="nav"
 			style={{
-				backgroundColor: navColorBg,
+				// backgroundColor: navColorBg,
 				height: navSize,
 				transition: "all 0.8s",
 			}}
@@ -43,7 +43,7 @@ const Nav = ({ onClick }) => {
 				className="nav__links"
 				style={{
 					// color: navColor,
-					textShadow: navTextShadow,
+					// textShadow: navTextShadow,
 				}}
 			>
 
