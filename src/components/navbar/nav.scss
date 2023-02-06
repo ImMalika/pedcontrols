@@ -38,11 +38,11 @@
 		}
 	}
 	&__links {
-		// border: 2px solid red;
-		width: 65%;
+		max-width: 75%;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		gap: 2rem;
 		color: #fff;
 		&-link {
 			display: inline-block;
@@ -89,7 +89,7 @@
 				margin: 0 0 0 65%;
 			}
 		}
-		.last {
+		&:nth-child(3) {
 			&:hover .nav__links-div-line {
 				background: $reddish;
 			}

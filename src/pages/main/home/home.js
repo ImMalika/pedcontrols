@@ -10,12 +10,12 @@ import Carousel1 from "../../../components/infoCarousels/carousel1/carousel1";
 import Resourses from "../../../components/resourses/resourses";
 import Advantages from "../../../components/advantages/advantages";
 import Footer from "../../../components/footer/footer";
-// import { InsideAir } from "../../../components/info/info2/insideAir";
-
+import NavHome from "../../../components/data/data.json"
 const Home = () => {
 	return (
 		<div className="home">
-			<Nav />
+{/* {console.log(NavHome.navHome)} */}
+			<Nav  dataLink={NavHome.navHome}/>
 			{/* <NavMain /> */}
 			<SliderMain />
 			<div className="cardsMain">
@@ -23,7 +23,7 @@ const Home = () => {
 				<CardsMain />
 			</div>
 			<div className="info1Div">
-				<h2>Biz haqimizda</h2>
+				
 				<InfoUs />
 			</div>
 			<div className="homeBG"></div>

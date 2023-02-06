@@ -2,6 +2,7 @@ import React from "react";
 import "./infoUs.scss";
 import { Link } from "react-router-dom";
 import infoUsBG from "../../media/infoUsBG.svg";
+import exclamation from "../../media/exclamation.png";
 
 const Info1Data = [
 	{
@@ -21,6 +22,25 @@ const InfoUs = () => {
 	return (
 		<div className="info1 wrapper">
 			<img className="info1__img img1" src={infoUsBG} alt="" />
+			<div className="info1__pedTitlesDiv">
+				<h2>Pedcontrols.uz nima?</h2>
+				<div className="info1__pedTitlesDiv-Texts">
+					<img
+						src={exclamation}
+						alt=""
+className="info1__pedTitlesDiv-Texts-Logo"
+					/>
+					<p>
+						<b>Pedcontrols.uz</b> - xalqaro standartlarga javob beruvchi ilg‘or
+						raqamli ta’lim texnologiyasi bo‘lib, maktab o‘quvchilari uchun
+						sifatli uzluksiz masofaviy ta’lim taqdim etilishini ta’minlaydi.
+						Platformada o‘qituvchi va ota-onalar uchun ham o‘quvchilarning
+						o‘zlashtirish darajasini nazorat qilib borish, mavzular mazmuni
+						bilan tanishish singari keng imkoniyatlar taqdim etiladi.
+					</p>
+				</div>
+			</div>
+			{/* <h2>Biz haqimizda</h2> */}
 			{Info1Data.map((item, index) => (
 				<div className="info1__div" key={index}>
 					<img className="info1__div-img" src={item.img} alt="" />

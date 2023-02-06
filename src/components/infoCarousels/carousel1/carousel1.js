@@ -53,7 +53,7 @@ const Carousel1 = () => {
 		<div className="carousel1">
 			<Slider {...settings}>
 				{data.map((item, index) => (
-					<div className={index === imageIndex ? "slide active" : "slide"}>
+					<div key={index} className={index === imageIndex ? "slide active" : "slide"}>
 						<img src={item.img} alt={item.img} />
 						<Link to={item.link} className="link">
 							{item.title}
