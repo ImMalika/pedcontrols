@@ -28,7 +28,7 @@ const InfoUs = () => {
 					<img
 						src={exclamation}
 						alt=""
-className="info1__pedTitlesDiv-Texts-Logo"
+						className="info1__pedTitlesDiv-Texts-Logo"
 					/>
 					<p>
 						<b>Pedcontrols.uz</b> - xalqaro standartlarga javob beruvchi ilg‘or
@@ -46,7 +46,7 @@ className="info1__pedTitlesDiv-Texts-Logo"
 					<img className="info1__div-img" src={item.img} alt="" />
 					<div className="info1__div-texts">
 						<p className="info1__div-texts-text">{item.description}</p>
-						<Link to="/aboutUs" className="info1__div-texts-btn">
+						<Link to="/about-us" className="info1__div-texts-btn">
 							{item.btnTitle}
 						</Link>
 					</div>

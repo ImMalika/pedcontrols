@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 import Footer from "../../../components/footer/footer";
 import mainImg from "../../../media/myimg2.jpg";
 import { Nav } from "../../../components/navbar/nav";
-import navHome from "../../../components/data/data.json";
+import navData from "../../../components/data/data.json";
 const Study = () => {
 	return (
 		<div>
-			<Nav dataLink={navHome.navHome} />
+			<Nav dataLink={navData.navHome} />
 			<h1 className="aboutTitle">Modulli o'quv dasturlari</h1>
 			<div className="aboutUs__wrapper">
 				<div className="aboutUs__wrapper-img">

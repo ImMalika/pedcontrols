@@ -1,14 +1,15 @@
 import React from "react";
 import "./parents.scss";
-import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import mainImg from "../../media/1.jpg";
 import { Nav } from "../../components/navbar/nav";
 import navParents from "../../components/data/data.json";
+import { Outlet } from "react-router-dom";
 const Parents = () => {
 	return (
 		<div>
 			<Nav dataLink={navParents.navParents} />
+			<Outlet />
 			<h1 className="aboutTitle">Ota-onalar uchun maslahatlar</h1>
 			<div className="aboutUs__wrapper">
 				<div className="aboutUs__wrapper-img">
@@ -16,30 +17,44 @@ const Parents = () => {
 				</div>
 				<div className="aboutUs__wrapper-info">
 					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-						Reprehenderit dolor ad nostrum voluptatum quis nam assumenda, amet
-						qui fugiat ducimus, eos eveniet excepturi reiciendis delectus
-						voluptas sapiente, facere debitis. Esse minus eligendi, deserunt at
-						amet optio atque asperiores. Ut, ad. Similique quas accusantium,
-						vitae et reiciendis nostrum ea atque laboriosam id voluptatum ipsum,
-						cupiditate, deserunt iure neque eos commodi! Magnam et, quas
-						doloribus veniam quos aspernatur. Explicabo quo at ipsam.{" "}
+						Mazkur elektron platforma Oilada o‘smir yoshidagi bolalarning
+						hushyorlik va ogohlik fazilatlarini rivojlanishida vertual axborot
+						makoni ijobiy hamda salbiy ta’sirlarga ega bo‘lib, inson qalbi va
+						ongiga tez ta’sir qila olish xususiyati tufayli ezgu va yovuz
+						kuchlarning kurash maydoniga aylagani, axborot xavfsizligini
+						ta’minlash masalasi o‘smirlarning ogohlik va hushyorlik
+						fazilatlarini rivojlantirish nuqtai nazaridan axborotlarni mustaqil
+						qabul qilish ko‘nikmalarini ijobiy shakllantirish maqsadida ishlab
+						chiqildi.
 					</p>
 				</div>
 				<p>
-					Consectetur maiores minima fugiat vel eligendi ullam et beatae sit
-					illum, pariatur praesentium maxime, quia fugit odio sint optio,
-					commodi minus perspiciatis reiciendis eaque impedit? Officiis pariatur
-					eum possimus exercitationem voluptates sequi in iste iusto, magni et
-					adipisci qui maxime omnis nesciunt laboriosam dignissimos nulla natus
-					aut fuga ex necessitatibus. Ducimus asperiores quaerat, aperiam
-					pariatur provident natus eaque sit minima expedita alias ab
-					consectetur quo magni amet dolorem autem, ipsum dicta voluptate illum
-					debitis repellendus adipisci? Voluptatem deleniti nobis adipisci sed
-					officia iste quidem similique architecto placeat.
+					Globallashayotgan dunyoda axborot-kommunikatsiya texnologiyalari
+					o‘smirlar kundalik hayotining ajralmas qismiga aylanib ulgurdi. Ya’ni,
+					dunyo aholisining jahon axborot tarmog‘i – Internetdan
+					foydalanuvchilarining 71 foizini 15 yoshdan 24 yoshgacha bo‘lgan
+					ijtimoiy-demografik guruh vakillari tashkil etgan holda ushbu
+					yoshlarning 90,1 foizi turli ijtimoiy tarmoqlarning faol
+					foydalanuvchilari hisoblanadi.
+				</p>
+				<p>
+					Har kuni global tarmoq va virtual makonda bir necha milliondan ziyod
+					yangi axborot resurslari paydo bo‘ladi, uning hajmi har daqiqa o‘sib
+					bormoqda. Axborot ko‘lami, uning zamonaviy xususiyatlari va ta’sir
+					doirasi kengayishi oqibatida aholi, jumladan, o‘smir yoshidagi
+					bolalarda hushyorlik va ogohlik fazilatlarini rivojlantirish masalasi
+					jamiyat (oila)ning, shuningdek, ijtimoiy pedagogika fanining dolzarb
+					masalalaridan biriga aylandi.
+				</p>
+				<p>
+					Ushbu platforma ota-onalar va o‘smir yoshidagi bolalar foydalanishi
+					uchun mo‘ljallangan bo‘lib, unda ota-onalar uchun maslahatlar, vertual
+					pedagogik nazorat hamda foydali ma’lumotlar, shuningdek, o‘smir
+					yoshidagi bolalarda xavfsiz axborotlarni saralash, ongli tushunish,
+					axborot iste’molidan to‘g‘ri foydalanishga oid ma’lumotlar o‘rin
+					olgan.
 				</p>
 			</div>
-			<Link to="/">Home</Link>
 			<Footer />
 		</div>
 	);

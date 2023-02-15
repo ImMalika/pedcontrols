@@ -1,7 +1,6 @@
 import React from "react";
 import "./home.scss";
 import { Nav } from "../../../components/navbar/nav";
-// import NavMain from "../../../components/navMain/navMain";
 import SliderMain from "../../../components/sliderMain/sliderMain";
 import CardsMain from "../../../components/cardsMain/cardsMain";
 import InfoUs from "../../../components/infoUs/infoUs";
@@ -10,20 +9,17 @@ import Carousel1 from "../../../components/infoCarousels/carousel1/carousel1";
 import Resourses from "../../../components/resourses/resourses";
 import Advantages from "../../../components/advantages/advantages";
 import Footer from "../../../components/footer/footer";
-import NavHome from "../../../components/data/data.json"
+import  {navData}  from "../../../components/data/data";
 const Home = () => {
 	return (
 		<div className="home">
-{/* {console.log(NavHome.navHome)} */}
-			<Nav  dataLink={NavHome.navHome}/>
-			{/* <NavMain /> */}
+			<Nav dataLink={navData.navHome} />
 			<SliderMain />
 			<div className="cardsMain">
 				<h2>Ota-ona va O'smilar uchun maslahatlar!</h2>
 				<CardsMain />
 			</div>
 			<div className="info1Div">
-				
 				<InfoUs />
 			</div>
 			<div className="homeBG"></div>
@@ -38,7 +34,7 @@ const Home = () => {
 					<Carousel1 />
 				</div>
 				<div className="info2__col2">
-					 <Carousel2 />
+					<Carousel2 />
 					<h3>Modulli oquv dasturlari haqida</h3>
 					<p>
 						Поможем подтянуть и углубить школьные знания, улучшить оценки,
@@ -55,5 +51,4 @@ const Home = () => {
 		</div>
 	);
 };
-
 export { Home };

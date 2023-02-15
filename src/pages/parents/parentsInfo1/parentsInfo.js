@@ -1,20 +1,19 @@
 import React from "react";
-import "./youngsInfo1.scss";
+import "./parentsInfo1.scss";
 import img from "../../../media/2.1.jpg";
 import navParents from "../../../components/data/data.json";
-import youngsInfo from "../../../components/data/data.json";
+import parentsInfo from "../../../components/data/data.json";
 import { useParams, useNavigate } from "react-router-dom";
 // import { Nav } from "../../../components/navbar/nav";
-const YoungsInfo = () => {
+const ParentsInfo = () => {
 	const params = useParams();
 	const nav = useNavigate();
-	console.log(params.child);
+	console.log(params.categ);
 	return (
 		<div className="parentsInfo">
-			{youngsInfo?.youngsInfo?.map((item, index) => console.log(item))}
 			<button onClick={() => nav(-1)}>{"<"}</button>
-			{youngsInfo?.youngsInfo?.map((item, index) =>
-				params?.child === item.id ? (
+			{parentsInfo?.parentsInfo?.map((item, index) =>
+				params?.categ === item.id ? (
 					<div className="parentsInfo__titles" key={index}>
 						<h1 className="parentsInfo__titles-title">{item.title}</h1>
 						<div>
@@ -56,4 +55,4 @@ const YoungsInfo = () => {
 	);
 };
 
-export default YoungsInfo;
+export default ParentsInfo;
