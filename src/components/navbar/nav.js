@@ -2,22 +2,19 @@ import React from "react";
 import { useState, useEffect } from "react";
 import navLogo from "../../media/logo.png";
 import "./nav.scss";
-import { Link } from "react-router-dom";
-const Nav = ({ dataLink, onClick, params }) => {
-console.log(params);
+import { Link, NavLink } from "react-router-dom";
+
+import { DownOutlined } from "@ant-design/icons";
+import { Button, Dropdown, Space, message } from "antd";
+const onClick = ({ key }) => {
+	message.info(`Click on item ${key}`);
+};
+
+const Nav = ({ dataLink }) => {
+	// console.log("items", dataLink);
 	const [navSize, setnavSize] = useState("100px");
-	// const [navColorBg, setnavColorBg] = useState("#fff");
-	// const [navColor, setnavColor] = useState("#2447A7");
-	// const [navTextShadow, setnavTextShadow] = useState(
-	// 	"1px 1px 10px rgba(255, 255, 255, 0.545)"
-	// );
 	const listenScrollEvent = () => {
-		// window.scrollY > 150 ? setnavColorBg("#fff") : setnavColorBg("#fff");
 		window.scrollY > 150 ? setnavSize("70px") : setnavSize("90px");
-		// window.scrollY > 150 ? setnavColor("#fff") : setnavColor("#2447A7");
-		// window.scrollY > 150
-		// 	? setnavTextShadow("none")
-		// 	: setnavTextShadow("1px 1px 10px rgba(255, 255, 255, 0.545)");
 	};
 	useEffect(() => {
 		window.addEventListener("scroll", listenScrollEvent);
@@ -25,11 +22,11 @@ console.log(params);
 			window.removeEventListener("scroll", listenScrollEvent);
 		};
 	}, []);
+
 	return (
 		<nav
 			className="nav"
 			style={{
-				// backgroundColor: navColorBg,
 				height: navSize,
 				transition: "all 0.8s",
 			}}
@@ -38,28 +35,37 @@ console.log(params);
 				<img className="nav__logo-img" src={navLogo} alt="nav logo" />
 				<h4>PEDCONTROLS.UZ</h4>
 			</Link>
-			<div
-				className="nav__links"
-				style={
-					{
-						// color: navColor,
-						// textShadow: navTextShadow,
-					}
-				}
-			>
+			<div className="mainDropDown nav__links">
 				{dataLink.map((item, index) => (
-					<div className="nav__links-div" key={index}>
-						<div className="nav__links-div-line top"></div>
-						<Link className="nav__links-div-link" to={item.link}>
-							{item.title}
-						</Link>
-						<div className="nav__links-div-line bottom"></div>
+					<div key={index} className="nav__links-div">
+						<NavLink className="nav__links-div-link" to={`${item.link}`}>
+							<div className="nav__links-div-line top"></div>
+							<p>
+								{item.title}{" "}
+								{item.dropDown !== undefined ? <DownOutlined /> : null}
+							</p>
+							<div className="nav__links-div-line bottom"></div>
+						</NavLink>
+						<div
+							className={
+								item.dropDown !== undefined
+									? "nav__links-div-dropDown"
+									: "nav__links-div-dropDown dropDownNone"
+							}
+						>
+							{item.dropDown !== undefined
+								? item.dropDown?.map((item, index) => (
+										<Link to={item.link} key={index}>
+											{console.log("item", item.link)}
+											{item.title}
+										</Link>
+								  ))
+								: null}
+						</div>
 					</div>
 				))}
 			</div>
-			<div className="nav__mobile">
-
-			</div>
+			<div className="nav__mobile"></div>
 		</nav>
 	);
 };

@@ -5,7 +5,8 @@ import { AboutUs } from "./pages/main/aboutUs/aboutUs";
 import { Study } from "./pages/main/study/study";
 import { Parents } from "./pages/parents/parents";
 import { Youngs } from "./pages/youngs/youngs";
-import ParentsInfo from "./pages/parents/parentsInfo/parentsInfo";
+import ParentsInfo from "./pages/parents/parentsInfo1/parentsInfo";
+import YoungsInfo from "./pages/youngs/youngsInfo1/youngsInfo1";
 
 function App() {
 	return (
@@ -14,9 +15,11 @@ function App() {
 			<Route exact path="/about-us" element={<AboutUs />} />
 			<Route exact path="/study" element={<Study />} />
 			<Route exact path="/parents" element={<Parents />}>
-				<Route  exact path="/parents/:categ" element={<ParentsInfo />}/>
+				<Route exact path="/parents/:categ" element={<ParentsInfo />} />
 			</Route>
-			<Route exact path="/youngs" element={<Youngs />} />
+			<Route exact path="/youngs" element={<Youngs />}>
+				<Route exact path="/youngs/:child" element={<YoungsInfo />} />
+			</Route>
 		</Routes>
 	);
 }

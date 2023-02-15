@@ -4,11 +4,14 @@ import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import mainImg from "../../media/myimg2.jpg";
 import { Nav } from "../../components/navbar/nav";
-import navParents from "../../components/data/data.json";
+import navYoungs from "../../components/data/data.json";
+import { Outlet } from "react-router-dom";
+
 const Youngs = () => {
 	return (
 		<div>
-			<Nav dataLink={navParents.navParents} />
+			<Nav dataLink={navYoungs.navYoungs} />
+			<Outlet />
 			<h1 className="aboutTitle">O'smirlar uchun maslahatlar</h1>
 			<div className="aboutUs__wrapper">
 				<div className="aboutUs__wrapper-img">

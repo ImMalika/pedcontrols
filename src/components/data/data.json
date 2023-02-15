@@ -17,40 +17,60 @@
 			"title": "Biz haqimizda"
 		}
 	],
+	"navHomeDropDown": [
+		{
+			"link": "/parents",
+			"title": "Ota-onalar uchun"
+		},
+		{
+			"link": "/youngs",
+			"title": "O'smirlar uchun"
+		},
+		{
+			"link": "/study",
+			"title": "Modulli o'quv dasturlari"
+		},
+		{
+			"link": "/about-us",
+			"title": "Biz haqimizda"
+		}
+	],
 	"navParents": [
 		{
 			"link": "/",
 			"title": "Asosiy"
 		},
 		{
-			"link": "/parents/:categ",
+			"link": "ogohlik",
 			"title": "Ogohlik"
 		},
 		{
-			"link": "/parents/:categ",
+			"link": "muammolar",
 			"title": "Muammolar"
 		},
 		{
-			"link": "/parents/:categ",
+			"link": "yechimlar",
 			"title": "Yechimlar"
 		}
 	],
-	"navYoungs": [
+	"parentsInfo": [
 		{
-			"link": "/",
-			"title": "Asosiy"
+			"img": "../../../media/2.1.jpg",
+			"id": "ogohlik",
+			"title": "Ogohlik",
+			"description": "ogoh odam Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime aut ex, corporis distinctio nihil accusantium ipsam libero eius. Nihil, exercitationem dolorem! Animi velit ad illo quaerat enim harum voluptates mollitia?"
 		},
 		{
-			"link": "/youngs/:categ",
-			"title": "Ta'lim va tarbiya"
+			"img": "../../media/3.jpg",
+			"id": "muammolar",
+			"title": "Muammolarga qarshi kurashish",
+			"description": "Muammoli odam Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime aut ex, corporis distinctio nihil accusantium ipsam libero eius. Nihil, exercitationem dolorem! Animi velit ad illo quaerat enim harum voluptates mollitia?"
 		},
 		{
-			"link": "/youngs/:categ",
-			"title": "Yoshlar ishi"
-		},
-		{
-			"link": "/youngs/:categ",
-			"title": "Yosh tadbirkor"
+			"img": "../../media/4.jpg",
+			"id": "yechimlar",
+			"title": "Yechimlar ishi",
+			"description": "Yechimli odam Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime aut ex, corporis distinctio nihil accusantium ipsam libero eius. Nihil, exercitationem dolorem! Animi velit ad illo quaerat enim harum voluptates mollitia?"
 		}
 	],
 	"navYoungs": [
@@ -59,16 +79,33 @@
 			"title": "Asosiy"
 		},
 		{
-			"link": "/youngs/:categ",
+			"link": "ta'lim-va-tarbiya",
 			"title": "Ta'lim va tarbiya"
 		},
 		{
-			"link": "/youngs/:categ",
+			"link": "yoshlar-ishi",
 			"title": "Yoshlar ishi"
 		},
 		{
-			"link": "/youngs/:categ",
+			"link": "yosh-tadbirkor",
 			"title": "Yosh tadbirkor"
+		}
+	],
+	"youngsInfo": [
+		{
+			"id": "ta'lim-va-tarbiya",
+			"title": "Ta'lim va tarbiya",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
+		},
+		{
+			"id": "yoshlar-ishi",
+			"title": "Yoshlar ishi",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
+		},
+		{
+			"id": "yosh-tadbirkor",
+			"title": "Yosh tadbirkor",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
 		}
 	]
 }

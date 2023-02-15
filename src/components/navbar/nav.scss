@@ -8,14 +8,14 @@
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 1234;
+	z-index: 999;
 	width: $w_100;
 	padding: 0 10%;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	overflow: hidden;
+	// overflow: hidden;
 	// background: #181a1be5;
 	background: linear-gradient(to left, #00063a, #2a3ffa, #98d9ff);
 	transition: 0.3s;
@@ -38,28 +38,32 @@
 		}
 	}
 	&__links {
+		// border: 1px solid red;
 		max-width: 75%;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		gap: 2rem;
 		color: #fff;
-		&-link {
-			display: inline-block;
-			font-size: 1rem;
-			font-family: sans-serif;
-			text-transform: uppercase;
-			font-weight: 600;
-			color: #fff;
-			padding: 0.7% 0;
-		}
+
 		&-div {
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: space-between;
 			align-items: center;
 			gap: 0.1rem;
-			transition: 1s;
+			transition: 0.1s;
+			position: relative;
+			z-index: 9999;
+			&-link {
+				display: inline-block;
+				font-size: 1rem;
+				font-family: sans-serif;
+				text-transform: uppercase;
+				font-weight: 600;
+				color: #fff;
+				padding: 0.7% 0;
+			}
 			&:hover &-link {
 				color: $reddish;
 			}
@@ -72,6 +76,11 @@
 			}
 			&:hover .bottom {
 				margin: 0 65% 0 0;
+			}
+			&:hover &-dropDown {
+				top: 130%;
+				visibility: visible;
+				opacity: 1;
 			}
 			&-link {
 				display: inline-block;
@@ -87,6 +96,33 @@
 			}
 			.bottom {
 				margin: 0 0 0 65%;
+			}
+			&-dropDown {
+				opacity: 0;
+				visibility: hidden;
+				padding: 1% 4%;
+				position: absolute;
+				top: 0%;
+				left: 0;
+				z-index: -12;
+				background: linear-gradient(to top right, #89c4fe, #007bff, #0b156e);
+				color: #fff;
+				border-radius: 7px;
+				box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.859);
+				text-align: center;
+				a {
+					display: inline-block;
+					line-height: 18px;
+					// border-bottom: 1px solid #ddd;
+					width: 100%;
+					padding-bottom: 2%;
+					&:hover {
+						// border-bottom: 1px solid $reddish;
+					}
+				}
+			}
+			.dropDownNone {
+				display: none;
 			}
 		}
 		&:nth-child(3) {
