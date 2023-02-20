@@ -44,8 +44,6 @@
 		justify-content: space-between;
 		align-items: center;
 		gap: 2rem;
-		color: rgb(221, 40, 40);
-
 		&-div {
 			display: flex;
 			flex-wrap: wrap;
@@ -61,6 +59,7 @@
 				font-family: sans-serif;
 				text-transform: uppercase;
 				font-weight: 600;
+				color: $light;
 				padding: 0.7% 0;
 			}
 			&:hover &-link {
