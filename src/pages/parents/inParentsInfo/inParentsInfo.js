@@ -1,10 +1,11 @@
+import React from "react";
 import "./parentsInfo1.scss";
 import img from "../../../media/2.1.jpg";
 import navParents from "../../../components/data/data.json";
 import parentsInfo from "../../../components/data/data.json";
 import { useParams, useNavigate } from "react-router-dom";
 // import { Nav } from "../../../components/navbar/nav";
-const ParentsInfo = () => {
+const InParentsInfo = () => {
 	const params = useParams();
 	const nav = useNavigate();
 	console.log(params.categ);
@@ -14,9 +15,8 @@ const ParentsInfo = () => {
 			{parentsInfo?.parentsInfo?.map((item, index) =>
 				params?.categ === item.id ? (
 					<div className="parentsInfo__titles" key={index}>
-						{console.log("item.id >>> ", item.img)}
+						{console.log("item.id >>> ", item.id)}
 						<h1 className="parentsInfo__titles-title">{item.title}</h1>
-						<img src={item.img} alt="" />
 						<div>
 							<p>{item.description}</p>
 						</div>
@@ -56,4 +56,4 @@ const ParentsInfo = () => {
 	);
 };
 
-export default ParentsInfo;
+export default InParentsInfo;
