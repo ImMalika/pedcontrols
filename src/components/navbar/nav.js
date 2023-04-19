@@ -54,10 +54,34 @@ const Nav = ({ dataLink }) => {
 						>
 							{item.dropDown !== undefined
 								? item.dropDown?.map((item, index) => (
-										<Link to={item.link} key={index}>
-											{console.log("item", item.link)}
-											{item.title}
-										</Link>
+										<div
+											key={index}
+											className={"nav__links-div-dropDown-drLink"}
+										>
+											{/* {console.log("item-InDropDown>>>", item.inDropDown)} */}
+											<Link to={item.link}>
+												{item.title}{" "}
+												{item.inDropDown !== undefined ? (
+													<DownOutlined />
+												) : null}
+											</Link>
+											<div
+												className={
+													item.inDropDown !== undefined
+														? "nav__links-div-dropDown-drLink-div"
+														: "nav__links-div-dropDown-drLink-div drLinksNone"
+												}
+											>
+												{item.inDropDown !== undefined
+													? item.inDropDown?.map((item, index) => (
+															<Link to={item.link} key={index}>
+																{console.log("item --> ", item.link)}
+																{item.title}
+															</Link>
+													  ))
+													: null}
+											</div>
+										</div>
 								  ))
 								: null}
 						</div>

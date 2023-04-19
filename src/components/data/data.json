@@ -2,19 +2,150 @@
 	"navHome": [
 		{
 			"link": "/parents",
-			"title": "Ota-onalar uchun"
+			"title": "Ota-onalar uchun",
+			"dropDown": [
+				{
+					"key": "1",
+					"link": "/parents/masofaviy-kuzatuv",
+					"title": "Masofaviy kuzatuv",
+					"inDropDown": [
+						{
+							"key": "1",
+							"link": "/parents/masofaviy-kuzatuv/internet-nazorati",
+							"title": "Internet nazorati"
+						},
+						{
+							"key": "2",
+							"link": "/parents/masofaviy-kuzatuv/ijtimoiy-tarmoq-nazorati",
+							"title": "Ijtimoiy tarmoq nazorati"
+						},
+						{
+							"key": "3",
+							"link": "/parents/masofaviy-kuzatuv/tv-nazorati",
+							"title": "TV nazorati"
+						}
+					]
+				},
+				{
+					"key": "2",
+					"link": "/parents/foydali-maslahatlar",
+					"title": "Foydali maslahatlar"
+				},
+				{
+					"key": "3",
+					"link": "/parents/psixolog-maslahati",
+					"title": "Psixolog maslahati"
+				},
+				{
+					"key": "3",
+					"link": "/parents/foydali-manbalar",
+					"title": "Foydali manbalar"
+				}
+			]
 		},
 		{
 			"link": "/youngs",
-			"title": "O'smirlar uchun"
+			"title": "O'smirlar uchun",
+			"dropDown": [
+				{
+					"key": "1",
+					"link": "/youngs/fojeali-odatlar",
+					"title": "Fojeali odatlar",
+					"inDropDown": [
+						{
+							"key": "1",
+							"link": "/youngs/fojeali-odatlar/giyohvandlik",
+							"title": "Giyohvandlik"
+						},
+						{
+							"key": "2",
+							"link": "/youngs/fojeali-odatlar/chekish",
+							"title": "Chekish"
+						},
+						{
+							"key": "3",
+							"link": "/youngs/fojeali-odatlar/spirtli-ichimliklar",
+							"title": "Spirtli ichimliklar"
+						}
+					]
+				},
+				{
+					"key": "2",
+					"link": "/youngs/asr-vabosi",
+					"title": "Asr vabosi",
+					"inDropDown": [
+						{
+							"key": "1",
+							"link": "/youngs/asr-vabosi/zo'ravonlik",
+							"title": "Zo'ravonlik"
+						},
+						{
+							"key": "2",
+							"link": "/youngs/asr-vabosi/ekstremizm",
+							"title": "Ekstremizm"
+						},
+						{
+							"key": "3",
+							"link": "/youngs/asr-vabosi/terrorizm",
+							"title": "Terrorizm"
+						}
+					]
+				},
+				{
+					"key": "3",
+					"link": "/youngs/virtual-tahdidlar",
+					"title": "Virtual tahdidlar",
+					"inDropDown": [
+						{
+							"key": "1",
+							"link": "/youngs/virtual-tahdidlar/internetga-qaramlik",
+							"title": "Internetga qaramlik"
+						},
+						{
+							"key": "2",
+							"link": "/youngs/virtual-tahdidlar/axloqsiz-saytlarning-zarari",
+							"title": "Axloqsiz saytlarning zarari"
+						},
+						{
+							"key": "3",
+							"link": "/youngs/virtual-tahdidlar/kompyuter-o'yinlari",
+							"title": "kompyuter-o'yinlari"
+						},
+						{
+							"key": "3",
+							"link": "/youngs/virtual-tahdidlar/onlayn-qimor",
+							"title": "Onlayn qimor"
+						}
+					]
+				},
+				{
+					"key": "4",
+					"link": "/youngs/sog'lom-turmush",
+					"title": "Sog'lom turmush"
+				},
+				{
+					"key": "5",
+					"link": "/youngs/foydali-maslahatlar",
+					"title": "Foydali maslahatlar (Maslahat markazlari)"
+				},
+				{
+					"key": "6",
+					"link": "/youngs/tavsiyaviy-manbalar",
+					"title": "Tavsiyaviy manbalar"
+				}
+			]
 		},
 		{
 			"link": "/study",
-			"title": "Modulli o'quv dasturlari"
+			"title": "Mediateka"
 		},
 		{
 			"link": "/about-us",
-			"title": "Biz haqimizda"
+			"title": "Loyiha haqida"
+		},
+		{
+			"link": "/contact",
+			"title": "Aloqa"
 		}
 	],
 	"navHomeDropDown": [
@@ -41,36 +172,63 @@
 			"title": "Asosiy"
 		},
 		{
-			"link": "ogohlik",
-			"title": "Ogohlik"
+			"link": "masofaviy-kuzatuv",
+			"title": "Masofaviy kuzatuv",
+			"dropDown": [
+				{
+					"key": "1",
+					"link": "/parents/masofaviy-kuzatuv/internet-nazorati",
+					"title": "Internet nazorati"
+				},
+				{
+					"key": "2",
+					"link": "/parents/masofaviy-kuzatuv/ijtimoiy-tarmoq-nazorati",
+					"title": "Ijtimoiy tarmoq nazorati"
+				},
+				{
+					"key": "3",
+					"link": "/parents/masofaviy-kuzatuv/tv-nazorati",
+					"title": "TV nazorati"
+				}
+			]
 		},
 		{
-			"link": "muammolar",
-			"title": "Muammolar"
+			"link": "foydali-maslahatlar",
+			"title": "Foydali maslahatlar"
 		},
 		{
-			"link": "yechimlar",
-			"title": "Yechimlar"
+			"link": "psixolog-maslahati",
+			"title": "Psixolog maslahati"
+		},
+		{
+			"link": "foydali-manbalar",
+			"title": "Foydali manbalar"
 		}
 	],
 	"parentsInfo": [
 		{
 			"img": "../../../media/2.1.jpg",
-			"id": "ogohlik",
-			"title": "Ogohlik",
-			"description": "ogoh odam Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime aut ex, corporis distinctio nihil accusantium ipsam libero eius. Nihil, exercitationem dolorem! Animi velit ad illo quaerat enim harum voluptates mollitia?"
+			"id": "masofaviy-kuzatuv",
+			"title": "Masofaviy kuzatuv",
+			"description": "Masofaviy kuzatuv  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime aut ex, corporis distinctio nihil accusantium ipsam libero eius. Nihil, exercitationem dolorem! Animi velit ad illo quaerat enim harum voluptates mollitia?"
 		},
 		{
 			"img": "../../media/3.jpg",
-			"id": "muammolar",
-			"title": "Muammolarga qarshi kurashish",
-			"description": "Muammoli odam Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime aut ex, corporis distinctio nihil accusantium ipsam libero eius. Nihil, exercitationem dolorem! Animi velit ad illo quaerat enim harum voluptates mollitia?"
+			"id": "foydali-maslahatlar",
+			"title": "Foydali maslahatlar ",
+			"description": "Foydali maslahatlar   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime aut ex, corporis distinctio nihil accusantium ipsam libero eius. Nihil, exercitationem dolorem! Animi velit ad illo quaerat enim harum voluptates mollitia?"
 		},
 		{
 			"img": "../../media/4.jpg",
-			"id": "yechimlar",
-			"title": "Yechimlar ishi",
-			"description": "Yechimli odam Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime aut ex, corporis distinctio nihil accusantium ipsam libero eius. Nihil, exercitationem dolorem! Animi velit ad illo quaerat enim harum voluptates mollitia?"
+			"id": "psixolog-maslahati",
+			"title": "Psixolog maslahati",
+			"description": "Psixolog maslahati  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime aut ex, corporis distinctio nihil accusantium ipsam libero eius. Nihil, exercitationem dolorem! Animi velit ad illo quaerat enim harum voluptates mollitia?"
+		},
+		{
+			"img": "../../media/4.jpg",
+			"id": "foydali-manbalar",
+			"title": "Foydali manbalar",
+			"description": "Foydali manbalar  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime aut ex, corporis distinctio nihil accusantium ipsam libero eius. Nihil, exercitationem dolorem! Animi velit ad illo quaerat enim harum voluptates mollitia?"
 		}
 	],
 	"navYoungs": [
@@ -79,33 +237,148 @@
 			"title": "Asosiy"
 		},
 		{
-			"link": "ta'lim-va-tarbiya",
-			"title": "Ta'lim va tarbiya"
+			"link": "fojeali-odatlar",
+			"title": "Fojeali odatlar",
+			"dropDown": [
+				{
+					"key": "1",
+					"link": "/youngs/fojeali-odatlar/giyohvandlik",
+					"title": "Giyohvandlik"
+				},
+				{
+					"key": "2",
+					"link": "/youngs/fojeali-odatlar/chekish",
+					"title": "Chekish"
+				},
+				{
+					"key": "3",
+					"link": "/youngs/fojeali-odatlar/spirtli-ichimliklar",
+					"title": "Spirtli ichimliklar"
+				}
+			]
 		},
 		{
-			"link": "yoshlar-ishi",
-			"title": "Yoshlar ishi"
+			"link": "asr-vabosi",
+			"title": "Asr vabosi",
+			"dropDown": [
+				{
+					"key": "1",
+					"link": "/youngs/asr-vabosi/zo'ravonlik",
+					"title": "Zo'ravonlik"
+				},
+				{
+					"key": "2",
+					"link": "/youngs/asr-vabosi/ekstremizm",
+					"title": "Ekstremizm"
+				},
+				{
+					"key": "3",
+					"link": "/youngs/asr-vabosi/terrorizm",
+					"title": "Terrorizm"
+				}
+			]
 		},
 		{
-			"link": "yosh-tadbirkor",
-			"title": "Yosh tadbirkor"
+			"link": "virtual-tahdidlar",
+			"title": "Virtual tahdidlar",
+			"dropDown": [
+				{
+					"key": "1",
+					"link": "/youngs/virtual-tahdidlar/internetga-qaramlik",
+					"title": "Internetga qaramlik"
+				},
+				{
+					"key": "2",
+					"link": "/youngs/virtual-tahdidlar/axloqsiz-saytlarning-zarari",
+					"title": "Axloqsiz saytlarning zarari"
+				},
+				{
+					"key": "3",
+					"link": "/youngs/virtual-tahdidlar/kompyuter-o'yinlari",
+					"title": "kompyuter-o'yinlari"
+				},
+				{
+					"key": "3",
+					"link": "/youngs/virtual-tahdidlar/onlayn-qimor",
+					"title": "Onlayn qimor"
+				}
+			]
+		},
+		{
+			"link": "sog'lom-turmush",
+			"title": "Sog'lom turmush"
+		},
+		{
+			"link": "foydali-maslahatlar",
+			"title": "Foydali maslahatlar"
+		},
+		{
+			"link": "tavsiyaviy-manbalar",
+			"title": "Tavsiyaviy manbalar"
 		}
 	],
 	"youngsInfo": [
 		{
-			"id": "ta'lim-va-tarbiya",
-			"title": "Ta'lim va tarbiya",
+			"id": "fojeali-odatlar",
+			"title": "Fojeali odatlar",
 			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
 		},
 		{
-			"id": "yoshlar-ishi",
-			"title": "Yoshlar ishi",
+			"id": "asr-vabosi",
+			"title": "Asr vabosi",
+			"description": " Asr-vabosi Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
+		},
+		{
+			"id": "virtual-tahdidlar",
+			"title": "Virtual tahdidlar",
+			"description": "Virtual-tahdidlar Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
+		},
+		{
+			"id": "sog'lom-turmush",
+			"title": "Sog'lom turmush",
+			"description": "Sog'lom turmush Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
+		},
+		{
+			"id": "foydali-maslahatlar",
+			"title": "Foydali maslahatlar",
+			"description": "Foydali-maslahatlar Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
+		},
+		{
+			"id": "tavsiyaviy-manbalar",
+			"title": "Tavsiyaviy manbalar",
+			"description": "Tavsiyaviy-manbalar Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
+		}
+	],
+	"inYoungsInfo": [
+		{
+			"id": "fojeali-odatlar",
+			"title": "Fojeali odatlar",
 			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
 		},
 		{
-			"id": "yosh-tadbirkor",
-			"title": "Yosh tadbirkor",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
+			"id": "asr-vabosi",
+			"title": "Asr vabosi",
+			"description": " Asr-vabosi Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
+		},
+		{
+			"id": "virtual-tahdidlar",
+			"title": "Virtual tahdidlar",
+			"description": "Virtual-tahdidlar Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
+		},
+		{
+			"id": "sog'lom-turmush",
+			"title": "Sog'lom turmush",
+			"description": "Sog'lom turmush Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
+		},
+		{
+			"id": "foydali-maslahatlar",
+			"title": "Foydali maslahatlar",
+			"description": "Foydali-maslahatlar Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
+		},
+		{
+			"id": "tavsiyaviy-manbalar",
+			"title": "Tavsiyaviy manbalar",
+			"description": "Tavsiyaviy-manbalar Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
 		}
 	]
 }

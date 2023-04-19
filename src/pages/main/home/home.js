@@ -9,11 +9,12 @@ import Carousel1 from "../../../components/infoCarousels/carousel1/carousel1";
 import Resourses from "../../../components/resourses/resourses";
 import Advantages from "../../../components/advantages/advantages";
 import Footer from "../../../components/footer/footer";
-import  {navData}  from "../../../components/data/data";
+import navData from "../../../components/data/data.json";
 const Home = () => {
 	return (
 		<div className="home">
 			<Nav dataLink={navData.navHome} />
+			{console.log("navData.navHome>>", navData.navHome)}
 			<SliderMain />
 			<div className="cardsMain">
 				<h2>Ota-ona va O'smilar uchun maslahatlar!</h2>

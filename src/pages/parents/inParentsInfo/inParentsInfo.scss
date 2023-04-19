@@ -1,0 +1,41 @@
+.parentsInfo {
+	margin-top: 5%;
+	padding: 5% 12%;
+	&__titles {
+		display: flex;
+		flex-wrap: wrap;
+		h1 {
+			text-align: center;
+			width: 100%;
+			margin: 3% 0;
+		}
+		p {
+			font-size: 20px;
+			line-height: 34px;
+			font-family: sans-serif;
+			text-align: justify;
+			color: #666;
+		}
+	}
+	button {
+		position: fixed;
+		bottom: 4%;
+		right: 5%;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		background: #2437e1;
+		color: #fff;
+		border: none;
+		cursor: pointer;
+		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.764);
+		font-size: 1.2rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		&:hover {
+			transform: scale(1.05);
+			font-size: 1.2em;
+		}
+	}
+}
