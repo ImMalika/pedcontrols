@@ -1,48 +1,6 @@
 {
 	"navHome": [
-		{
-			"link": "/parents",
-			"title": "Ota-onalar uchun",
-			"dropDown": [
-				{
-					"key": "1",
-					"link": "/parents/masofaviy-kuzatuv",
-					"title": "Masofaviy kuzatuv",
-					"inDropDown": [
-						{
-							"key": "1",
-							"link": "/parents/masofaviy-kuzatuv/internet-nazorati",
-							"title": "Internet nazorati"
-						},
-						{
-							"key": "2",
-							"link": "/parents/masofaviy-kuzatuv/ijtimoiy-tarmoq-nazorati",
-							"title": "Ijtimoiy tarmoq nazorati"
-						},
-						{
-							"key": "3",
-							"link": "/parents/masofaviy-kuzatuv/tv-nazorati",
-							"title": "TV nazorati"
-						}
-					]
-				},
-				{
-					"key": "2",
-					"link": "/parents/foydali-maslahatlar",
-					"title": "Foydali maslahatlar"
-				},
-				{
-					"key": "3",
-					"link": "/parents/psixolog-maslahati",
-					"title": "Psixolog maslahati"
-				},
-				{
-					"key": "3",
-					"link": "/parents/foydali-manbalar",
-					"title": "Foydali manbalar"
-				}
-			]
-		},
+
 		{
 			"link": "/youngs",
 			"title": "O'smirlar uchun",
@@ -135,6 +93,51 @@
 				}
 			]
 		},
+
+		{
+			"link": "/parents",
+			"title": "Ota-onalar uchun",
+			"dropDown": [
+				{
+					"key": "1",
+					"link": "/parents/masofaviy-kuzatuv",
+					"title": "Masofaviy kuzatuv",
+					"inDropDown": [
+						{
+							"key": "1",
+							"link": "/parents/masofaviy-kuzatuv/internet-nazorati",
+							"title": "Internet nazorati"
+						},
+						{
+							"key": "2",
+							"link": "/parents/masofaviy-kuzatuv/ijtimoiy-tarmoq-nazorati",
+							"title": "Ijtimoiy tarmoq nazorati"
+						},
+						{
+							"key": "3",
+							"link": "/parents/masofaviy-kuzatuv/tv-nazorati",
+							"title": "TV nazorati"
+						}
+					]
+				},
+				{
+					"key": "2",
+					"link": "/parents/foydali-maslahatlar",
+					"title": "Foydali maslahatlar"
+				},
+				{
+					"key": "3",
+					"link": "/parents/psixolog-maslahati",
+					"title": "Psixolog maslahati"
+				},
+				{
+					"key": "3",
+					"link": "/parents/foydali-manbalar",
+					"title": "Foydali manbalar"
+				}
+			]
+		},
+		
 		{
 			"link": "/study",
 			"title": "Mediateka"
