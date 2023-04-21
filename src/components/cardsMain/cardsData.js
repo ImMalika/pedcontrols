@@ -1,5 +1,5 @@
-import img1 from "../../media/myimg1.jpg";
-import img2 from "../../media/myimg2.jpg";
+import img1 from "../../media/parents.jpg";
+import img2 from "../../media/youngs.jpg";
 
 export const cardsData = [
 	{

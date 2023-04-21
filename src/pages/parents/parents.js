@@ -17,7 +17,7 @@ const Parents = () => {
 				</div>
 				<div className="aboutUs__wrapper-info">
 					<p>
-						Mazkur elektron platforma Oilada o‘smir yoshidagi bolalarning
+						Mazkur elektron platforma Oilada o'smir yoshidagi bolalarning
 						hushyorlik va ogohlik fazilatlarini rivojlanishida vertual axborot
 						makoni ijobiy hamda salbiy ta’sirlarga ega bo‘lib, inson qalbi va
 						ongiga tez ta’sir qila olish xususiyati tufayli ezgu va yovuz
@@ -47,11 +47,11 @@ const Parents = () => {
 					masalalaridan biriga aylandi.
 				</p>
 				<p>
-					Ushbu platforma ota-onalar va o‘smir yoshidagi bolalar foydalanishi
-					uchun mo‘ljallangan bo‘lib, unda ota-onalar uchun maslahatlar, vertual
-					pedagogik nazorat hamda foydali ma’lumotlar, shuningdek, o‘smir
+					Ushbu platforma ota-onalar va o'smir yoshidagi bolalar foydalanishi
+					uchun mo'ljallangan bo'lib, unda ota-onalar uchun maslahatlar, vertual
+					pedagogik nazorat hamda foydali ma’lumotlar, shuningdek, o'smir
 					yoshidagi bolalarda xavfsiz axborotlarni saralash, ongli tushunish,
-					axborot iste’molidan to‘g‘ri foydalanishga oid ma’lumotlar o‘rin
+					axborot iste’molidan to'g'ri foydalanishga oid ma’lumotlar o'rin
 					olgan.
 				</p>
 			</div>

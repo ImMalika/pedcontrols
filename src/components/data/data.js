@@ -93,4 +93,42 @@ export const navData = {
 				"Yechimli odam Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime aut ex, corporis distinctio nihil accusantium ipsam libero eius. Nihil, exercitationem dolorem! Animi velit ad illo quaerat enim harum voluptates mollitia?",
 		},
 	],
+	youngsInfo: [
+		{
+			"id": "fojeali-odatlar",
+			"title": "Fojeali odatlar",
+			"alcohol": "Spirtli ichimliklar",
+			"alcoholdesc1" : "Alkogol dunyoda aholi salomatligiga eng katta zarar yetkazuvchi psixoaktiv moddalardan biri hisoblanadi. Barcha o‘limlarning taxminan 5% spirtli ichimliklarni iste’mol qilish ta’siridan kelib chiqadi, deb hisoblamoqda Jahon sog‘liqni saqlash tashkiloti.",
+			"alcoholdesc2" : "Har 10 soniyada bir kishi dunyoda uning halokatli ta’siri oqibatlaridan vafot etadi, bu yiliga 3 millionga yaqin qurbonni tashkil qiladi. Spirtli ichimliklar yurak-qon tomir va ruhiy kasalliklarga, saratonning ayrim turlariga olib kelishi mumkin. Tashkilot ma’lumotlariga ko‘ra, mastlik yoshlarga ayniqsa qattiq ta’sir qiladi: dunyoda 20−39 yoshli insonlar orasidagi o‘limning 13,5 foizi ichkilikbozlik bilan bog‘liq.",
+			"alcoholdesc3": "Inson salomatligiga va millionlab odamlarning hayotiga katta zarar yetkazishiga qaramasdan, dunyoda spirtli ichimliklar marketingi ustidan nazorat boshqa psixoaktiv mahsulotlarni nazorat qilishdan ancha zaifroq, deya qayd etilgan JSSTning transchegaraviy reklama usullari va ishlab chiqaruvchilar tomonidan ishlatiladigan spirtli ichimliklarni onlayn reklamasi haqidagi yangi hisobotida.",
+			"alcoholdesc4": "JSST o‘rganishlariga ko‘ra, spirtli ichimliklarga qaram bo‘lgan bemorlar ko‘pincha reklama xabarlarini ko‘rganda yoki u bilan bog‘liq boshqa ma’lumotlarni olganida alkogolga bo‘lgan ishtiyoq kuchayishi haqida tez-tez ma’lum qilishadi.",
+			
+			"description": "Fojeali odatlar Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
+		},
+		{
+			"id": "asr-vabosi",
+			"title": "Asr vabosi",
+			"description": " Asr-vabosi Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
+		},
+		{
+			"id": "virtual-tahdidlar",
+			"title": "Virtual tahdidlar",
+			"description": "Virtual-tahdidlar Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
+		},
+		{
+			"id": "sog'lom-turmush",
+			"title": "Sog'lom turmush",
+			"description": "Sog'lom turmush Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
+		},
+		{
+			"id": "foydali-maslahatlar",
+			"title": "Foydali maslahatlar",
+			"description": "Foydali-maslahatlar Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
+		},
+		{
+			"id": "tavsiyaviy-manbalar",
+			"title": "Tavsiyaviy manbalar",
+			"description": "Tavsiyaviy-manbalar Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
+		}
+	],
 };

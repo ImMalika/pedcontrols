@@ -84,7 +84,7 @@
 				{
 					"key": "5",
 					"link": "/youngs/foydali-maslahatlar",
-					"title": "Foydali maslahatlar (Maslahat markazlari)"
+					"title": "Foydali maslahatlar"
 				},
 				{
 					"key": "6",
@@ -212,8 +212,17 @@
 		{
 			"img": "../../../media/2.1.jpg",
 			"id": "masofaviy-kuzatuv",
-			"title": "Masofaviy kuzatuv",
-			"description": "Masofaviy kuzatuv  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime aut ex, corporis distinctio nihil accusantium ipsam libero eius. Nihil, exercitationem dolorem! Animi velit ad illo quaerat enim harum voluptates mollitia?"
+			"title": "Televizorda OTA-ONA NAZORATINI O'rnatish USULLARI",
+			"description": " Biz allaqachon kabel va sun'iy yo'ldosh televideniyasi operatorlari, agar ular o'z paketlarida kattalar uchun kanallarni taklif qilsalar, ular faqat kechqurun borishadi, shu bilan birga bunday tarkibni tomosha qilishni oldini olish mumkin.",
+			"description2": " Smart televizorlarning tarqalishi bilan bunday tarkibning manbalari kattalik tartibiga aylandi, shuning uchun masalaning axloqiy tomoni juda dolzarb bo'lib qoldi. Hech bo'lmaganda farzandlarini tarbiyalash haqida qayg'uradigan ota-onalar uchun. ",
+			"description3": " Siz yo'qligingizda bolalar auditoriyasini bunday dasturlarni tomosha qilishdan himoya qilish mumkinmi? Muammo ko'rinadigan darajada oddiy emas, chunki ota-ona nazorati funktsiyasi hamma joyda turli yo'llar bilan amalga oshiriladi va bu ishlatilgan televizor dasturining markasi, modeli va hatto versiyasiga va taqiqlangan tarkibga ega dasturga bog'liq. ",
+			"description4": " Keling, ushbu muammoning barcha jihatlarini ko'rib chiqishga harakat qilaylik. Biz darhol tan olamiz – siz bizning sharhimizga faqat eng keng tarqalgan xizmatlar va televizion brendlarni kiritdingiz. Ushbu joydagi hamma narsani qamrab olishning iloji yo'q, shuning uchun agar siz blokirovka bilan shug'ullana olmagan bo'lsangiz, iloji boricha batafsilroq tafsilotlarni ko'rsatib, sharhlarda ishlamagan narsalarni yozing.",
+			"title2": "Smart televizorlarda bola bo'lmagan video namoyishini qanday bloklash mumkin ",
+			"description5": " Aqlli televizorlar odatdagidan farq qiladi, chunki bu erda har qanday dasturni o'zingiz o'rnatishga ruxsat beriladi va ularda bolalar yoshiga mos bo'lmagan filmlar va dasturlar bo'lishi mumkin. Biroq, bu muammoning echimi bor – bunday televizorlarning aksariyati YouTube-dan onlayn kinoteatrlar va oqim xizmatlariga qadar o'rnatilgan har qanday dasturga qulf o'rnatishga imkon beradi. Albatta, bunday cheklovlar har qanday kanallarda va hatto aniq teleko'rsatuvlarda ham qo'llanilishi mumkin. Ammo bu blokirovka hamma joyda bir xil tarzda amalga oshirilmaydi, shuning uchun bizning vazifamiz ota – ona nazorati funktsiyasini faollashtirishning eng mashhur usullari haqida gapirishdir. ",
+			"title3": "O'yin konsollarida ota-ona nazoratini qanday yoqish mumkin ",
+
+			"description6": "Nafaqat video o'yinlarni boshqarish uchun ishlatiladigan o'yin pristavkalari bolalarning harakatlarini kuzatib borish uchun o'z boshqaruv tizimidan  "
+
 		},
 		{
 			"img": "../../media/3.jpg",
@@ -324,7 +333,13 @@
 		{
 			"id": "fojeali-odatlar",
 			"title": "Fojeali odatlar",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
+			"alcohol": "Spirtli ichimliklar",
+			"alcoholdesc1" : "Alkogol dunyoda aholi salomatligiga eng katta zarar yetkazuvchi psixoaktiv moddalardan biri hisoblanadi. Barcha o‘limlarning taxminan 5% spirtli ichimliklarni iste’mol qilish ta’siridan kelib chiqadi, deb hisoblamoqda Jahon sog‘liqni saqlash tashkiloti.",
+			"alcoholdesc2" : "Har 10 soniyada bir kishi dunyoda uning halokatli ta’siri oqibatlaridan vafot etadi, bu yiliga 3 millionga yaqin qurbonni tashkil qiladi. Spirtli ichimliklar yurak-qon tomir va ruhiy kasalliklarga, saratonning ayrim turlariga olib kelishi mumkin. Tashkilot ma’lumotlariga ko‘ra, mastlik yoshlarga ayniqsa qattiq ta’sir qiladi: dunyoda 20−39 yoshli insonlar orasidagi o‘limning 13,5 foizi ichkilikbozlik bilan bog‘liq.",
+			"alcoholdesc3": "Inson salomatligiga va millionlab odamlarning hayotiga katta zarar yetkazishiga qaramasdan, dunyoda spirtli ichimliklar marketingi ustidan nazorat boshqa psixoaktiv mahsulotlarni nazorat qilishdan ancha zaifroq, deya qayd etilgan JSSTning transchegaraviy reklama usullari va ishlab chiqaruvchilar tomonidan ishlatiladigan spirtli ichimliklarni onlayn reklamasi haqidagi yangi hisobotida.",
+			"alcoholdesc4": "JSST o‘rganishlariga ko‘ra, spirtli ichimliklarga qaram bo‘lgan bemorlar ko‘pincha reklama xabarlarini ko‘rganda yoki u bilan bog‘liq boshqa ma’lumotlarni olganida alkogolga bo‘lgan ishtiyoq kuchayishi haqida tez-tez ma’lum qilishadi.",
+			
+			"description": "Fojeali odatlar Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius."
 		},
 		{
 			"id": "asr-vabosi",

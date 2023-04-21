@@ -11,9 +11,9 @@ const onClick = ({ key }) => {
 
 const Nav = ({ dataLink }) => {
 	// console.log("items", dataLink);
-	const [navSize, setnavSize] = useState("100px");
+	const [navSize, setnavSize] = useState("13vh");
 	const listenScrollEvent = () => {
-		window.scrollY > 150 ? setnavSize("70px") : setnavSize("90px");
+		window.scrollY > 150 ? setnavSize("9vh") : setnavSize("12vh");
 	};
 	useEffect(() => {
 		window.addEventListener("scroll", listenScrollEvent);
