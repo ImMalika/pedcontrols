@@ -55,7 +55,7 @@ const ParentsInfo = () => {
 						<p><b>{item.answer12}</b>{item.answerdesc12}</p><br />
 
 						<p><b>{item.advicequestion}</b>{item.advicequestion1}</p><br />
-							<p><b>{item.adviceanswer1}</b> {item.advicedesc1}</p>
+							<p><b>{item.adviceanswera}</b> {item.advicedesc1}</p>
 						</div>
 
 						
