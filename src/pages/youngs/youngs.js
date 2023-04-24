@@ -7,6 +7,7 @@ import { Nav } from "../../components/navbar/nav";
 import navYoungs from "../../components/data/data.json";
 import { Outlet } from "react-router-dom";
 import Paragraph from "antd/es/skeleton/Paragraph";
+import Resourses from "../../components/resourses/resourses";
 
 const Youngs = () => {
 	return (
@@ -19,7 +20,7 @@ const Youngs = () => {
 					<img src={mainImg} alt="media" />
 				</div>
 				<div className="aboutUs__wrapper-info">
-					<Paragraph text={"Lorem1000000000000000000000000"}/>
+					<Paragraph text={"Lorem1000000000000000000000000"} />
 				</div>
 				<p>
 					Consectetur maiores minima fugiat vel eligendi ullam et beatae sit
@@ -33,8 +34,8 @@ const Youngs = () => {
 					debitis repellendus adipisci? Voluptatem deleniti nobis adipisci sed
 					officia iste quidem similique architecto placeat.
 				</p>
-
 			</div>
+			<Resourses />
 			{/* <Link to="/">Home</Link> */}
 			<Footer />
 		</div>
