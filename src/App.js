@@ -21,6 +21,7 @@ import Advices from "./pages/youngs/advices/advices";
 import Gaming from "./pages/youngs/threats/gaming/gaming";
 import Gabling from "./pages/youngs/threats/gabling/gabling";
 import ParentsInternet from "./pages/parents/monitoring/parentsInternet/parentsInternet";
+import Resourses from "./pages/youngs/resourses/resourses"
 
 function App() {
 	return (
@@ -51,10 +52,11 @@ function App() {
 			<Route path="/youngs/century-plague/ekstremism" element={<Ekstromism />}/>
 			<Route path="/youngs/century-plague/terrorism" element={<Terrorism />}/>
 			<Route path="/youngs/threats/internet-addiction" element={<Internet />}/>
-			<Route path="/youngs/threats/bad-sites" element={<Badsites />}/> //
+			<Route path="/youngs/threats/bad-sites" element={<Badsites />}/>
 			<Route path="/youngs/threats/gaming" element={<Gaming />}/>
 			<Route path="/youngs/threats/gabling" element={<Gabling />}/>
 			<Route path="/younges/advices" element={<Advices/>}/>
+			<Route path="/younges/resources" element={<Resourses/>}/>
 			<Route path="/parents/internet-control" element={<ParentsInternet/>}/>
 			
 			

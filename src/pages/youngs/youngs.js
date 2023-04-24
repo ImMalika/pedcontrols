@@ -7,7 +7,7 @@ import { Nav } from "../../components/navbar/nav";
 import navYoungs from "../../components/data/data.json";
 import { Outlet } from "react-router-dom";
 import Paragraph from "antd/es/skeleton/Paragraph";
-import Resourses from "../../components/resourses/resourses";
+// import Resourses from "./resourses/resourses";
 
 const Youngs = () => {
 	return (
@@ -35,7 +35,7 @@ const Youngs = () => {
 					officia iste quidem similique architecto placeat.
 				</p>
 			</div>
-			<Resourses />
+			{/* <Resourses /> */}
 			{/* <Link to="/">Home</Link> */}
 			<Footer />
 		</div>
