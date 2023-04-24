@@ -1,0 +1,54 @@
+.img{
+    margin: 2rem auto;
+    width: 400px;
+    height: 280px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.violencediv{
+    width: 70%;
+    margin: 0 auto;
+    .violencetext{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .title3{
+        font-size: 1.1rem;
+        color: #3e3e3e;
+        font-weight: 500;
+        line-height: 2.4rem;
+    }
+    .img3{
+        // text-align: center;
+        margin: 2rem auto;
+        width: 200px;
+        height: 280px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .img4{
+        // text-align: center;
+        margin: 2rem auto;
+        width: 250px;
+        height: 280px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .list{
+        list-style: block;
+        // list-style-type: decimal;
+    }
+    ol, ul{
+        padding-left: 2rem;
+        li{
+            font-size: 16px;
+            line-height: 1.5rem;
+        }
+    }
+}

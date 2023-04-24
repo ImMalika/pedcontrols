@@ -6,6 +6,7 @@ import mainImg from "../../media/myimg2.jpg";
 import { Nav } from "../../components/navbar/nav";
 import navYoungs from "../../components/data/data.json";
 import { Outlet } from "react-router-dom";
+import Paragraph from "antd/es/skeleton/Paragraph";
 
 const Youngs = () => {
 	return (
@@ -18,16 +19,7 @@ const Youngs = () => {
 					<img src={mainImg} alt="media" />
 				</div>
 				<div className="aboutUs__wrapper-info">
-					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-						Reprehenderit dolor ad nostrum voluptatum quis nam assumenda, amet
-						qui fugiat ducimus, eos eveniet excepturi reiciendis delectus
-						voluptas sapiente, facere debitis. Esse minus eligendi, deserunt at
-						amet optio atque asperiores. Ut, ad. Similique quas accusantium,
-						vitae et reiciendis nostrum ea atque laboriosam id voluptatum ipsum,
-						cupiditate, deserunt iure neque eos commodi! Magnam et, quas
-						doloribus veniam quos aspernatur. Explicabo quo at ipsam.{" "}
-					</p>
+					<Paragraph text={"Lorem1000000000000000000000000"}/>
 				</div>
 				<p>
 					Consectetur maiores minima fugiat vel eligendi ullam et beatae sit
