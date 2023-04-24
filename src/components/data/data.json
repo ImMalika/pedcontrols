@@ -6,22 +6,22 @@
 			"dropDown": [
 				{
 					"key": "1",
-					"link": "/youngs/fojeali-odatlar",
+					"link": "/youngs/bad-habits",
 					"title": "Fojeali odatlar",
 					"inDropDown": [
 						{
 							"key": "1",
-							"link": "/youngs/fojeali-odatlar/giyohvandlik",
+							"link": "/youngs/bad-habits/addiction",
 							"title": "Giyohvandlik"
 						},
 						{
 							"key": "2",
-							"link": "/youngs/fojeali-odatlar/chekish",
+							"link": "/youngs/bad-habits/smoking",
 							"title": "Chekish"
 						},
 						{
 							"key": "3",
-							"link": "/youngs/fojeali-odatlar/spirtli-ichimliklar",
+							"link": "/youngs/bad-habits/alcohol",
 							"title": "Spirtli ichimliklar"
 						}
 					]
@@ -33,17 +33,17 @@
 					"inDropDown": [
 						{
 							"key": "1",
-							"link": "/youngs/asr-vabosi/zo'ravonlik",
+							"link": "/youngs/century-plague/violence",
 							"title": "Zo'ravonlik"
 						},
 						{
 							"key": "2",
-							"link": "/youngs/asr-vabosi/ekstremizm",
+							"link": "/youngs/century-plague/ekstremism",
 							"title": "Ekstremizm"
 						},
 						{
 							"key": "3",
-							"link": "/youngs/asr-vabosi/terrorizm",
+							"link": "/youngs/century-plague/terrorism",
 							"title": "Terrorizm"
 						}
 					]
@@ -55,22 +55,22 @@
 					"inDropDown": [
 						{
 							"key": "1",
-							"link": "/youngs/virtual-tahdidlar/internetga-qaramlik",
+							"link": "/youngs/threats/internet-addiction",
 							"title": "Internetga qaramlik"
 						},
 						{
 							"key": "2",
-							"link": "/youngs/virtual-tahdidlar/axloqsiz-saytlarning-zarari",
+							"link": "/youngs/threats/bad-sites",
 							"title": "Axloqsiz saytlarning zarari"
 						},
 						{
 							"key": "3",
-							"link": "/youngs/virtual-tahdidlar/kompyuter-o'yinlari",
+							"link": "/youngs/threats/gaming",
 							"title": "kompyuter-o'yinlari"
 						},
 						{
 							"key": "3",
-							"link": "/youngs/virtual-tahdidlar/onlayn-qimor",
+							"link": "/youngs/threats/gabling",
 							"title": "Onlayn qimor"
 						}
 					]
@@ -82,7 +82,7 @@
 				},
 				{
 					"key": "5",
-					"link": "/youngs/foydali-maslahatlar",
+					"link": "/younges/advices",
 					"title": "Foydali maslahatlar"
 				},
 				{
@@ -103,7 +103,7 @@
 					"inDropDown": [
 						{
 							"key": "1",
-							"link": "/parents/masofaviy-kuzatuv/internet-nazorati",
+							"link": "/parents/internet-control",
 							"title": "Internet nazorati"
 						},
 						{

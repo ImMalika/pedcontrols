@@ -39,17 +39,17 @@ function App() {
 				</Route>
 			</Route>
 			
-			<Route path="/bad-habits" element={<Habits />}/>
-			<Route path="/bad-habits/addiction" element={<Addiction />}/>
-			<Route path="/bad-habits/smoking" element={<Smoking />}/>
-			<Route path="/bad-habits/alcohol" element={<Alcohol />}/>
-			<Route path="/century-plague/violence" element={<Violence/>}/>
-			<Route path="/century-plague/ekstremism" element={<Ekstromism />}/>
-			<Route path="/century-plague/terrorism" element={<Terrorism />}/>
-			<Route path="/threats/internet-addiction" element={<Internet />}/>
-			<Route path="/threats/bad-sites" element={<Badsites />}/> //
-			<Route path="/threats/gaming" element={<Gaming />}/>
-			<Route path="/threats/gabling" element={<Gabling />}/>
+			<Route path="/youngs/bad-habits" element={<Habits />}/>
+			<Route path="/youngs/bad-habits/addiction" element={<Addiction />}/>
+			<Route path="/youngs/bad-habits/smoking" element={<Smoking />}/>
+			<Route path="/youngs/bad-habits/alcohol" element={<Alcohol />}/>
+			<Route path="/youngs/century-plague/violence" element={<Violence/>}/>
+			<Route path="/youngs/century-plague/ekstremism" element={<Ekstromism />}/>
+			<Route path="/youngs/century-plague/terrorism" element={<Terrorism />}/>
+			<Route path="/youngs/threats/internet-addiction" element={<Internet />}/>
+			<Route path="/youngs/threats/bad-sites" element={<Badsites />}/> //
+			<Route path="/youngs/threats/gaming" element={<Gaming />}/>
+			<Route path="/youngs/threats/gabling" element={<Gabling />}/>
 			<Route path="/younges/advices" element={<Advices/>}/>
 			<Route path="/parents/internet-control" element={<ParentsInternet/>}/>
 			
