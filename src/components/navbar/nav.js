@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import navLogo from "../../media/logo.png";
 import "./nav.scss";
 import { Link, NavLink } from "react-router-dom";
-
 import { DownOutlined } from "@ant-design/icons";
 import { Button, Dropdown, Space, message } from "antd";
 const onClick = ({ key }) => {
@@ -12,9 +11,9 @@ const onClick = ({ key }) => {
 
 const Nav = ({ dataLink }) => {
 	// console.log("items", dataLink);
-	const [navSize, setnavSize] = useState("100px");
+	const [navSize, setnavSize] = useState("13vh");
 	const listenScrollEvent = () => {
-		window.scrollY > 150 ? setnavSize("70px") : setnavSize("90px");
+		window.scrollY > 150 ? setnavSize("9vh") : setnavSize("12vh");
 	};
 	useEffect(() => {
 		window.addEventListener("scroll", listenScrollEvent);

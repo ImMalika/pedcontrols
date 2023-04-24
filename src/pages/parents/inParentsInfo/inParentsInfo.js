@@ -21,7 +21,7 @@ const InParentsInfo = () => {
 							<p>{item.description}</p>
 						</div>
 						<p className="parentsInfo__titles-text">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+							 Parentsssssss Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
 							earum illum maiores inventore accusantium laudantium. Excepturi
 							totam unde nobis nemo assumenda maxime voluptatum odio recusandae,
 							praesentium cumque similique culpa expedita reprehenderit debitis

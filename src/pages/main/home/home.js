@@ -17,7 +17,7 @@ const Home = () => {
 			{console.log("navData.navHome>>", navData.navHome)}
 			<SliderMain />
 			<div className="cardsMain">
-				<h2>Ota-ona va O'smilar uchun maslahatlar!</h2>
+				<h2>Ota-ona va O'smirlar uchun maslahatlar!</h2>
 				<CardsMain />
 			</div>
 			<div className="info1Div">

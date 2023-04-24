@@ -16,13 +16,15 @@ function App() {
 			<Route exact path="/study" element={<Study />} />
 			<Route exact path="/parents" element={<Parents />}>
 				<Route exact path="/parents/:categ" element={<ParentsInfo />}>
-					<Route exact path="/parents/:categ/:incateg" element={<ParentsInfo />}></Route>
+					<Route
+						exact
+						path="/parents/:categ/:incateg"
+						element={<ParentsInfo />}
+					></Route>
 				</Route>
 			</Route>
 			<Route exact path="/youngs" element={<Youngs />}>
-				<Route exact path="/youngs/:child" element={<YoungsInfo />}>
-
-</Route>
+				<Route exact path="/youngs/:child" element={<YoungsInfo />}></Route>
 			</Route>
 		</Routes>
 	);
