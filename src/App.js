@@ -20,6 +20,7 @@ import Badsites from "./pages/youngs/threats/badsites/badsites";
 import Advices from "./pages/youngs/advices/advices";
 import Gaming from "./pages/youngs/threats/gaming/gaming";
 import Gabling from "./pages/youngs/threats/gabling/gabling";
+import ParentsInternet from "./pages/parents/monitoring/parentsInternet/parentsInternet";
 
 function App() {
 	return (
@@ -50,6 +51,7 @@ function App() {
 			<Route path="/threats/gaming" element={<Gaming />}/>
 			<Route path="/threats/gabling" element={<Gabling />}/>
 			<Route path="/younges/advices" element={<Advices/>}/>
+			<Route path="/parents/internet-control" element={<ParentsInternet/>}/>
 			
 			
 
