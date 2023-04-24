@@ -430,12 +430,12 @@
 			"title": "Asosiy"
 		},
 		{
-			"link": "fojeali-odatlar",
+			"link": "/bad-habits",
 			"title": "Fojeali odatlar",
 			"dropDown": [
 				{
 					"key": "1",
-					"link": "/youngs/fojeali-odatlar/giyohvandlik",
+					"link": "/bad-habits/addiction",
 					"title": "Giyohvandlik"
 				},
 				{
