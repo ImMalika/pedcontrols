@@ -11,7 +11,7 @@ const YoungsInfo = () => {
 	console.log(params.child);
 	return (
 		<div className="parentsInfo">
-			{youngsInfo?.youngsInfo?.map((item, index) => console.log(item))}
+			{/* {youngsInfo?.youngsInfo?.map((item, index) => console.log(item))} */}
 			<button onClick={() => nav(-1)}>{"<"}</button>
 			{youngsInfo?.youngsInfo?.map((item, index) =>
 				params?.child === item.id ? (
@@ -49,6 +49,7 @@ const YoungsInfo = () => {
 							nobis! Ipsum recusandae enim quibusdam nobis! Accusantium illo
 							similique voluptatem ex magni, repudiandae dolorem nihil.
 						</p>
+						
 					</div>
 				) : null
 			)}

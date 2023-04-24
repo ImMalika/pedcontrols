@@ -41,8 +41,9 @@ const Youngs = () => {
 					debitis repellendus adipisci? Voluptatem deleniti nobis adipisci sed
 					officia iste quidem similique architecto placeat.
 				</p>
+
 			</div>
-			<Link to="/">Home</Link>
+			{/* <Link to="/">Home</Link> */}
 			<Footer />
 		</div>
 	);
