@@ -18,6 +18,16 @@ import img7 from "../../../media/Kitoblar/ot kishnagan oqshom/ot kishnagan oqsho
 import img8 from "../../../media/Kitoblar/qobusnoma/qobusnoma.jpg";
 import img9 from "../../../media/Kitoblar/shum bola/shum bola.jpg";
 import img10 from "../../../media/Kitoblar/yulduzli tunlar/yulduzli tunlar.jpg";
+import pdf1 from "../../../media/Kitoblar/bolalik/OybekBolalik.pdf";
+import pdf2 from "../../../media/Kitoblar/chol va dengiz/ernest_xeminguey_chol_va_dengiz.pdf";
+import pdf3 from "../../../media/Kitoblar/dunyoning ishlari/DunyoningIshlari.pdf";
+import pdf4 from "../../../media/Kitoblar/kichkina shahzoda/Кичкина Шахзода.pdf";
+import pdf5 from "../../../media/Kitoblar/o'gay ona/Ahmad Lutfiy Qozonchi. O'gay ona (roman).pdf";
+import pdf6 from "../../../media/Kitoblar/oq kema/Oq kema. Chingiz Aytmatov.pdf";
+import pdf7 from "../../../media/Kitoblar/ot kishnagan oqshom/T._Murod_Ot_kishnagan_oqshom.pdf";
+import pdf8 from "../../../media/Kitoblar/qobusnoma/kaykovus_qobusnoma.pdf";
+import pdf9 from "../../../media/Kitoblar/shum bola/shum bola G'ofur G'ulom.pdf";
+import pdf10 from "../../../media/Kitoblar/yulduzli tunlar/yulduzli_tunlar.pdf";
 const Resourses = () => {
 	return (
 		<div className="resourses">
@@ -30,7 +40,7 @@ const Resourses = () => {
 						<div>
 							<h2>bla bla</h2>
 							<p>Lorem ipsum dolor sit amet.</p>
-							<a href="" download={""}>
+							<a href={pdf1} download={pdf1}>
 								<button>Yuklash</button>
 							</a>
 						</div>
@@ -39,7 +49,7 @@ const Resourses = () => {
 						<div>
 							<h2>bla bla</h2>
 							<p>Lorem ipsum dolor sit amet.</p>
-							<a href="" download={""}>
+							<a href={pdf2} download={pdf2}>
 								<button>Yuklash</button>
 							</a>
 						</div>
@@ -50,7 +60,7 @@ const Resourses = () => {
 						<div>
 							<h2>bla bla</h2>
 							<p>Lorem ipsum dolor sit amet.</p>
-							<a href="" download={""}>
+							<a href={pdf3} download={pdf3}>
 								<button>Yuklash</button>
 							</a>
 						</div>
@@ -59,7 +69,7 @@ const Resourses = () => {
 						<div>
 							<h2>bla bla</h2>
 							<p>Lorem ipsum dolor sit amet.</p>
-							<a href="" download={""}>
+							<a href={pdf4} download={pdf4}>
 								<button>Yuklash</button>
 							</a>
 						</div>
@@ -70,7 +80,7 @@ const Resourses = () => {
 						<div>
 							<h2>bla bla</h2>
 							<p>Lorem ipsum dolor sit amet.</p>
-							<a href="" download={""}>
+							<a href={pdf5} download={pdf5}>
 								<button>Yuklash</button>
 							</a>
 						</div>
@@ -79,7 +89,7 @@ const Resourses = () => {
 						<div>
 							<h2>bla bla</h2>
 							<p>Lorem ipsum dolor sit amet.</p>
-							<a href="" download={""}>
+							<a href={pdf6} download={pdf6}>
 								<button>Yuklash</button>
 							</a>
 						</div>
@@ -90,7 +100,7 @@ const Resourses = () => {
 						<div>
 							<h2>bla bla</h2>
 							<p>Lorem ipsum dolor sit amet.</p>
-							<a href="" download={""}>
+							<a href={pdf7} download={pdf7}>
 								<button>Yuklash</button>
 							</a>
 						</div>
@@ -99,7 +109,7 @@ const Resourses = () => {
 						<div>
 							<h2>bla bla</h2>
 							<p>Lorem ipsum dolor sit amet.</p>
-							<a href="" download={""}>
+							<a href={pdf8} download={pdf8}>
 								<button>Yuklash</button>
 							</a>
 						</div>
@@ -110,7 +120,7 @@ const Resourses = () => {
 						<div>
 							<h2>bla bla</h2>
 							<p>Lorem ipsum dolor sit amet.</p>
-							<a href="" download={""}>
+							<a href={pdf9} download={pdf9}>
 								<button>Yuklash</button>
 							</a>
 						</div>
@@ -119,7 +129,7 @@ const Resourses = () => {
 						<div>
 							<h2>bla bla</h2>
 							<p>Lorem ipsum dolor sit amet.</p>
-							<a href="" download={""}>
+							<a href={pdf10} download={pdf10}>
 								<button>Yuklash</button>
 							</a>
 						</div>
