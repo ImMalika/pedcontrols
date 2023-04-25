@@ -129,7 +129,7 @@ const Resourses = () => {
 						<div>
 							<h2>bla bla</h2>
 							<p>Lorem ipsum dolor sit amet.</p>
-							<a href={pdf10} download={pdf10}>
+							<a href={pdf10} download={pdf1}>
 								<button>Yuklash</button>
 							</a>
 						</div>
