@@ -36,6 +36,7 @@
 		justify-content: space-between;
 		align-items: flex-start;
 		flex-wrap: wrap;
+		padding: 0 0 30% 0;
 		h2 {
 			width: 100%;
 			margin: 5% auto;
@@ -46,7 +47,8 @@
 		&__col1 {
 			position: relative;
 			// border: 1px solid red;
-			width: 50%;
+			text-align: center;
+			width: 100%;
 			p {
 				// text-align: center;
 				color: $light;

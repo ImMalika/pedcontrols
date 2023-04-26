@@ -34,14 +34,14 @@ const Home = () => {
 					<h3>Online tahdidlaridan himoyalash</h3>
 					<Carousel1 />
 				</div>
-				<div className="info2__col2">
+				{/* <div className="info2__col2">
 					<Carousel2 />
 					<h3>Modulli oquv dasturlari haqida</h3>
 					<p>
 						Поможем подтянуть и углубить школьные знания, улучшить оценки,
 						повысить интерес к учебе
 					</p>
-				</div>
+				</div> */}
 			</div>
 			<Advantages />
 			<div className="resoursesDiv">
