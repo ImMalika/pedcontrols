@@ -17,7 +17,7 @@ import Img2 from "../../../media/youngsmedia/advicesimg2.jpg";
 const Advices = () => {
   return (
     <div className="advices">
-      <Nav dataLink={navData.navHome} />
+      <Nav dataLink={navData.navYoungs} />
       <div className='main'>
         <Title titleName={"Foydali maslahatlar"} />
         <Myimg img={Img}/>

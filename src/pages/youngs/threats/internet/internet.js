@@ -17,7 +17,7 @@ import Img3 from "../../../../media/youngsmedia/internet3.jpg";
 const Internet = () => {
   return (
     <div className="internet">
-      <Nav dataLink={navData.navHome} />
+      <Nav dataLink={navData.navYoungs} />
       <div className='main'>
         <Title titleName={"Internetga qaramlik"} />
         <Myimg img={Img2}/>

@@ -15,7 +15,7 @@ import Img from "../../../../media/youngsmedia/terrorismimg1.jpg"
 const Terrorism = () => {
     return (
         <div className="terrorism">
-            <Nav dataLink={navData.navHome} />
+            <Nav dataLink={navData.navYoungs} />
             <div className='main'>
                 <Title titleName={"Terrorizm  "}/>
                 <Paragraph text={"Terrorizm — siyosiy, diniy, mafkuraviy va boshqa maqsadlarga erishish uchun shaxsning hayoti, sog'lig'iga xavf tug'diruvchi, mol-mulk va boshqa moddiy ob'ektlarning yo'q qilinishi (shikastlantirilishi) xavfini keltirib chiqaruvchi hamda davlatni, xalqaro tashkilotni, jismoniy yoki yuridik shaxsni biron-bir harakatlar sodir etishga yoki sodir etishdan tiyilishga majbur qilishga, xalqaro munosabatlarni murakkablashtirishga, davlatning suverenitetini, hududiy yaxlitligini buzishga, xavfsizligiga putur yetkazishga, qurolli mojarolar chiqarishni ko'zlab ig'vogarliklar qilishga, aholini qo'rqitishga, ijtimoiy-siyosiy vaziyatni beqarorlashtirishga qaratilgan, O'zbekiston Respublikasining Jinoyat kodeksida javobgarlik nazarda tutilgan zo'rlik, zo'rlik ishlatish bilan qo'rqitish yoki boshqa jinoiy qilmishlar.*"}/>

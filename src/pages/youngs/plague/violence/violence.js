@@ -16,7 +16,7 @@ import Img4 from "../../../../media/youngsmedia/violenceimg3.jpg"
 const Violence = () => {
   return (
     <div className="violence">
-      <Nav dataLink={navData.navHome} />
+      <Nav dataLink={navData.navYoungs} />
       <div className='main'>
         <Title titleName={"Zo‘ravonlik"} />
         <Paragraph text={"Zo'ravonlik — xotin-qizlarga nisbatan jismoniy, ruhiy, jinsiy yoki iqtisodiy ta'sir o'tkazish yoki bunday ta'sir o'tkazish choralarini qo'llash bilan tahdid qilish orqali ularning hayoti, sog'lig'i, jinsiy daxlsizligi, sha'ni, qadr-qimmati va qonun bilan himoya qilinadigan boshqa huquqlari hamda erkinliklariga tajovuz qiladigan g'ayrihuquqiy harakat (harakatsizlik)"} /><br />

@@ -16,7 +16,7 @@ import Img2 from "../../../../media/youngsmedia/gabling2.jpg";
 const Gabling = () => {
   return (
     <div className="gabling">
-      <Nav dataLink={navData.navHome} />
+      <Nav dataLink={navData.navYoungs} />
       <div className='main'>
       <Title titleName={"Onlayn qimor "}/>
       <Paragraph text={"Soʻnggi paytlarda onlayn qimor oʻyinlari ayrim toifadagi insonlar hayotining ajralmas qismiga aylanib bormoqda. Bunday oʻyinlar natijasida nafaqat moliyaviy taʼsirga, balki qaramlikni keltirib chiqaruvchi hissiy taʼsirga ham tushib qolish holatlari koʻp uchramoqda."}/>

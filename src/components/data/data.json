@@ -1,7 +1,7 @@
 {
 	"navHome": [
 		{
-			"link": "/youngs",
+			"link": "/younges/advices",
 			"title": "O'smirlar uchun",
 			"dropDown": [
 				{
@@ -66,7 +66,7 @@
 						{
 							"key": "3",
 							"link": "/youngs/threats/gaming",
-							"title": "kompyuter-o'yinlari"
+							"title": "Kompyuter o'yinlari"
 						},
 						{
 							"key": "3",
@@ -77,7 +77,7 @@
 				},
 				{
 					"key": "4",
-					"link": "/youngs/sog'lom-turmush",
+					"link": "/younges/lifestyle",
 					"title": "Sog'lom turmush"
 				},
 				{
@@ -108,29 +108,29 @@
 						},
 						{
 							"key": "2",
-							"link": "/parents/masofaviy-kuzatuv/ijtimoiy-tarmoq-nazorati",
+							"link": "/parents/monitoring/social-media-control",
 							"title": "Ijtimoiy tarmoq nazorati"
 						},
 						{
 							"key": "3",
-							"link": "/parents/masofaviy-kuzatuv/tv-nazorati",
+							"link": "/parents/monitoring/tv-control",
 							"title": "TV nazorati"
 						}
 					]
 				},
 				{
 					"key": "2",
-					"link": "/parents/foydali-maslahatlar",
+					"link": "/parents/useful-advices",
 					"title": "Foydali maslahatlar"
 				},
 				{
 					"key": "3",
-					"link": "/parents/psixolog-maslahati",
+					"link": "/parents/psychologist's-advice",
 					"title": "Psixolog maslahati"
 				},
 				{
 					"key": "3",
-					"link": "/parents/foydali-manbalar",
+					"link": "/parents/useful-resources",
 					"title": "Foydali manbalar"
 				}
 			]
@@ -182,255 +182,37 @@
 				},
 				{
 					"key": "2",
-					"link": "/parents/masofaviy-kuzatuv/ijtimoiy-tarmoq-nazorati",
+					"link": "/parents/monitoring/social-media-control",
 					"title": "Ijtimoiy tarmoq nazorati"
 				},
 				{
 					"key": "3",
-					"link": "/parents/masofaviy-kuzatuv/tv-nazorati",
+					"link": "/parents/monitoring/tv-control",
 					"title": "TV nazorati"
 				}
 			]
 		},
 		{
-			"link": "foydali-maslahatlar",
+			"link": "/parents/useful-advices",
 			"title": "Foydali maslahatlar"
 		},
 		{
-			"link": "psixolog-maslahati",
+			"link": "/parents/psychologist's-advice",
 			"title": "Psixolog maslahati"
 		},
 		{
-			"link": "foydali-manbalar",
+			"link": "/parents/useful-resources",
 			"title": "Foydali manbalar"
 		}
 	],
-	"parentsInfo": [
-		{
-			"img": "../../../media/2.1.jpg",
-			"id": "masofaviy-kuzatuv",
-			"title": "Televizorda OTA-ONA NAZORATINI O'rnatish USULLARI",
-			"description": " Biz allaqachon kabel va sun'iy yo'ldosh televideniyasi operatorlari, agar ular o'z paketlarida kattalar uchun kanallarni taklif qilsalar, ular faqat kechqurun borishadi, shu bilan birga bunday tarkibni tomosha qilishni oldini olish mumkin.",
-			"description2": " Smart televizorlarning tarqalishi bilan bunday tarkibning manbalari kattalik tartibiga aylandi, shuning uchun masalaning axloqiy tomoni juda dolzarb bo'lib qoldi. Hech bo'lmaganda farzandlarini tarbiyalash haqida qayg'uradigan ota-onalar uchun. ",
-			"parentstvimg1": "",
-			"description3": " Siz yo'qligingizda bolalar auditoriyasini bunday dasturlarni tomosha qilishdan himoya qilish mumkinmi? Muammo ko'rinadigan darajada oddiy emas, chunki ota-ona nazorati funktsiyasi hamma joyda turli yo'llar bilan amalga oshiriladi va bu ishlatilgan televizor dasturining markasi, modeli va hatto versiyasiga va taqiqlangan tarkibga ega dasturga bog'liq. ",
-			"description4": " Keling, ushbu muammoning barcha jihatlarini ko'rib chiqishga harakat qilaylik. Biz darhol tan olamiz – siz bizning sharhimizga faqat eng keng tarqalgan xizmatlar va televizion brendlarni kiritdingiz. Ushbu joydagi hamma narsani qamrab olishning iloji yo'q, shuning uchun agar siz blokirovka bilan shug'ullana olmagan bo'lsangiz, iloji boricha batafsilroq tafsilotlarni ko'rsatib, sharhlarda ishlamagan narsalarni yozing.",
-			"title2": "Smart televizorlarda bola bo'lmagan video namoyishini qanday bloklash mumkin ",
-			"description5": " Aqlli televizorlar odatdagidan farq qiladi, chunki bu erda har qanday dasturni o'zingiz o'rnatishga ruxsat beriladi va ularda bolalar yoshiga mos bo'lmagan filmlar va dasturlar bo'lishi mumkin. Biroq, bu muammoning echimi bor – bunday televizorlarning aksariyati YouTube-dan onlayn kinoteatrlar va oqim xizmatlariga qadar o'rnatilgan har qanday dasturga qulf o'rnatishga imkon beradi. Albatta, bunday cheklovlar har qanday kanallarda va hatto aniq teleko'rsatuvlarda ham qo'llanilishi mumkin. Ammo bu blokirovka hamma joyda bir xil tarzda amalga oshirilmaydi, shuning uchun bizning vazifamiz ota – ona nazorati funktsiyasini faollashtirishning eng mashhur usullari haqida gapirishdir. ",
-			"parentstvimg2": "",
-			"title3": "O'yin konsollarida ota-ona nazoratini qanday yoqish mumkin ",
-			"description6": "Nafaqat video o'yinlarni boshqarish uchun ishlatiladigan o'yin pristavkalari bolalarning harakatlarini kuzatib borish uchun o'z boshqaruv tizimidan  ",
-			"parentstvimg3": "",
-			"uldescription1": "Xususan, Xbox One konsollarida bunday tizim quyidagilarga imkon beradi; giyohvandlik paydo bo'lishining oldini olish uchun prefiksdan foydalanish uchun vaqt chegaralarini kiriting;",
-			"parentstvimg4": "",
-			"uldescription2": "* Internet-do'konlarda tranzaktsiyalarni blokirovka qilish;",
-			"parentstvimg5": "",
-			"uldescription3": "* voyaga etmaganlar tomonidan istalmagan tarkibni ko'rishni bloklash, shu jumladan veb-saytlarga kirish, 18+toifadagi ilovalar va o'yinlardan foydalanish.",
-			"parentstvimg6": "",
-			"description7": "Konsoldan foydalanganda bolani boshqarishni osonlashtiradigan bir qator boshqa funktsiyalar mavjud. Shunday qilib, maxfiylik rejimini ishga tushirganda, ota-onalar ko'p o'yinchi o'yinlarining boshlanishini boshqarish imkoniyatiga ega bo'ladilar. Agar ular bola istalmagan miqdordagi shaxsiy ma'lumotlarni oladi deb hisoblasalar, uni cheklashlari mumkin. Farzandingizning do'stlari ro'yxatiga kiritilgan shaxslarni ko'rish, shuningdek, kerakli deb hisoblaganlarni blokirovka qilish imkoniyati mavjud. ",
-			"description8": "Ota-ona nazoratining barcha funktsiyalari ishlab chiqaruvchi tomonidan tizim dasturiy ta'minoti darajasida amalga oshiriladi. Ushbu imkoniyatdan foydalanish uchun siz oilaviy guruhni yaratishingiz kerak, shundan so'ng funktsiya faollashadi",
-			"parentstvimg7": "",
-			"parentstvimg8": "",
-			"title4": "TV-Box qutilarida ota-ona nazorati",
-			"description9": "Multimedia pristavkalari oddiy televizorni Smart-ga aylantirishga imkon beradi, bu erda, qoida tariqasida, haqiqiy Smart TV-dagi kabi boshqaruv funktsiyalarining ko'pligi yo'q. Biroq, bu erda ham asosiy darajada bo'lsa ham amalga oshiriladi. Odatda, bunday Sozlamalar 'tizim sozlamalari' bo'limida yashiringan.",
-			"description10": "Ko'pgina hollarda, ular 'ota – ona sozlamalari' deb nomlanadi. Ularning yordami bilan voyaga etmagan bolalarning harakatlari ustidan nazoratni o'rnatish, shuningdek parolni o'rnatish orqali ularning istalmagan tarkibga kirishini cheklash mumkin.",
-			"title5": "IPTV video oqimi",
-			"description11": "Rossiyaning ko'plab telekommunikatsiya provayderlari televizion kanallar paketlarini, shu jumladan 'kattalar uchun' toifasini ko'rish xizmatini taqdim etadilar. Ota-ona nazorati funktsiyasini faollashtirish xizmat ko'rsatuvchi provayder tomonidan taqdim etilgan pristavka sozlamalarida amalga oshiriladi. Bu parolni alohida kanallar yoki guruhlarga qo'yishdan iborat. MTS 'kattalar' kanallarini ijro etishga urinayotganda shaxsiy kodni kiritishni talab qiladi, Rostelekom operatori har qanday kanallarga individual parollarni o'rnatishga imkon beradi. Belorusiyaning Beltelekom uyali aloqa xizmati provayderi Zala paketiga kiritilgan barcha kiruvchi kanallarga bitta PIN-kodni o'rnatishga imkon beradi. Odatiy bo'lib, bitta belgi kodi amal qiladi, uni tanlash oson, ammo uni yanada murakkabga o'zgartirish mumkin. ",
-			"parentstvimg9": "",
-			"description12": "Yuklab olinadigan IPTV ro'yxatlariga kelsak, bu erda yagona imkoniyat, agar mavjud bo'lsa, keraksiz kanallarni ro'yxatdan olib tashlashdir.",
-			"title6": "Routerda boshqarish",
-			"description13": "Kam odam biladi, lekin siz istalmagan manbalarga kirishni uy yo'riqchisi darajasida cheklashingiz mumkin. Ha, usul ahamiyatsiz emas, ammo bu erda hech qanday murakkab narsa yo'q, bundan tashqari siz maxsus dasturlardan foydalanish zaruriyatidan xalos bo'lasiz – axir, marshrutizatorlarning barcha modellari blokirovka funktsiyasi mavjud bo'lgan dasturiy ta'minot bilan jihozlangan.",
-			"parentstvimg10": "",
-			"description14": "Va yana bir muhim afzallik: bunday qulflarning ta'siri yo'riqchiga kabel yoki havo orqali ulangan barcha qurilmalarga tarqaladi. To'g'ri, shu bilan birga, bunday tarkib kattalar uchun mavjud bo'lmaydi, ammo bolalar uchun siz nima qila olmaysiz…",
-			"description15": "Biroq, yo'riqnoma ilg'or modellarida bunday cheklovlar belgilangan vaqt oralig'i yoki boshqa shartlar yordamida kiritilishi mumkin, bu esa ushbu usulning qiymati va qo'llanilishini oshiradi. Usulning asosiy kamchiligi uning ko'rinadigan murakkabligidir, ammo buning uchun siz boshqaruv dasturining veb-interfeysiga o'tishingiz kerak. Buni qanday qilish kerak, odatda foydalanuvchi ko'rsatmalarida, shuningdek ota-ona nazoratini o'rnatish usulida batafsil tavsiflanadi.",
-			"parentstvimg11": "",
-			"description16": "Va to'g'ridan-to'g'ri turli markadagi aqlli televizorlarda ushbu funktsiya qanday ishlaydi? Afsuski, bu erda ota-ona nazorati funktsiyasini amalga oshirishda yagona yondashuv kuzatilmaydi, shuning uchun biz Rossiyada mashhur brendlarning televizion qabul qiluvchilarida faollashtirish tartibini tavsiflash zarur deb hisoblaymiz.",
-			"parentstvimg12": "",
-			"title7": "LG TV-da ota-ona nazoratini qanday o'rnatish kerak",
-			"description17": "Ushbu brendning aqlli televizor modellarining aksariyati tarkibni uch darajada blokirovka qilishga imkon beradi: ",
-			"ulparentstv1": "* yoshga qarab. Ma'lumki, teleoperatorlar, mavjud qonunchilikka muvofiq, barcha teleko'rsatuvlarni yosh toifalariga bo'lishlari kerak. Ehtimol, ular hamma narsada va har doim ham unga rioya qilmaydilar, ammo 'bola bo'lmagan' tarkibga kelsak, u deyarli har doim etiketlanadi va LG televizorlari ushbu yosh chegarasini taniy olishadi (masalan, biz 18+toifadagi filmlarni keltiramiz). Bunday filmlarni faqat ota-ona parolini kiritgandan so'ng tomosha qilishingiz mumkin;",
-			"ulparentstv2": "kanal darajasida. Bu erda hamma narsa aniq-agar kanal kiruvchi tarkib bo'lsa, ota-onalar uni blokirovka qilishlari mumkin va kodni kiritmasdan rasm va ovoz uzatilmaydi",
-			"ulparentstv3": "ilova darajasida. Bu erda imkoniyatlar juda katta, shuning uchun ota-ona kodini kiritish imkoniyati bo'lishi kerak. Eng ko'p bloklanadigan dasturlar-onlayn kazinolar, istalmagan mavzular saytlari, siz hatto ijtimoiy tarmoqlarga tashrif buyurishni bloklashingiz mumkin. Bloklash parolni o'rnatish orqali amalga oshiriladi. ",
-			"parentstvimg13": "",
-			"description18": "Endi LG Smart TV-da ota-ona nazoratini qanday sozlashni ko'rib chiqing:",
-			"ulparentstv4": "* masofadan boshqarish pultidagi 'uy' tugmachasini bosing (u uy shaklida piktogramma bilan tasvirlangan);",
-			"ulparentstv5": "televizor ekranida asosiy menyu paydo bo'ladi, uning ko'rinishi va tarkibi turli xil modellar uchun farq qilishi mumkin, ammo umuman olganda, funktsionallik har qanday darajadagi foydalanuvchilar, shu jumladan yangi boshlanuvchilar uchun tushunarli;",
-			"ulparentstv6": "biz 'Sozlamalar' bandiga qiziqamiz, u ham standart belgiga ega-tishli tasvir;",
-			"ulparentstv7": "endi 'xavfsizlik' kichik bandini tanlang, natijada ekranda amalga oshirish imkoniyati bo'lgan tegishli oyna paydo bo'ladi блокировок;",
-			"parentstvimg14": "",
-			"ulparentstv8": "* siz faqat xavfsizlik darajasini belgilashingiz, kalitni 'yoqish' holatiga o'tkazish orqali rejimni faollashtirishingiz kerak;",
-			"parentstvimg15": "",
-			"ulparentstv9": "yakuniy tavsiya etilgan harakat oddiy standart parolni almashtirishdir, odatda to'rtta nolik yoki '1234' kombinatsiyasi) murakkabroq.",
-			"title8": "Samsung televizorlarida ota-ona nazoratini faollashtirish",
-			"description19": "Samsung Smart-TV-da ota-ona nazorati funksiyasini yoqish uchun siz quyidagi oddiy ko'rsatmalarga amal qilishingiz kerak:",
-			"ulparentstv10": "televizorning asosiy menyusiga kirish uchun mahalliy masofadan boshqarish pultidan foydalanamiz;",
-			"ulparentstv11": "harakat tugmalaridan foydalanib, 'raqamli menyu' yorlig'ini tanlang, Enter tugmasini bosib tasdiqlang;",
-			"ulparentstv12": "'ota-ona qulfi' bo'limini tanlang va masofadan boshqarish pultidagi Enter tugmasini yana bosing;",
-			"parentstvimg16": "",
-			"ulparentstv13": "endi siz to'rtta raqamdan iborat o'zingizning PIN-kodingizni o'rnatishingiz kerak (mumkin, lekin zavod kodini qoldirish tavsiya etilmaydi – 0000). Enter tugmasi bilan o'z harakatlarimizni yana tasdiqlang;",
-			"ulparentstv14": "yuqoriga / pastga tugmalaridan foydalanib, kiruvchi tarkib uchun yosh chegarasini belgilang, Enter tugmasini bosing",
-			"ulparentstv15": "Samsung televizorlaridagi parolni keyinroq o'zgartirish mumkin. Bu quyidagicha amalga oshiriladi:",
-			"ulparentstv16": "masofadan boshqarish pultidan televizorning asosiy menyusiga o'ting;",
-			"parentstvimg17": "",
-			"ulparentstv17": "«Цифровое меню» bo'limi tanlanadi;",
-			"parentstvimg18": "",
-			"ulparentstv18": "'o'rnatish' kichik bandiga Enter tugmasini bosing;",
-			"parentstvimg19": "",
-			"ulparentstv19": "'PIN-kodni o'zgartirish' qatoriga o'ting va Enter tugmasini bosing;",
-			"parentstvimg20": "",
-			"ulparentstv20": "parolni o'zgartirish uchun avval eskisini ko'rsatishingiz kerak, so'ngra yangisini ikki marta kiriting, har safar Enter tugmasini bosib tasdiqlang parol muvaffaqiyatli o'zgartirilganligi to'g'risida xabar paydo bo'lganda, OK ni bosing va keyin 'chiqish' bandini tanlang.",
-			"title9": "Philips televizoriga parolni qanday qo'yish kerak",
-			"description20": "Eng yaxshi Evropa brendining televizorlarida ota-ona nazorati funksiyasini faollashtirish ham juda oddiy:",
-			"ulparentstv21": "masofadan boshqarish pultidagi tegishli tugma yordamida televizor menyusiga o'ting; «Настройки» bo'limi tanlanadi;",
-			"ulparentstv22": "bolalarni blokirovka qilish' kichik bandida to'xtab, ichki menyu bo'ylab harakatlaning;",
-			"parentstvimg21": "",
-			"description21": "ko'rishni cheklash' opsiyasini bosing. Bu erda siz kiruvchi kontent ilovalariga kirishni bloklash imkoniyatiga egasiz. Siz yosh chegarasini belgilash orqali Google Play-dan ilovalarni yuklab olish chegarasini kiritishingiz mumkin, buning natijasida do'kon darajasida kiritilgan mezonga mos keladigan dasturlar faol bo'lishni to'xtatadi, ya'ni ularni yuklab olish imkonsiz bo'ladi. Ota – ona nazorati uchun standart parol '8888'. Biz uni o'zingizning variantingizga o'zgartirishni qat'iy tavsiya qilamiz.",
-			"title10": "Mavjud holatlar tufayli ota-ona parolining funktsiyasi ahamiyatsiz bo'lib qoladigan holatlar tez-tez uchraydi, ammo siz parolni xavfsiz unutdingiz. Bunday hollarda parolni qulflash xususiyatini qanday o'chirib qo'yish mumkin? ",
-			"parentstvimg22": "",
-			"title11": "LG",
-			"description22": "Ushbu markadagi televizorlarda parolni tiklash quyidagi algoritmga muvofiq amalga oshiriladi:",
-			"ulparentstv23": "masofadan boshqarish pultidagi 'uy' tugmachasini bosing (u uy shaklida piktogramma bilan tasvirlangan); ",
-			"ulparentstv24": "televizor ekranida asosiy menyu paydo bo'ladi, uning ko'rinishi va tarkibi turli modellar uchun farq qilishi mumkin, ammo umuman olganda, funktsionallik har qanday darajadagi foydalanuvchilar, shu jumladan yangi boshlanuvchilar uchun tushunarli;",
-			"ulparentstv25": "biz 'Sozlamalar' bandiga qiziqamiz, u ham standart belgiga ega-tishli tasvir;",
-			"ulparentstv26": "endi 'xavfsizlik' kichik bandini tanlang, natijada ekranda amalga oshirish imkoniyati bo'lgan tegishli oyna paydo bo'ladi блокировок;",
-			"parentstvimg23": "",
-			"description23": "'PIN-kodni tiklash/o'zgartirish' bandini bosishingiz shart emas. Yuqoriga o'qni ikki marta bosish orqali ishlatishingiz kerak, so'ngra pastga o'qni bosing va yana yuqoriga ko'taring. Natijada, oyna yangilanadi va 'asosiy PIN-kodni kiriting' yozuvi paydo bo'ladi. Siz '0313' qiymatini kiritishingiz kerak va shundan keyingina yuqorida aytib o'tilganidek, ota-ona kodini o'zgartirish mumkin.",
-			"title12": "Samsung",
-			"description24": "Ushbu Janubiy Koreya brendining televizorlarida parolni zavod holatiga qaytarish ancha oson:",
-			"description25": "Agar siz parolni unutgan bo'lsangiz, uni zavod holatiga qaytarishingiz mumkin. Buni faqat masofadan boshqarish tugmachalari yordamida (agar sizda oddiy televizor bo'lsa) yoki Smart-TV uchun interaktiv masofadan boshqarish pulti yordamida amalga oshirish mumkin: ",
-			"parentstvimg24": "",
-			"title13": "Philips",
-			"description26": "Philips markali televizorlarda ota-ona nazoratini o'chirish uchun, agar siz o'zingizning parolingizni eslamasangiz, televizorni qayta o'rnatishingiz (qayta tiklashingiz) kerak, shundan so'ng siz kiritgan barcha Sozlamalar, shu jumladan parol nolga tushiriladi. Siz bunday tiklashni 'umumiy Sozlamalar' menyusi orqali amalga oshirishingiz mumkin, bu erda 'televizorni qayta o'rnatish' deb nomlangan variant mavjud. ",
-			"parentstvimg25": "",
-			"parentstvimg26": "",
-			"description27": "Agar siz rejimni faollashtirishda qiyinchiliklarga duch kelsangiz, televizor markasi va modelini ko'rsatadigan sharhlarda muammoingizni tasvirlab bering (ba'zida hatto dasturiy ta'minot versiyasi ham talab qilinadi – dasturiy ta'minot tez-tez emas, lekin ular o'zgaradi, ayniqsa sotib olish talabi yuqori bo'lgan juda muvaffaqiyatli modellar uchun)."
-		},
-		{
-			"img": "../../media/3.jpg",
-			"id": "foydali-maslahatlar",
-			"title": "Foydali maslahatlar ",
-			"advicequestion": "Do‘ppisi yarimta erkak bo‘lishi mumkinmi?",
-			"advicequestiona": "- Assalomu alaykum! Alloh xizmatlaringizdan rozi bo‘lsin. Oila boshlig‘ini risoladagidek qanday tarbiyalasa bo‘ladi, uning ayoli sifatida? Turmushga chiqqanimga 2 yil bo‘lyaptiki, deyarli barcha xarajatlarimni qaynota-qaynonam qoplaydilar. Ko‘p hollarda o‘zimni tiyib yashayman, ularga og‘irligim tushmasin deb. Qaynonam ba’zida minnat bilan gapiradilar... Yaqinda boshqalarni rizqini yeb ichib o‘tiribsizlar, harom hisoblanadi - dedilar. Judayam siqilib ketaman shunaqa paytlarda. Erim ham oz bo‘lsa-da topadi, topganini o‘ziga sarflaydi ko‘pincha. Juda yengil yashaydi: uydagi ovqat yoqmasa ko‘chadan ovqatlanib keladi, sigaretasiga va boshqa man bilmaydigan xarajatlariga sarflaydi, telefonida juda ko‘p bo‘sh vaqtini you.tube va boshqa tarmoqlardan bekorchi, befoyda videolarga sarflaydi. Ro‘zg‘ordagi kamchiliklar bilan ishi ham yo‘q. Maqtab ko‘rdim, eplaysiz hammasini , o‘zingiz yaxshisiz deb, kerak narsalarni tez-tez eslatib ko‘rdim, tushuntirdim, erkak kishi shug‘ullanishi kerak ekanligini, singdirishga harakat qildim (issiq suv to‘lovida muammo, kir yoyadigan kerakligi, chang yutgich kerakligi, koridorga katta oyna qo‘yish kerakligi, kelin yotoqxonasiga hamma istagan vaqtida oyna uchun kirib chiqmasligi uchun va hk). Lekin oldinga siljish yo‘q... Qaynotam ham xuddi shunday, hech narsa parvosiga kelmaydi, butun umr qaynonam hal qilgan juda ko‘p narsalarni, lekin mani oilamda unaqa bo‘lishini xohlamayman. Xo‘p qilaman, harakat qilaman deydilarda, gaplari umuman bajarayotgan amallariga to‘g‘ri kelmaydi. Ochiq oydin ko‘z oldimda yolg‘on gapiradilar qaynota-qaynonamga. Shuning uchun ham manga gapiradigan gaplari ham, tushuntirganlari ham yolg‘onligini sezaman. Fikrlari juda tarqoq, rejalar qilib, shularga yetish uchun harakatlar qilmaydi, xayoliga kelganidek yashaydi. Erimning bunaqa mas’uliyatsizligidan alohida chiqib yashashdan ham umidimni uzganman. Man sizga ma’qul kelmagan bo‘lsam, ko‘nglingizdagidek ayolga uylaning roziman, muammo chiqarmayman deb ham ko‘rdim, balki shunda serg‘ayrat bolib qolar, boshqani xohlasa erishish uchun deb o‘ylab, chunki mandan ko‘p qoniqmaydi, osh-ovqatlarimdan ham, to‘shakda ham, ro‘zg‘orda ham (Yaxshi-yaxshi yeb ichishni xohlaydi, xarajat olib kelmaydi, ko‘zini o‘ynatib yurishimni xohlaydi, xarajatlarimni qoplamaydi). Muomalasi, gapirayotgan gaplaridan adekvat, barcha narsani anglagan, tushunib yetgan, yaxshi odamdek tutadi o‘zini. Lekin amallaridan umuman boshqa odamni ko‘raman. Qo‘rqib ketaman bu odam bilan butun umr qanday bir oila bo‘lib yashashni o‘ylasam. Aqlim yetmayapti, to‘g‘ri yo‘l ko‘rsating, iltimos.",
-			"adviceanswer1": "1.1. Psixolog: ",
-			"advicedesc1": "– Va alaykum assalom! Nazarimda savolingiz avvalida aytganingizdek siz ko‘prok turmush o‘rtog‘ingizni tarbiyalashga urg‘u beryapsiz.Bu ish erkakning ayoliga tegishli emas, shundoq ham sizga uylanganigacha onasi tarbiyalagan. Demoqchimanki, siz bu vazifani bajarishga urinmang. Bunda na sizga, na eringizga manfaat bor. Payg‘ambarimiz sollallohu alayhi vasallam aytadilar: “Albatta amallar niyatga bog‘liqdir”, ushbu hadis kishining botinidagi fikrlari zohirida ham aks etishiga dalildir.Sizning fikrlaringiz eringizni tarbiyalash, ehtiyojlar uchun ro‘zg‘or qilish kabilarga qaratilgan, niyatingiz ham shunga yo‘naltirilmoqda. Bilingki, erkak va ayol bejizga juft qilib oila bo‘lishga buyurilmadi, har ikkisining ham bir-biridan oladigan ehtiyojlari, manfaatlari mavjud. Erkak oilaparvar bo‘lishi uchun, rahbarlik qilishi  uchun shunga muvofiq ehtirom darkor, er kishi shu ehtiromdan rohatlangach, oilada bosh ekanligini his etadi, mas’uliyatini anglay boshlaydi.O‘zingizga ham savol berib ko‘ring? Men erim istaganidek er bo‘lishi uchun qaysi jihatlarim bilan javob qaytara olaman?  Shariatda ham har bir inson o‘ziga munosibiga juft qilib yaratiladi - degan fikr mavjud.  Turmush o‘rtog‘ingizni sizga nisbatan ham e’tirozlari bor ekan, isloh doimo o‘zimizdan bo‘lsa, istalgan natijaga erishiladi, eringizni kamchiliklarini tuzatishga shoshmay turing, avvalo sizga nisbatan aytgan e’tirozlari ustida ishlab ko‘ring, har qanday muammo o‘z yechimi bilan keladi, shu sabab oila,erkak va ayol psixologiyasi, erga ehtirom ko‘rsatish borasida ilm olsangiz, Inshaalloh munosabatlaringizni mustahkamlab, siz niyat qilgandek oilaviy hayotga erishasiz.",
-			"advicequestion2": "2-savol: ",
-			"advicequestion2a": "Atirgul bor yerda, tikonga ne bor? ",
-			"advicequestion2b": "-  Assalomu alaykum! Meni turmushimga 11 yil bo‘lyapti. Lekin erimni fe’liga tushuna olmayapman. Meni yaxshi ko‘radi. Lekin ba’zida ayollar bilan ham ko‘rishib turadi. Erkak kishi yozilib turishi kerak, menga boring deb o‘zing jo‘nat deydi. Gunoh ishni aytmayman deyman. Arzimas narsaga achchig‘i chiqsa, qo‘l ko‘taradi. Hatto, bolalarga ham. 3ta farzandimiz bor. Yana homiladorman. Diqqat bo‘lib qolyapman. Qachongacha kaltak yeyman deb. Bir necha bor ketib qoldim baribir yarashib ketdik. Va’dalar berdi urmayman deb. Og‘zimdan chiqishiga aytganimni qil deydi. Yoki ko‘nglidagidek ish qilmasam asabiylashib ketib do‘pposlaydi. Psixologlardan maslahat oldim. Onggizda shunday o‘ylar bor deyishdi. To‘g‘risi ikkilanib qoldim. Allohni aytgani bo‘ladi-yu baribir deb. Lekin urishlar to‘xtamadi. 2 hafta uzog‘i bir oyda kaltak yeyishdan zerikdim. Mehribon, menga sovg'alar ham berib turadi. O'zimni ovutaman, yaxshi bo'lib qoldi deb. Lekin yana urish qaytalanyapti. Urib keyin afsuslanadi o'zi ham. Lekin aybni menga to'nkaydi. Uydagi ishlarni ham mana buni bunaqa qilmabsan, - deydi. Tinch yashashimiz uzoq bo'lmayapti. Uyimga ketib qaytib kelmayman dedim. Yalingani uchun yana ko'nglim bo'shlik qilib kelganman. Ota-onam ham oshiqcha indashmaydi kuyoviga. Otasiga aytaverib o'zim gap eshitganman. Yana ketsang borib hammangni so'yib kelaman, menga bo'lmasa boshqasiga ham bo'lmaysan - deb qo'rqitdi. U gaplaridan qo'rqmadim, ichimda bilganini qilsin dedim. Qanday maslahat berasiz? Men bu vaziyatlarda nima qilishim mumkin? Psixologiya orqali yechimi bormi buni?",
-			"adviceanswer2": "2.2. Psixolog: ",
-			"adviceanswer2a": "– Va alaykum assalom! .Psixologiya orqali yechimi bormi degan gapni ancha-muncha odamlar aytadilar. Ko‘pgina odamlar psixologni advokat bilan yanglishtiradilar. Aslida psixologiya inson psixikasini o‘rganadigan ilm. Sizning turmush o‘rtog‘ingizning psixikasi adekvat holatida emas. Psixoterapevt qabuliga er-xotin birgalikda borganingiz ma’qul. Siz va sizning farzandlaringizga ham psixolog mutaxassisining yordami kerak. Chunki bu janjallarni ko‘rgan bolalarning ham psixikasi shikastlangan. Sizning holatingiz esa yanada mushkulroq.  Psixikangizda chalkashlik bor. Shuncha kaltaklanib yana shu odamni kechirib, siz uchun bebaho bo‘lgan katta boyligingiz Alloh sizga bergan buyuk ne’mat bo‘lgan o‘zingizning joningizni va ikkinchi boyligingiz va ulug‘ ne’matlardan yana biri farzandlaringizni qadrlamasligingizdan, ma’lumki, siz hamma narsani qurbon shaxs dunyoqarashi orqali o‘lchayapsiz. Shuning uchun ham sizga psixoterapevt mutaxassisining va undan keyin esa uzoq vaqt davomida psixologning yordami kerak bo‘ladi. Psixolog deganda men “ongingizda shunday o‘ylar bor” deydigan psevdopsixolog (soxta psixolog)ni emas, psixikani yaxshi o‘rgangan chinakam mutaxassis psixologni nazarda tutyapman. Shunday psixologlar ham mamlakatimizda juda ko‘p. Turmush o‘rtog‘ingiz sizga va farzandlaringizga shikast yetkazishidan o‘zingizni ehtiyot qilishingiz kerak. Sizni va bolalaringizni kaltaklashi yoki begona ayollarga borib kelishi va sizdan o‘sha ayollarga o‘zingizning xohishingiz bilan yuborishingizni talab qilishini normal holat deb bo‘lmaydi. Shunday ekan, demak, biron jiddiy qarorni qabul qilishingiz kerak. Chunki bu sizning hayotingiz. Ona ekansiz, bolalaringizga albatta siz mas’ulsiz. Ularning sog‘ligi haqida psixik sog‘ligi haqida eng birinchi o‘rinda siz o‘ylashingiz kerak. Albatta, buning uchun onglik, idroklik, shijoatlik ayol bo‘lish talab qilinadi. Psixoterapevt qabuliga borganingiz yaxshi.",
-			"advicequestion3": "3-savol: ",
-			"advicequestion3a": "Ishonchning sinishi va shubha!",
-			"advicequestion3b": " - Assalomu alaykum! Turmush o‘rtog‘im mendan juda ham ko‘p shubha qilaveradi. Har narsadan shubhaga boraverib, 'nimadir berkitasan, yolg‘oning bor' deydi. Eng dilimni og‘ritadigani, qasam ichtiradi. Rostgo‘yligimni isbotlash uchun 'agar yolg‘onchi bo‘lsam, Alloh mendan yuz o‘girsin', deb qasam ichdim. Avval bir-ikki yolg‘on gapirganman, lekin tavba qilib, hech qachon  yolg‘on gapirmaslikka ahd qilganman. O‘shandan buyon biror marta yolg‘on gapirmadim, berkitmadim. Maslahat bering, bunday holatda qanday yo‘l tutay? Turmush o‘rtog‘im endi bir umr meni shunday qiynab o‘tadimi?  ",
-			"adviceanswer3": "3.3. Psixolog: ",
-			"adviceanswer3a": "– Va alaykum assalom! Turmush o‘rtog‘ingizning ishonchiga kirishga harakat qiling. Erkak kishi ishonchini yo‘qotsa, shunday gumonga boradigan bo‘lib qoladi. Endilikda siz faqat to‘g‘riso‘z ekanligingizni isbotlang. Turmush o‘rtog‘ingizga “xohlaganingizni so‘rang, men faqat rostini aytaman”, deb ta’kidlab turing. Avvalida sizga ishonch hosil qilmasligi tabiiy hol. Bunga biroz sabr qilib turishingizga to‘g‘ri keladi. Bu davrda asosiysi oilangizdagi voqea-hodisalarni tashqariga chiqarmaslikdir. Oila qurishingizning ilk damlarini eslang. Turmush o‘rtog‘ingiz nimalardan ko‘ngli ko‘tarilar edi? Balki biron kiyimingizni kiyganingizda ko‘zi quvnagandir, ehtimol qaysidir taomingizni yaxshi ko‘rib yegandir? Ana shu kabi his-tuyg‘ularni qayta kechirib o‘tishi uchun o‘sha harakatlaringizni takrorlab turishingiz kerak. ",
-			"advicequestion4": "4-savol: ",
-			"advicequestion4a": "Mehrsiz oila.",
-			"advicequestion4b": "- Assalomu alaykum! Turmush qurganimga salkam bir yarim yil bo‘ldi. Alhamdulillah, 5 oylik qizalog‘im bor. Oilamda muammolar mavjud. Turmush o‘rtog‘im ko‘p xiyonat qildilar. Homiladorlik paytlarim ko‘p siqildim. O‘rtamizda sevgi, mehr-muhabbat degan narsalar umuman yo‘q. Hozirgi paytda begona ayollar bilan gaplashadilarmi, yo‘qmi ishim bo‘lmay qo‘ydi. Lekin men bilan umuman qiziqmasliklari, qilgan xiyonatlari, chiroyli yashashga intilmasliklaridan juda siqilib ketaman. Ongimda faqat ajrashib ketish fikri aylanadi. Chunki ularni o‘zgartirishga, mehribon bo‘lishga ko‘p urindim. Qo‘polliklar qilib ko‘nglimni qoldirdilar. Moliyaviy ehtiyojlarim bilan ham ishlari yo‘q. Maslahat bering, qanday yo‘l tutay?",
-			"adviceanswer4": "4.4. Psixolog: ",
-			"adviceanswer4a": "– Va alaykum assalom! Ajrashishdan oson ish yo‘q. Siz o‘zingizga bo‘lgan mehringiz orqali birovni sizga mehribon bo‘lishiga o‘rgatib olishingiz mumkin. Agar o‘zingizning qadringizga yetmasangiz, o‘zingizga o‘zingiz mehr bera olmasangiz, o‘zingizni parvarishlamasangiz atrofingizda hech kim buni o‘z zimmasiga olmaydi. Qachon inson o‘zini parvarishlagan, o‘zini qadrini bilgan, o‘ziga mehr ko‘rsata oladigan bo‘ladi? Qachonki qalbiga og‘riq beradigan ishlardan o‘zini ehtiyot qilsa, qachonki balanslangan ozuqaviy taomlarni iste’mol qilsa, uyqusiga e’tibor qilsa, bilimlarini oshirsa, ko‘p kitob o‘qib tursa, sevgan mashg‘ulotlari bilan shug‘ullansa va hokazo. Oilasida inson har qanday muammolarga duch keladi. Hech kimning hayoti silliq, bir maromda bo‘lmaydi. Har bir muammo insonni bir pog‘onaga o‘stiradi, tajribali qiladi. Hamda bu sinovlarga qilingan sabrlar evaziga qanchadan qancha savoblar olinadi.",
-			"advicequestion5": "5-savol: ",
-			"advicequestion5a": "Ko‘zlar o‘qday qarashi shartmi?",
-			"advicequestion5b": " - Assalomu alaykum! Men yaqinda turmush qurdim, lekin qiynalyapman. Otamning uylarida hayotim juda ham yaxshi edi, chin islomiy oila edik, juda ham baxtli edim. Ammo bu yerga kelganimdan keyin qiynalyapman. To‘yimizdan 2 haftadan so‘ng bildimki, qaynotamning ikkinchi ayoli bor ekan, shu sabab qaynotam va qaynonam o‘rtasida tez-tez tushunmovchiliklar bo‘ladi, oqibatda ularning haftalab kechadigan janjallaridan, jahllaridan qiynalyapman. Men akademiyada o‘qiyman, homiladorman, shu sabab ko‘p xizmat qilmayotganim uchun va ovqat tayyorlamayotganim uchun jahllari chiqadi. O‘qish yo‘q payti va homilador bo‘lmagan paytim xizmatimdan mamnun edilar. Xo‘jayinim bilan munosabatim yaxshiligini yoqtirmaydilar, birga o‘tirsak, unga ham jahllari chiqib baqiradilar. Bularning barchasi haqida qaynsinglim, qaynukalarim va qaynotamga qanday yetkazishlarini bilmayman, lekin ularning barchasi menga xuddi dushmanga qaraganday qaraydi, behurmat qilib, ovozini ko‘tarishgacha boradi. Xo‘jayinimga o‘z oila a’zolarini yomonlamaslik uchun indamayman, ota-onamga siqilmasin deb indamayman, hammasini ichimga yutib qiynalyapman. Iltimos, menga maslahat bering. Tinch oiladan tushganim uchun bularni boshdan kechirish qiyin bo‘lmoqda. ",
-			"adviceanswer5": "5.5. Psixolog: ",
-			"adviceanswer5a": "– Va alaykum assalom! Siz turmush o‘rtog‘ingizga bo‘layotgan vaziyatni to‘g‘ri tushuntirishingiz kerak. Ya’ni nafrat aralashtirmay, hech kimni ayblamay faqat o‘z his-tuyg‘ularingizni ifodalashingiz kerak. Ichingizga yutishingiz farzandingiz dunyoga kelganidan keyin uning injiqliklarida, betinimligida bilinishi mumkin. Qaynongizdagi bu holat psixologik o‘zgarishlariga binoan sodir bo‘lyapti. Bu vaziyatni o‘zingizga qattiq olmang. Ayol kishida, ayniqsa yoshi kattaroq bo‘lganida erkak kishidan har taraflama qoniqish hissi mukammal bo‘lmas ekan, shu kabi vaziyatlarni keltirib chiqara boshlaydi. O‘g‘li bilan kelini o‘rtasiga tushaversa, o‘g‘lini rashk qilishgacha borsa, bu ruhiy o‘zgarish bor degani. Chunki ruhiy sog‘lom bo‘lgan, o‘zini va oila a’zolarini hurmat qilgan inson bu kabi ishlarni qilmaydi. Shuning uchun qaynonangizning qiliqlarini qalbingizga yaqin olmaslikka harakat qiling.",
-			"advicequestion6": "6-savol: ",
-			"advicequestion6a": "Yolg‘on gapirish ISLOMda ham qoralangan!",
-			"advicequestion6a": " - Assalomu alaykum! Alloh sizlardan rozi bo‘lsin. Meni bir narsa qiynaydi, turmush o‘rtog‘im haddan ortiq ko‘p yolg‘on gapiradi. Men yolg‘on gapirgan odamni hurmat qilgim, gaplashib o‘tirgim kelmaydi, fikrini ham qadrlamayman. Oddiy gapga ham bitta yolg‘on qo‘shib yuboradilar. Yoki bu kasallikmi bilmayman, hech qutilib bo‘lmayapti. 'Sizni yomon ko‘rib ketaman yolg‘on gapirsangiz, ko‘rgim kelmaydi', ham dedim. Namozlarimda Allohdan to‘g‘riso‘z bo‘lishini so‘rayman, baribir foyda yo‘q. Keyin gapirgim, qaragim kelmaydi. Shu odatim erni behurmat qilish, manmanlikka kirib qolmasmikin? Javob uchun oldindan rahmat!",
-			"adviceanswer6": "6.6. Psixolog: ",
-			"adviceanswer6a": ": - Va alaykum assalom! Duolaringizda bardavom bo‘lavering. O‘zingizni bo‘sh qo‘ying. Qattiq siqilib ketmang. Hamma narsaning o‘z vaqti soati bor. Siz o‘zingizning zimmangizda bo‘lgan vazifalaringiz, xizmatlaringizni chiroyli ado etavering. Turmush o‘rtog‘ingiz sizdek ayoli borligidan xursand bo‘lib, qadringizga yetib, balki sizdan ibrat ola boshlar.",
-			"advicequestion7": "7-savol: ",
-			"advicequestion7a": "Urish bo‘lgan uydan fayz ketar!",
-			"advicequestion7b": "- Assalomu alaykum! Menga maslahatingiz kerak. Umr yo‘ldoshim bilan turmush qurganimizga 21 yil bo‘lgan. Lekin hali ham ko‘p urishamiz. Uch farzandimiz bor. Oldinlari sabr qilib, umid qilib yashar edim. Endi esa urushganimizda 'ajrashamiz' degan gap ham aytiladi. Maslahat bering! ",
-			"adviceanswer7": "7.7. Psixolog: ",
-			"adviceanswer7a": "– Va alaykum assalom! Albatta psixolog qabuliga borishingiz kerak. Ko‘p oilalarda er-xotin 40 yosh atrofida bo‘lganida bir ko‘tarilish sodir bo‘ladi. Hozirda ajralish haqida gap-so‘z borayotgan ekan, bu voqea sodir bo‘lmay oldini olganingiz ma’qul. Ajralishdan oson ish yo‘q. Lekin inson qo‘lidan kelib tursa-yu, oilasini saqlab qolish uchun harakat qilmasa, bu juda ayanchli va ko‘pgina fojiaviy holatlarga yetaklovchi omil bo‘lib qoladi. Shu sababli psixolog bilan suhbatlashib olsangiz, sizning qayerda va qanday xatolar qilganingiz yoki turmush o‘rtog‘ingizning kamchiliklari bor bo‘lsa, ularni qanday bartaraf etish mumkinligi haqida bilib, o‘rganib olishga imkon hosil bo‘ladi. ",
-			"advicequestion8": "8-savol: ",
-			"advicequestion8a": "Turmush o‘rtog‘im menga qo‘pol munosabatda bo‘ladilar!",
-			"advicequestion8b": "- Assalomu alaykum! Yoshim 23 da. Men turmush o‘rtog‘imni juda yaxshi ko‘raman. Lekin ular menga qo‘pollik bilan munosabatda bo‘ladilar. Kun bo‘yi uyda farzandim bilan qolaman. Ishdan kelganida choy tayyorlashimga besabrlik qilib, qo‘pollik qiladilar. Ota-onamni ko‘rgani borishdan avval har doim ko‘ngilxiralik bo‘ladi. Sababi, uyga boramiz desak, qaynonamning jahli chiqaveradi. Sababini tushunmayman. Shu sabab, turmush o‘rtog‘imdan boshqa qarindoshlarnikiga borishni so‘rab ham o‘tirmayman. Chunki baribir ruxsat bermaydilar. O‘zlari bilan birga biror joyga olib bormaydilar. O‘zlari qayerga borsalar qarindosh, do‘stlari bilan ketadilar. Qo‘polliklariga sabr qilaman, ammo oxirida nohaqliklarini aytishga majbur bo‘lib urishib ketamiz. Bu qo‘polliklardan juda charchadim. Ba’zan noshukrlik, nolish orqali katta gunoh qilayotganimdan qo‘rqaman. Turmush o‘rtog‘imni norozi qilmay desam ham bo‘lmayapti. Menga maslahat bering. Qanday yo‘l tutsam turmush o‘rtog‘imning ko‘ngli yumshaydi? ",
-			"adviceanswer8": "8.8. Psixolog: ",
-			"adviceanswer8a": "– Va alaykum assalom! Erkak kishi bilan ayol kishi o‘zini qiynagan masalalarini ichiga yutavermay, ochiq gaplashib olishni o‘rganib olishi kerak. Buning uchun erkak kishining qorni to‘q, dam olib bo‘lgandan keyin xotirjam holatida o‘tirganida ayol kishi o‘zining ruhiy kechinmalarini, nimalarni his etayotganini aytishi kerak. Faqat gapirayotganida hech qanday tanbehsiz, da’vosiz, haqoratlarsiz gapirish kerak. Faktlarga asoslangan holda, ko‘z yosh to‘kmay so‘zlashi zarur. Shunda erkak kishi ham tushunadi. Amalda shu ishlarni qo‘llab ko‘ring.",
-			"advicequestion9": "9-savol: ",
-			"advicequestion9a": "Qaynopamning bolasi farzandimni ko‘p haqorat qiladi, men bunday vaziyatda nima qilay ",
-			"advicequestion9b": " - Assalomu alaykum! Bir necha yildan beri qaynopam va uning farzandlari bilan bir uyda istiqomat qilamiz. Afsuski, bolalar o‘rtasida ko‘p tortishuvlar bo‘lib turadi. Qaynopamning 8 yoshli o‘g‘li mening o‘g‘limni xafa qilgani qilgan. O‘g‘limni bundan ko‘p ko‘ngli og‘riydi, ko‘p xafa bo‘lib yig‘laydi. Chunki u juda ham hissiyotga beriluvchan. Qaynopamning o‘g‘liga ko‘p marotaba tushuntirdim, qattiq gapirib ham ko‘rdim. Oxirgi vaqtlarda esa bu uyda umuman yashagim kelmay qoldi. Qaynopamning farzandi baqirib, xunuk so‘zlar bilan bolamni haqorat qiladi. Men bunday vaziyatlarda nima qilishni bilmayapman?",
-			"adviceanswer9": "9.9. Psixolog: ",
-			"adviceanswer9a": "Va alaykum assalom! Qaynopangizning o‘g‘lini urishib bo‘lmaydi. Negaki uning shaxsiy muammosi siz o‘ylaganingizdan ancha chuqurroqdir. Bola birovni qayta-qayta xafa qilaveradimi, demak, uni kattalardan kimdir qattiq xafa qilgan. Ehtimol, hali ham xafa qilayotgandir. Bu otasi, onasi, buvi, buvasi yoki amaki-yu, ammalaridan birontasi bo‘lishi ham mumkin. Shunda bola ichidagi xafalik hissini, u uchun nohaqlik bo‘lib tuyulgan bu holatlarni o‘zidan ko‘ra ojizroq odamga agressiya tarzida to‘kib soladi. O‘g‘lingizda u boladan xafa bo‘lish hissi bor ekan, bu ish takrorlanaveradi. Shuning uchun o‘g‘lingizga: 'Sen kuchlisan, uni kechirib yubor, uning o‘zining psixologiyasida muammolari bor. Mehr izlagani uchun shunday qiladi, aslida seni xafa qilish niyati yo‘q', deb tushuntiring. U bolaga ham mehr ko‘rsating. Biron shirinlik pishirib, o‘g‘lingiz bilan o‘sha bolani ikkalasini o‘tqazib choy ichiring. Savollar berib suhbatlarini boshlab bering. Shunda ular haqiqiy aka-uka bo‘lib ketishadi. Aybdorlarni qidirib bir-biriga adovatini kuchaytirmang. Haqiqiy chin do‘st, mehribon aka-uka bo‘lish qayoqda-yu, dushman bo‘lib, butun umr bir-birini ko‘rishga ko‘zi bo‘lmay o‘zini tamom qilgani qayoqda! Bunday holatlarda kattalardan kimdir donishmandlik qilib bolalarni to‘g‘ri yo‘lga boshlashi kerak."
-		},
-		{
-			"img": "../../media/4.jpg",
-			"id": "psixolog-maslahati",
-			"title": "Psixolog maslahati",
-			"question1": "1-savol: ",
-			"description": "Assalomu alaykum! Bolam ikki yoshda. U jizzaki, agressiv. Begonalarni uradigan, tishlaydigan odatlari ham bor. Bu salbiy odatlariga qarshi choralar ko‘rdim, ammo naf bermadi. Bu hol bolamning fe’li yoki temperamenti bilan bog‘liqmi? Yoki homiladorlikda tonus, gipoksiya bilan tug‘ilgani uchunmi? Yoki giperaktiv bola bo‘lgani ta’sirimi?",
-			"answer1": "1.1. Psixolog: ",
-			"answerdesc1": "Va alaykum assalom. Tushunishimcha, bolada yod yetishmovchiligi bor. Bola agressiv bo‘lsa, unga qarshi kurashish kerak emas, aksincha unga mehrni ko‘proq berish kerak. Chunki boladagi temperamentning uning xatti-harakatiga hozircha aloqasi yo‘q. Aksincha sizning ruhiy kechinmalaringiz sabab bo‘lishi mumkin. O‘zingizning ichki kechinmalaringiz qanday? Kimlarga nisbatan agressiv xayollarni o‘ylaysiz, kimlarning xatti-harakatlarini yoqtirmaysiz? Mana shunday xayollar va xatti-harakatlarga barham bering. Shunda bolaning holati ham o‘zgara boshlaydi. Bolani vaqtida uxlating, tarkibi tabiiy bo‘lmagan, kimyoviy zararli oziq-ovqatlarni kamaytiring. Toza havoda tez-tez sayr ettirib, e’tiboringizni ko‘proq bolaga qaratishingiz kerak.",
-			"question2": "2-savol:  ",
-			"description2": "- Assalomu alaykum! Farzandim 1 yosh-u 8 oylik. Uydagilarim juda erkalatib yuborishadi. Ovsinimning ham 6, 4, 1 yoshlardagi 3 nafar farzandi bor. Erkalatib yuborishganidan ota-onasini ham 'senlab' yomon so‘zlar bilan so‘kishadi. Yomon ishlar qilishadi, odobsiz bo‘lib qolishgan. Shundan qo‘rqib farzandimga qattiqroq turishga harakat qilaman. Urmayman, ammo 'podvalga qamab qo‘yaman', desamgina tinchlanadi. Ba’zida qo‘rqoq bo‘lib qolishidan qo‘rqaman. Ammo hech qanday yo‘l topolmayabman. Hozirdan qo‘llarimga urishni o‘rgangan, menga baqiradi. Sababi buvilari oyingizni uramiz deb gapirishadi. Nima qilay?",
-			"answer2": "2.2. Psixolog:  ",
-			"answerdesc2": "– Va alaykum assalom! Biz nima gumonda bo‘lsak, Alloh shuni beradi. Shuning uchun gumoningizni ijobiylashtiring. Ona xotirjam bo‘lsa, bola ham sokin bo‘ladi. Bolangiz juda kichik. Unga mehr berib birga shug‘ullaning. Masalan: hozirda bolaning yoshiga mos rivojlantiruvchi o‘yinchoqlar bor, shulardan olib, birga o‘ynang. 'Mumkin emas' iborasini ishlatishingiz bolada ma’lum chegara bo‘lishi kerakligini his etishda yordam beradi. Qamab qo‘ymasangiz qo‘rqoq bo‘lmaydi. Ammo qo‘rqitib, keyin qamasangiz, qo‘rqoq bo‘lib qoladi. Agar qo‘rqitib, keyin amalda qo‘llamasangiz, gaplaringizga jiddiy qaramay qo‘yadi. Shuning uchun bunday gaplar aytmaganingiz ma’qul.",
-			"question3": "3-savol:  ",
-			"description3": " - Bolamning  uxlashi qiyin, nima qilsam boʻladi? Assalomu alaykum! Farzandlarim biri 4 yosh, biri 1 yosh. Ikkisi ham kechasi uxlashi juda qiyin. Uyqusini tartibga tushiraman deb,  baʼzan baqirib, baʼzida urib, baʼzida qoʻrqitaman. Oʻzlariga qoʻyib bersam, tungi soat 12-1 gacha  uxlamay yurishaveradi. Kech uxlasam, erim oldidagi vazifamni bajara olmayman, tahajjudga ham tura olmayapman. Shirinlik kam yesa ham, charchatadigan oʻyinlar oʻynashsa ham, energiyalari tugamayapti. Mana shu holatlarda nima qilsam boʻladi?",
-			"answer3": "3.3. Psixolog: ",
-			"answerdesc3": "Va alaykum assalom. Baqirish, urish, qoʻrqitish notoʻgʻri. Chunki ular hali bola! Birisi endigina bir yoshga toʻlgan boʻlsa, birisi toʻrt yosh boʻlsa. Ularning bolaligini qabul qiling va asta-sekin tartibga solishga harakat qiling.  Masalan:",
-			"answerdesc3a": "-uyqu oldidan  televizor koʻrsatmang, telefonda turli oʻyinlar oʻynashiga yoʻl qoʻymang;",
-			"answerdesc3b": "-shirinliklarni koʻp bermang; ",
-			"answerdesc3c": "-uyqu oldidan  suhbatlashishni odat qiling; ",
-			"answerdesc3d": "-qoʻl bilan bajariladigan ishlar ham bolani diqqatini jamlashga yordam beradi. ",
-			"question4": "4-savol:  ",
-			"description4": " 5 yoshli qizim juda qoʻrqoq, sababi nima boʻlishi mumkin?Assalomu alaykum! 3 va 5 yoshli qizlarim bor. Hozir yana homiladorman. Katta qizim juda qoʻrqoq. Kunduzi ham meni koʻrmay qolsa, qattiq baqirib yigʻlab, meni axtaradi. Oʻzi juda aqlli. Oʻqishni, hisob-kitobni va kichik  suralarni biladi. Koʻchada olib yurganimda undan sal uzoqlashib ketib qolsam,  vahimaga tushib qattiq yigʻlab yuboradi. Sababini soʻrasam, sizni ketib qolibdi deb oʻyladim, deydi. Yorugʻ boʻlsa ham yolgʻiz oʻzi xonaga kirib chiqolmaydi. Kunduzi bir oʻzim qarayman. Hamma ishda boʻladi. Qizim qanday qilib qoʻrquvni yenga olishi mumkin? Unga qanday yordam bersam boʻladi? Qizimdagi bu holat  keyinchalik yomon oqibatlarga olib kelmaydimi? Yordamingiz uchun oldindan rahmat.",
-			"answer4": "4.4. Psixolog: ",
-			"answerdesc4": ": Va alaykum assalom. Bola sababsiz qoʻrqoq boʻlib qolmaydi. Ana shu sababni topish kerak. Iloji boʻlsa, psixoterapevtga olib boring. Keyinchalik salbiy oqibatlari boʻlishi mumkin.",
-			"question5": "5-savol:  ",
-			"description5": "Qizim baqirib yigʻlashga odatlanib qoldi. Assalomu alaykum! Mening savolim farzandim toʻgʻrisida. Qizim ikki yarim yosh, yaqinda singilli boʻldi, xarakteri yaxshi, lekin koʻpincha ozgina dakki bersam, baqirib yigʻlashni odat qilib olgan. U koʻpincha  bolalar bilan kirishib oʻynamaydi, biror davraga kirsa, hech kim bilan koʻrishmaydi, lekin yaxshi gapiradi. Bunday holatda qanday yoʻl tutsam boʻladi?",
-			"answer5": "5.5. Psixolog: ",
-			"answerdesc5": " Va alaykum assalom! Farzandingiz hali juda kichkina ekan. Bolalar bilan kirishib oʻynamasligi bu genetik tomondan boʻlishi ham  mumkin yoki Alloh taolo bergan xulq boʻlib, bosiq va uyatchan boʻlishi mumkin. Eng asosiysi, urishib-talashib,  janjal qilmas ekan! Demak, xavotirga oʻrin yoʻq. Ayniqsa, singilli  boʻlganidan keyin barchaning eʼtibori chaqaloqqa qaratilgach, undagi ayrim oʻzgarishlarni toʻgʻri qabul qilishingiz lozim. Unga eʼtibor qariyb ellik foizga kamaygach, yangi mehmonga adaptatsiya qilishi uchun ham unga vaqt kerak boʻladi. Xulqidagi oʻzgarishlariga sabr qiling. Siz unga mehr berishda davom etsangiz kifoya, vahimaga aslo oʻrin qolmaydi.",
-			"question6": "6-savol:  ",
-			"description6": "Assalomu alaykum! Yoshim 29 da, 4 nafar farzandim bor. Ularning orasi 2 yosh, 3 yosh. Katta farzandim 7 yosh. Juda ham yigʻloqi, arzimagan gaplarga ham, urishsak ham, biror gapiga rad javobini aytsak ham yigʻlaydi. Nega bunday ekanligini oʻylab yuragim eziladi. Balki hamma ayb mendadir. Oʻzim ham sal gapga yigʻlab yuboraman. 5 yosh oʻgʻlim, 2 yosh qizim, 5 oylik chaqalogʻim bor. Oʻzimga tushunmayman, hech narsa yoqmaydi. Xoʻjaynim bilan koʻp urishamiz. 2 yosh qizim qoʻlini soʻradi, 5 yosh oʻgʻlim tirnogʻini yeydi, gapga umuman kirmaydi.",
-			"answer6": "6.6. Psixolog: ",
-			"answerdesc6": " Va alaykum assalom! Oʻzingiz ham gap nimada ekanini tushunib turibsiz. Faqat ishimiz aybdor qidirish emas, yechim topishdir. O‘zingiz fahmlaganingizdek, bolalar onaning his-tuygʻularini his etib turishadi. Ularning ruhiy holati onaga bogʻliq. Qoʻl soʻrish, tirnoq tishlash stressdan boʻladi. Yaʼni, hayotidagi keskin oʻzgarishlar, eʼtibor yetishmovchiligi, uydagi muhit kabi. 3 yoshi qiyin oʻtgan bolalar 7 yoshida yigʻloqi boʻlib qolishadi. Siz oʻzingiz psixolog bilan shugʻullanib, xotirjam boʻlib olishga harakat qiling, ana shunda bolalar ham xotirjam boʻladi.",
-			"question7": "7-savol:  ",
-			"description7": "Bolalarda narsalarni ogʻziga solish odati.",
-			"description7a": " - Assalomu alaykum! Farzandim 4 yosh, oʻgʻil bola. Uyda biroz qaysarroq, shu bois bogʻcha opasidan bogʻchada oʻzini qanday tutishi haqida soʻragan edim, farzandimning bogʻchada erkin yurishini, bilimlarni yaxshi oʻzlashtirib, sabr bilan soʻzlab berishini, bolalar bilan quvnoq oʻynab, qaysarlik qilmasligini, faqat bir narsalarni, kiyimlarining chetlarini ogʻziga solib oladigan odati borligini aytdi. Maslahatingiz kerak. Maslahatingiz uchun oldindan rahmat!  ",
-			"answer7": "7.7. Psixolog: ",
-			"answerdesc7": "Va alaykum assalom! Boladagi turli yangi odatlarning paydo boʻlishi bola stressda ekanligini bildiradi. Masalan, yolgʻiz erka bola boʻlgan, keyin singlisi tugʻilib, eʼtibor keskin kamaygan boʻlishi, bogʻcha yoki maktab oʻzgarishi kabi hayotidagi keskin burilishlar sabab boʻlishi mumkin. Urishib berish uning bu holatini kuchaytiradi. Shu sababli unga mehr berishni koʻpaytiring.",
-			"question8": "8-savol:  ",
-			"description8": "Bolamni kaltaklayverib, urgandagina gapga ko‘nadigan qilib qo‘ydim!",
-			"description8a": " - Assalomu alaykum. O‘g‘lim 4 yoshda. Kundan kunga tarbiyasi buzilib ketyapti. Avvallari uni urardim, juda ham to‘polonchi, qo‘pol qilib aytganda, juda  tarbiyasiz bola edi. Hozir ham shunday. Lekin endi farzand tarbiyasi haqidagi ma’ruzalarni eshitib, internet kanallarida o‘qib bildimki, bolani urib bo‘lmas ekan. Keyin uni urmaydigan bo‘ldim, hatto qattiq gapirishni ham to‘xtatdim. Lekin o‘g‘lim kundan kunga faqat yomon tarafga o‘zgaryapti. O‘zidan kattalarga narsa otadi, uradi, har xil yomon gaplar gapirib hammani oldida behurmat qiladi. Eng qizig‘i, biz oilada juda ham bir-birimizga mehribonmiz, hech qachon urishmaymiz, kattalarni hurmatini joyiga qo‘yamiz. Bog‘cha opasini tarbiyasi noto‘g‘rimikin deb hatto bog‘chaga ham olib bormaydigan bo‘ldik. Endi uyda o‘zim tarbiyalamoqchiman. Afsuski, farzandim endi menga ko‘nmayapti, yaxshi gapimni umuman qabul qilmayapti, faqat baqirsam yo ursamgina aytganimni qiladi. Yaxshi gapirsam qulog‘iga gap kirmaydi.  Hatto hech kimdan qo‘rqmaydi. Kaltaklayverib uni faqat urganda gapga ko‘nadigan qilib qo‘ygandirman balki... Lekin o‘zi: “Oyi, urishmang, baqirmang, sekin gapiring”, deydi, lekin sekin gapirsam, aytganimni qilmaydi. O‘zi yomon bola emas, Qur’on yodlataman, yodlaydi, zikrlarni aytadi, yurgan yo‘lida salavotlarni takrorlaydi. Otasi bilan birga namoz o‘qiydi. Lekin yarmiga kelganda sajdaga bosh qo‘ysa, ustiga sakraydi, o‘yinqaroqlik qiladi. Kundan kunga tarbiyasini tuzatishga qiynalib ketyapman. Uning tarbiyasida nimalarga e’tibor berishim kerak?",
-			"answer8": "8.8. Psixolog: ",
-			"answerdesc8": "Bolani urishish yoki kaltaklashning eng zarar tomoni shundaki, uning miyasida “ur yoki qochib qol” muhofaza mexanizmi shakllanadi. Bola yoki qo‘rqoq bo‘lib hammadan qochib yuradi, yoki kezi kelsa, kelmasa barchani kaltaklayveradi, qo‘pollik qilaveradi. Bolalarda aql, tafakkur umuman miya to‘liq shakllanib ulgurmagani sababidan urishish, kaltaklash faqat dushmaniga qaratilishi kerak, degan narsani tushunmaydi. Chunki uning eng yaqin insonlari ota-onasi ham dushmani emas, eng yaqin insoni, ammo bolani kaltaklaydi, ota-ona mehrini shu yo‘sinda ifodalaydi, degan holat miyasida o‘rnashib qoladi. Demak, bola uchun ham mehr shu tarzda ifodalanishi normal holat. U o‘zining ba’zi emotsiyalarini shu kaltaklashlar orqasiga yashiradi. Uning miyasi jismini shunday boshqaradi. Shu sababli bolani zinhor urib bo‘lmaydi. Unga faqat mehr berish, ko‘pdan-ko‘p quchoqlash, voqea-hodisalarni tushuntirish, savollariga erinmay javob berish, u bilan o‘yin o‘ynash orqali tarbiyalanadi. Ota-ona ibrat bo‘lishi kerak. Ota-ona nimani qilsa, yashiribmi yoki oshkorami bola ham umri davomida shu narsalarni qaytaraveradi. Bolaga tinch-osuda hayot kerak. Onaning yoki boshqa oila a’zosining baqirgan ovozlari bolaning psixikasini buzadi. Bola tarbiyalash juda katta mas’uliyat. Birinchi o‘rinda oila a’zolari o‘zlarini tarbiyalagan bo‘lishlari kerak. So‘ng bola tarbiyalanadi. ",
-			"answerdesc8a": "Afsuski aksariyat hollarda yosh er-xotin bolalarini psixologisiyani o‘rganmay, ularni o‘zlaricha tarbiya qilishmoqchi bo‘ladilar. Avvalo, ular psixologiyasini bilishi, inson  va shaxs sifatida qanday shakllanish yo‘llarini  o‘rganishi kerak. Mana shu narsalarni o‘rganib olsa, bolalari bilan turli xil muammolar kelib chiqmaydi.  Bolalari tug‘ilgach, u bilan munosabat qilishda, muomalada, tarbiyada siz kabi turli qiyinchilikka duch kelishmaydi. Buning sababi yuqorida ta’kidlaganimizdek, bolaning psixologiyasini bilmasligimiz-da! Siz ham shu narsaga ahamiyat berishingiz lozim. Shu bilan birga,  bolangizni bolalar psixologi yoki psixoterapevt shifokori qabuliga olib borsangiz ham ma’qul ish bo‘lardi.",
-			"question9": "9-savol:  ",
-			"description9": "Bolamni ko‘p urardim!",
-			"description9a": "Bolamni ko‘p urardim 16 yoshimda unashtirilib, 17 yoshga to‘lganimda to‘yim bo‘ldi. 18 yoshga kirganimda farzandli bo‘ldim. Birinchi farzandim o‘g‘il, hozir 6 yosh. Men farzandimni ko‘p urganman, urishimga sabab, bu meni hali onalikka ruhan tayyor bo‘lmaganim, bilimsizligim, yoshligim, deb bilaman. Hozir psixologlarni eshitib, o‘zimni ustimda ishlashga harakat qilyapman. O‘zimni tarbiya qilyapman, o‘zimni jilovlab jahlga berilmaslikni o‘rganyapman. Savolim, o‘g‘limni ko‘p bora sababsiz urganimlarim uchun o‘zimni o‘zim kechira olmayapman. Vijdonim azob chekmoqda. Xatolarimni tuzatishga harakat qilyapman. Mehribon, farzandlarini tushunadigan ona bo‘lsam, farzandim bilan munosabatim o‘zgaradimi yoki bolalarni xotirasida yomon ona sifatida qolamanmi? Maslahatingizni ayamang.",
-			"answer9": "9.9. Psixolog: ",
-			"answerdesc9": "Bola taxminan uch yarim yoshdan so‘ng hayotida bo‘layotgan voqea-hodisalarni eslab qolishni boshlaydi. Ungacha voqealar esida qolmaydi. Shu sabab siz qattiq kuyunib ketmay, aksincha endi bundan keyin o‘z his-tuyg‘ularingizni jilovlab, bolaga baqirmaslik, uni kaltaklamaslikka qattiq rioya qilishingiz lozim bo‘ladi. Bola bilan ko‘proq har turli o‘yinlarni o‘ynashingiz, rasm chizishingiz, sayr qilishingiz kerak. Vijdon azobidan, albatta, xalos bo‘lishingiz zarur, chunki bola buni his qiladi va sizni hurmat qilmay qo‘yadi, yolg‘onchi bo‘ladi. Siz bilan birga bo‘lgan onlari hursandchilik va beg‘uborlik onlari bo‘lishini ta’minlashingiz kerak. Buning uchun uning aytganini bajarish va u talab qilgan narsalarni muhayyo qilish shart emas. Shunchaki, mehr berib har kuni kamida uni olti marta bag‘ringizga bosib, yuqoridagi amallarni birgalikda qilishingiz yetarlidir.",
-			"question10": "10-savol:  ",
-			"description10": "Bolaning tili chiqishi. Mening 1 yosh-u 8 oylik o‘g‘lim bor. Hali gapirmaydi. Biz chet elda yashaymiz. Unga o‘zbekcha gapiramiz, ko‘p so‘zlarni tushunadi. Men: “Unga chet tilida gapirishimiz kerak, bog‘chaga, maktabga borganda tilni bilmay qiynaladi. Shuning uchun hozirdan chet tilida gapirib o‘rgatishimiz zarur”, desam, turmush o‘rtog‘im: “Yo‘q, oldin tili chiqib, o‘zbekchani yaxshi gapirishni o‘rgansin, keyin chet tilida gapiramiz, bo‘lmasa, bola qiynaladi, tili ham chiqishi qiyin bo‘ladi”, deyaptilar. Siz qanday maslahat bera olasiz? Bolaga hozirgi yoshida qaysi tilda gapirganimiz afzal? Tili tez chiqishi va chet tilini o‘rganishda qiynalmasligi uchun qanday yo‘l tutaylik? Javobingiz uchun rahmat!",
-			"answer10": "10.10. Psixolog: ",
-			"answerdesc10": "Bolaga bir necha xil tilda gapirilsa, u ham shuncha tilni mukammal o‘rganishi mumkin. Ammo bir gap gapirilganda u jumlaning boshidan oxirigacha bitta tilda gapirish kerak. So‘ng boshqa tilda xuddi shu gapni tushuntirish lozim. Shunda bolaning miyasida chalkashlik bo‘lmaydi. Aksincha, unga gapirayotganda ba’zi so‘zlarni bir tilda va davomini ikkinchi xil tilda gapirilsa, bolaning tili chiqishi biroz orqaga surilishiga yoki tili chuchuk bo‘lishiga sabab bo‘lib qolishi mumkin.",
-			"question11": "11-savol:  ",
-			"description11": "Bolalar tarbiyasi borasida",
-			"description11a": " - Assalomu alaykum. Farzandim 7 oylik bo‘ldi. Farzandimni to‘g‘ri tarbiyalab, kelajakda o‘z o‘rnini topa oladigan, soliha farzand bo‘lishi uchun qanday ishlar olib borishim kerak? Chaqaloqlar, umuman bolalar tarbiyasi borasida qanday adabiyotlarni tavsiya qilasiz?",
-			"answer11": "11.11. Psixolog: ",
-			"answerdesc11": ": – Va alaykum assalom. Juda to‘g‘ri savol. Bolani chaqaloqligidan tarbiyalashni boshlash kerak. Chunki bola katta bo‘lib ota-onaning aytganini qilmaydi, balki ota-onaning ongidagi ishni qiladi. “Qush uyasida ko‘rganini qiladi” deganlaridek, onalar ibodatlarini yo‘lga qo‘yib olgan bo‘lishlari, qilayotgan ishlarida hech kim ko‘rmasa-da e’tiborli bo‘lishlari, shar’iy ilmni chuqur o‘rganib, unga amal qilishlari lozim. Ona musiqani ko‘p eshitsa, tabiiy bola musiqaga mehr qo‘yadi. Gʻiybatga berilsa, bola bilmagan holatda g‘iybatlarga aralashib qoladi. Ona jizzaki bo‘lsa, o‘zidan kattalarga gap qaytarsa, qo‘pol muomala qilsa, tabiiyki bola ko‘rmasa ham, tushunmasa ham ana shunday ishlarni qiladigan bo‘ladi. Shuning uchun bolani tarbiyalayotgan ona avval tarbiyani o‘zidan boshlashi kerak. Ona Qur’oni karim va hadisni mutolaa qilar ekan, baland ovozda o‘qishi, bola bilan (gapirmaydigan kichik bola bo‘lsa ham) chiroyli ohangda gaplashib turishi, diniy rivoyatlarni gapirib berishi kerak. Nima to‘g‘ri, nima noto‘g‘riligini tushuntirishi kerak. Bundan onada shu ishni qilish odati paydo bo‘ladi. Bola hali kichkina, hech nimani tushunmaydi desa, bola katta bo‘lganida ham onaning farzandi bilan gaplashish odati bo‘lmagani uchun buni uddalay olmaydi va bolaga har doim u kichkina, hech nimani tushunmaydi degan tushunchada qolib ketishi ehtimoli bor. ",
-			"question12": "12-savol:  ",
-			"description12": "Tarbiya",
-			"description12a": " - Assalomu alaykum! Allohga shukur, 3 nafar farzandim bor. Lekin ularga to‘g‘ri tarbiya berolmayapman, deb qo‘rqaman. Katta o‘g‘lim 11 yoshda, juda dangasa, uy ishlarida yordamlashmaydi, ish buyursam 'bu qizlarning ishi', deb qilmaydi. Kichik o‘g‘lim 10 yoshda, u ham ko‘chadan beri kelmaydi, dars qilmaydi, aniq bir maqsadi yo‘q. Iltimos, maslahat bering. Alloh sizlardan rozi bo‘lsin.",
-			"answer12": "12.12. Psixolog: ",
-			"answerdesc12": " – Va alaykum assalom! Farzand onaning qornida paydo bo‘lganidan boshlab ota-onasi bilan munosabatlari boshlanadi. Eng birinchi miya hosil bo‘ladi. Demak, onaning xatti-harakati o‘sha vaqtdan boshlab ongiga singib boradi. So‘ng bola tug‘ilgach, ota-onaning har bir xatti-harakati, tarbiyaviy gap-so‘zlari emas, aynan xatti-harakati, amallari uning ongiga, tasavvuriga muhrlana boradi. Bola 7 yoshigacha ota-onadan tarbiyani ularning amallaridan o‘z ongiga butunlay ko‘chirib oladi. Va ana shu ko‘chirma bo‘yicha yashay boshlaydi. Psixologiyada bu narsa 'ssenariy' yoki 'xulq-atvor modeli' ('model povedeniya') deyiladi. Hozirda siz ularni o‘zgartirishingiz uchun o‘zingiz dars qiladigan, mehnat qiladigan va bu ishlarni qilayotgan vaqtingizda ularni ham qiziqtira bilishni o‘rganishingiz kerak. Aynan qiziqtirishingiz kerak. Jalb qilish emas. Chunki bola qiziqsagina shu ish bilan shug‘ullanadi. Qiziqarli joyini topolmasa, bajarmaydi."
-		},
-		{
-			"img": "../../media/4.jpg",
-			"id": "foydali-manbalar",
-			"title": "Foydali manbalar",
-			"description": "Foydali manbalar  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime aut ex, corporis distinctio nihil accusantium ipsam libero eius. Nihil, exercitationem dolorem! Animi velit ad illo quaerat enim harum voluptates mollitia?"
-		}
-	],
+	
 	"navYoungs": [
 		{
 			"link": "/",
 			"title": "Asosiy"
 		},
 		{
-			"link": "",
+			"link": "/youngs/bad-habits/addiction",
 			"title": "Fojeali odatlar",
 			"dropDown": [
 				{
@@ -451,7 +233,7 @@
 			]
 		},
 		{
-			"link": "",
+			"link": "/youngs/century-plague/ekstremism",
 			"title": "Asr vabosi",
 			"dropDown": [
 				{
@@ -472,7 +254,7 @@
 			]
 		},
 		{
-			"link": "",
+			"link": "/youngs/threats/internet-addiction",
 			"title": "Virtual tahdidlar",
 			"dropDown": [
 				{
@@ -487,8 +269,8 @@
 				},
 				{
 					"key": "3",
-					"link": "youngs/gaming",
-					"title": "kompyuter-o'yinlari"
+					"link": "/youngs/threats/gaming",
+					"title": "Kompyuter o'yinlari"
 				},
 				{
 					"key": "3",
@@ -498,7 +280,7 @@
 			]
 		},
 		{
-			"link": "/youngs/sog'lom-turmush",
+			"link": "/younges/lifestyle",
 			"title": "Sog'lom turmush"
 		},
 		{
@@ -580,3 +362,4 @@
 		}
 	]
 }
+
