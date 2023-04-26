@@ -6,7 +6,7 @@
 			"dropDown": [
 				{
 					"key": "1",
-					"link": "/youngs/bad-habits",
+					"link": "",
 					"title": "Fojeali odatlar",
 					"inDropDown": [
 						{
@@ -28,7 +28,7 @@
 				},
 				{
 					"key": "2",
-					"link": "/youngs/asr-vabosi",
+					"link": "",
 					"title": "Asr vabosi",
 					"inDropDown": [
 						{
@@ -50,7 +50,7 @@
 				},
 				{
 					"key": "3",
-					"link": "/youngs/virtual-tahdidlar",
+					"link": "",
 					"title": "Virtual tahdidlar",
 					"inDropDown": [
 						{
@@ -98,7 +98,7 @@
 			"dropDown": [
 				{
 					"key": "1",
-					"link": "/parents/masofaviy-kuzatuv",
+					"link": "",
 					"title": "Masofaviy kuzatuv",
 					"inDropDown": [
 						{
@@ -172,12 +172,12 @@
 			"title": "Asosiy"
 		},
 		{
-			"link": "masofaviy-kuzatuv",
+			"link": "/",
 			"title": "Masofaviy kuzatuv",
 			"dropDown": [
 				{
 					"key": "1",
-					"link": "/parents/masofaviy-kuzatuv/internet-nazorati",
+					"link": "/parents/internet-control",
 					"title": "Internet nazorati"
 				},
 				{
@@ -430,83 +430,83 @@
 			"title": "Asosiy"
 		},
 		{
-			"link": "/bad-habits",
+			"link": "",
 			"title": "Fojeali odatlar",
 			"dropDown": [
 				{
 					"key": "1",
-					"link": "/bad-habits/addiction",
+					"link": "/youngs/bad-habits/addiction",
 					"title": "Giyohvandlik"
 				},
 				{
 					"key": "2",
-					"link": "/youngs/fojeali-odatlar/chekish",
+					"link": "/youngs/bad-habits/smoking",
 					"title": "Chekish"
 				},
 				{
 					"key": "3",
-					"link": "/youngs/fojeali-odatlar/spirtli-ichimliklar",
+					"link": "/youngs/bad-habits/alcohol",
 					"title": "Spirtli ichimliklar"
 				}
 			]
 		},
 		{
-			"link": "asr-vabosi",
+			"link": "",
 			"title": "Asr vabosi",
 			"dropDown": [
 				{
 					"key": "1",
-					"link": "/youngs/asr-vabosi/zo'ravonlik",
+					"link": "/youngs/century-plague/violence",
 					"title": "Zo'ravonlik"
 				},
 				{
 					"key": "2",
-					"link": "/youngs/asr-vabosi/ekstremizm",
+					"link": "/youngs/century-plague/ekstremism",
 					"title": "Ekstremizm"
 				},
 				{
 					"key": "3",
-					"link": "/youngs/asr-vabosi/terrorizm",
+					"link": "/youngs/century-plague/terrorism",
 					"title": "Terrorizm"
 				}
 			]
 		},
 		{
-			"link": "virtual-tahdidlar",
+			"link": "",
 			"title": "Virtual tahdidlar",
 			"dropDown": [
 				{
 					"key": "1",
-					"link": "/youngs/virtual-tahdidlar/internetga-qaramlik",
+					"link": "/youngs/threats/internet-addiction",
 					"title": "Internetga qaramlik"
 				},
 				{
 					"key": "2",
-					"link": "/youngs/virtual-tahdidlar/axloqsiz-saytlarning-zarari",
+					"link": "/youngs/threats/bad-sites",
 					"title": "Axloqsiz saytlarning zarari"
 				},
 				{
 					"key": "3",
-					"link": "/youngs/virtual-tahdidlar/kompyuter-o'yinlari",
+					"link": "youngs/gaming",
 					"title": "kompyuter-o'yinlari"
 				},
 				{
 					"key": "3",
-					"link": "/youngs/virtual-tahdidlar/onlayn-qimor",
+					"link": "/youngs/threats/gabling",
 					"title": "Onlayn qimor"
 				}
 			]
 		},
 		{
-			"link": "sog'lom-turmush",
+			"link": "/youngs/sog'lom-turmush",
 			"title": "Sog'lom turmush"
 		},
 		{
-			"link": "foydali-maslahatlar",
+			"link": "/younges/advices",
 			"title": "Foydali maslahatlar"
 		},
 		{
-			"link": "tavsiyaviy-manbalar",
+			"link": "/younges/resources",
 			"title": "Tavsiyaviy manbalar"
 		}
 	],
