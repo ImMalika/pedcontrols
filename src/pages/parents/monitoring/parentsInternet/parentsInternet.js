@@ -14,7 +14,7 @@ import Myimg from '../../../../components/myimg/myimg';
 const ParentsInternet = () => {
   return (
     <div className="parentsInternet">
-      <Nav dataLink={navData.navHome} />
+      <Nav dataLink={navData.navParents} />
       <div className='main'>
         <Title titleName={"Internet nazorati"} />
         <Title2 titlename={"iOS’da"} />

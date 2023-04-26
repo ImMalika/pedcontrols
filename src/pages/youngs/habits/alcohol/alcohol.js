@@ -13,7 +13,7 @@ import Img2 from "../../../../media/youngsmedia/alcohol2.jpg"
 const Alhocol = () => {
     return (
         <div>
-            <Nav dataLink={navData.navHome} />
+            <Nav dataLink={navData.navYoungs} />
             <div className='main'>
                 <Title titleName={"Spirtli ichimliklar"} />
                 <Paragraph text={"Alkogol dunyoda aholi salomatligiga eng katta zarar yetkazuvchi psixoaktiv moddalardan biri hisoblanadi. Barcha o‘limlarning taxminan 5% spirtli ichimliklarni iste’mol qilish ta’siridan kelib chiqadi, deb hisoblamoqda Jahon sog‘liqni saqlash tashkiloti."} /><br />

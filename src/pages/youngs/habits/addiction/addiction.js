@@ -13,7 +13,7 @@ import Img2 from "../../../../media/youngsmedia/addictionimg2.jpg"
 const Addiction = () => {
     return (
         <div className='addiction'>
-            <Nav dataLink={navData.navHome} />
+            <Nav dataLink={navData.navYoungs} />
             <div className='addWrapper'>
             <Title titleName={"Giyohvandlik"} />
             <Paragraph text={" Giyohvandlik, narkomaniya, bangilik — narkotik moddalarga oʻrganib qolish, ruju qilish, aniqrogʻi tabiiy yoki sintetik zaharli moddalar (ayrim dori moddalari)ni vaqtincha yoki surunkasiga isteʼmol qilish natijasida kelib chiqadigan kasallik holati. G. organizm somatik va ruhiy holatining chuqur oʻzgarishiga sabab boʻladi va giyohvandni tanazzulga olib boradi. G.da oʻzini toʻxtatib boʻlmaydigan darajada giyohvand moddalarni isteʼmol qilish mayli paydo boʻladi, giyohvand moddaning miqdoriga nisbatan ehtiyoj, ruhiy va jismoniy bogʻliqlik ortib boradi. G. asta-sekin boshlanib, surunkali davom etadi. Giyohvand moddalar dastlab xushnudlik, dimogʻchogʻlik (qarang Eyforiya), xotirjamlik hissini uygʻotib, kayf qildiradi, keyin bora-bora bu kasallikka aylanadi. G. 2 zaylda avj olishi mumkin. Birinchi holda vrach buyurgan va bemorning ruhi hamda kayfiyatini oshirish xususiyatiga ega boʻlgan dorilarni uzoq vaqt va notoʻgʻri qabul qilish; ogʻriq, uyqusizlik va boshqa dardlardan qutilish maqsadida dori miqdori (dozasi)ni oshirib borish; darddan tuzalib doriga unchalik ehtiyoj boʻlmasa ham, uni qabul qilaverish natijasida dorining narkotik taʼsiri va miqdori orta borib, pirovardida giyohvand moddaga moyillik kuchayib, u humor qiladigan boʻlib qoladi. Ikkinchi hol ongli ravishda kayf qilish maqsadida giyohvand moddalarga oʻrganishdir."} /> <br/>

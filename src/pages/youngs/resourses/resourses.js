@@ -31,7 +31,7 @@ import pdf10 from "../../../media/Kitoblar/yulduzli tunlar/yulduzli_tunlar.pdf";
 const Resourses = () => {
 	return (
 		<div className="resourses">
-			<Nav dataLink={navData.navHome} />
+			<Nav dataLink={navData.navYoungs} />
 			<div className="main">
 				<Title titleName={"Tavsiyaviy manbalar"} />
 				<div className="resourses__elements">

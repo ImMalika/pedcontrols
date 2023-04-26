@@ -18,7 +18,7 @@ import Myimg from '../../../../components/myimg/myimg';
 const Gaming = () => {
   return (
     <div className="gaming">
-    <Nav dataLink={navData.navHome} />
+    <Nav dataLink={navData.navYoungs} />
     <div className='main'>
     <Title titleName={"Kompyuter o‘yinlarining yoshlar ongiga ta’siri"}/>
     <Paragraph text={"Kompyuter o‘yinlariga mukkasidan ketishning jamiyatga zararlari ko‘p. Avvalo manaviy zarar bo‘lib, kompyuter o‘yinlari jamiyatimizni manaviy buzuqlik botqog‘iga botirib, insonni o‘zlikni anglash baxtidan mosuvo qilmoqda."}/><br/>

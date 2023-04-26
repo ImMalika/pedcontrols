@@ -15,7 +15,7 @@ import Img1 from "../../../../media/youngsmedia/ekstrmismimg1.jpg";
 const Ekstromism = () => {
   return (
     <div className="ekstromism">
-      <Nav dataLink={navData.navHome} />
+      <Nav dataLink={navData.navYoungs} />
       <div className='main'>
         <Title titleName={"Eksteremizm"} />
         <Paragraph text={"Ekstremizm — ijtimoiy-siyosiy vaziyatni beqarorlashtirishga, O‘zbekiston Respublikasining konstitutsiyaviy tuzumini zo‘rlik bilan o‘zgartirishga, hokimiyatni zo‘rlik ishlatib egallashga va uning vakolatlarini o‘zlashtirib olishga, milliy, irqiy, etnik yoki diniy adovat qo‘zg‘atishga qaratilgan harakatlarning ashaddiy shakllari ifodasi"} />

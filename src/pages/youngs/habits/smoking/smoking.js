@@ -13,7 +13,7 @@ import Img2 from "../../../../media/youngsmedia/smoking2.jpg"
 const Smoking = () => {
     return (
         <div className='smoking'>
-            <Nav dataLink={navData.navHome} />
+            <Nav dataLink={navData.navYoungs} />
             <div className='smokingWrap'>
             <Title titleName={"Chekish"}/>
             <Myimg img={Img2}/>

@@ -22,6 +22,12 @@ import Gaming from "./pages/youngs/threats/gaming/gaming";
 import Gabling from "./pages/youngs/threats/gabling/gabling";
 import ParentsInternet from "./pages/parents/monitoring/parentsInternet/parentsInternet";
 import Resourses from "./pages/youngs/resourses/resourses"
+import Lifestyle from "./pages/youngs/lifestyle/lifestyle";
+import ParentsAdvices from "./pages/parents/parentsAdvices/parentsAdvices";
+import Psychology from "./pages/parents/psychology/psychology";
+import Parentsresources from "./pages/parents/parentsresources/parentsresources";
+import ParentsItControl from "./pages/parents/monitoring/parentsItControl/parentsItControl";
+import Tv from "./pages/parents/monitoring/tv/tv";
 
 function App() {
 	return (
@@ -57,7 +63,13 @@ function App() {
 			<Route path="/youngs/threats/gabling" element={<Gabling />}/>
 			<Route path="/younges/advices" element={<Advices/>}/>
 			<Route path="/younges/resources" element={<Resourses/>}/>
+			<Route path="/younges/lifestyle" element={<Lifestyle />}/>
 			<Route path="/parents/internet-control" element={<ParentsInternet/>}/>
+			<Route path="/parents/monitoring/social-media-control" element={<ParentsItControl/>}/>
+			<Route path="/parents/monitoring/tv-control" element={<Tv/>}/>
+			<Route path="/parents/useful-advices" element={<ParentsAdvices/>}/>
+			<Route path="/parents/psychologist's-advice" element={<Psychology/>}/>
+			<Route path="/parents/useful-resources" element={<Parentsresources/>}/>
 			
 			
 
