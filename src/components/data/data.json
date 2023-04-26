@@ -1,7 +1,7 @@
 {
 	"navHome": [
 		{
-			"link": "/youngs",
+			"link": "/younges/advices",
 			"title": "O'smirlar uchun",
 			"dropDown": [
 				{
@@ -212,7 +212,7 @@
 			"title": "Asosiy"
 		},
 		{
-			"link": "",
+			"link": "/youngs/bad-habits/addiction",
 			"title": "Fojeali odatlar",
 			"dropDown": [
 				{
@@ -233,7 +233,7 @@
 			]
 		},
 		{
-			"link": "",
+			"link": "/youngs/century-plague/ekstremism",
 			"title": "Asr vabosi",
 			"dropDown": [
 				{
@@ -254,7 +254,7 @@
 			]
 		},
 		{
-			"link": "",
+			"link": "/youngs/threats/internet-addiction",
 			"title": "Virtual tahdidlar",
 			"dropDown": [
 				{
