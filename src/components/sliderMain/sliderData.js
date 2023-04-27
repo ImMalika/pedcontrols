@@ -7,8 +7,8 @@ import img4 from "../../media/slider/ogohlik.jpg";
 
 export const sliderData = [
 	{
-		title: "Oila muqaddasdir",
-		description: "this is the first slider image",
+		// title: "Oila muqaddasdir",
+		// description: "this is the first slider image",
 		url: img1, // Buni kommentga oling
 		// url: "https://thumbs.dreamstime.com/z/well-done-attentive-longhaired-female-sitting-grass-her-daughter-to-complete-task-positive-delighted-people-drawing-their-129099859.jpg", // Mana shuni kommentdan chiqaring
 	},
