@@ -10,7 +10,7 @@
 	font-family: $font_titles;
 }
 a:hover {
-	color: $reddish;
+	color: $dark;
 }
 ::-webkit-scrollbar {
 	color: $denger;
@@ -49,10 +49,10 @@ body {
 }
 .active {
 	p {
-		color: $reddish;
+		color: $dark;
 	}
 	div {
-		border: 1px solid $reddish;
-		background: $reddish;
+		border: 1px solid $dark;
+		background: $dark;
 	}
 }
