@@ -4,7 +4,7 @@ import img2 from "../../media/youngs.jpg";
 export const cardsData = [
 	{
 		img: img1,
-		link: "/parents",
+		link: "/parents/useful-advices",
 		title: "Ota-onalar uchun",
 		description:
 			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis.",
@@ -12,7 +12,7 @@ export const cardsData = [
 
 	{
 		img: img2,
-		link: "/youngs",
+		link: "/younges/advices",
 		title: "O'smirlar uchun",
 		description:
 			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis.",
