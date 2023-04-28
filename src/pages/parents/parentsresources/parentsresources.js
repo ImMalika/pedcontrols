@@ -1,25 +1,143 @@
-import React from 'react'
+import React from "react";
 import c from "./parentsresources.scss";
 import { Nav } from "../../../components/navbar/nav";
 import navData from "../../../components/data/data.json";
 import Footer from "../../../components/footer/footer";
-import Paragraph from '../../../components/paragraph/paragraph';
-import Title from '../../../components/title/title';
-import Title2 from '../../../components/title2/title2';
-import Link from '../../../components/links/links';
-import Title3 from '../../../components/title3/title3';
-import Myimg from '../../../components/myimg/myimg';
+import Paragraph from "../../../components/paragraph/paragraph";
+import Title from "../../../components/title/title";
+import Title2 from "../../../components/title2/title2";
+import Link from "../../../components/links/links";
+import Title3 from "../../../components/title3/title3";
+import Myimg from "../../../components/myimg/myimg";
+// Images //
+import Img1 from "../../../media/parentsmedia/useful.jpg";
+//
+
 const Parentsresources = () => {
   return (
     <div className={c.parentsresources}>
       <Nav dataLink={navData.navParents} />
-      <div className='main'>
-        <Title titleName={"Foydali manbalar"}/>
-        <Paragraph text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quisquam voluptate, id, perspiciatis asperiores ea dolorum amet, laudantium a non magnam. Aut accusantium nobis, temporibus earum libero error veniam maxime labore harum esse in expedita nisi qui inventore, dolorum repudiandae dolorem provident commodi, veritatis magnam aperiam est. Consequatur, maxime? Sapiente, minima. Tenetur error ut rerum officia in nobis ducimus, sequi voluptatum illum vel consequatur cumque quibusdam, aliquam possimus voluptates ea sit distinctio dolorem sapiente delectus facilis ex dolore ad. Magnam culpa architecto quisquam ipsum aliquam ipsam dolorem. Tempora quasi nesciunt non consectetur perspiciatis mollitia! Quam rem enim ea ut ex possimus consequatur? Harum, sint error. Voluptas quidem repellat veritatis fugiat soluta autem molestiae itaque totam sequi? Aliquid assumenda delectus eum dolore iste porro quas ab voluptatem soluta! Ipsam pariatur obcaecati, inventore ducimus officiis excepturi hic earum, neque totam nesciunt exercitationem dolorum, veritatis accusantium fugiat impedit iste nobis labore deleniti dignissimos facilis voluptatem quia optio culpa at. Praesentium sint suscipit deleniti accusamus ut provident maxime deserunt! Ducimus perspiciatis sint id enim libero aliquam accusantium facilis ipsa molestias, quasi tempore minus reiciendis alias nobis deserunt pariatur aut sit temporibus incidunt quidem quae? Totam nobis voluptatem excepturi, facere veritatis non inventore, reiciendis ratione ex at libero fuga impedit aperiam laboriosam eius et eligendi voluptatibus necessitatibus unde maxime earum. Aspernatur blanditiis soluta autem earum ducimus, mollitia, odio saepe qui error officiis veritatis minus aliquid voluptates et reiciendis ipsum explicabo. Sint ad tenetur, aperiam culpa minima omnis. Voluptatem earum officia eligendi quidem similique, cumque, nostrum voluptate nesciunt hic eveniet repudiandae ratione reiciendis incidunt cupiditate ipsum quaerat deserunt sit quae voluptas facilis fugit rem? Aspernatur suscipit rem saepe vitae aliquid, libero non reprehenderit esse eveniet quis repellendus ipsum exercitationem in, dignissimos expedita officiis blanditiis aliquam quaerat! Aspernatur veritatis consectetur illo incidunt quos quidem, vitae debitis exercitationem libero natus impedit? Autem quod accusantium dicta quis iste, odio minima ipsa in voluptatem tempore modi ad rerum porro nobis officia nam sunt eius, reiciendis non, molestias deserunt iusto? Deleniti iusto minima cumque natus harum recusandae maxime, labore explicabo nostrum veritatis alias blanditiis beatae voluptas iure. Perferendis totam adipisci ex corrupti asperiores sequi harum accusantium! Dolorum, magni, explicabo aliquid reprehenderit tempora dolorem nobis, ipsa perspiciatis voluptatem tenetur voluptate ea aliquam itaque at fuga placeat optio? Ratione incidunt architecto saepe iure tempora atque eveniet, enim qui quis rerum? Facere quis autem fugit quo cupiditate. Minima sed ducimus numquam dolorum ex inventore minus expedita fuga doloribus saepe veritatis amet ut earum quis fugiat deleniti adipisci consequatur, nihil tempore cupiditate aspernatur nostrum hic quae? Eveniet laudantium odio accusamus sunt, nulla consequatur? Ullam facere expedita eos quam! Explicabo nostrum enim tenetur aperiam. Recusandae inventore cupiditate ab exercitationem earum non fugiat voluptatum rerum architecto, ut quisquam est aliquid pariatur nulla illum magni ullam officiis vel vero! Earum mollitia saepe suscipit reiciendis soluta nulla, nemo maiores illo alias sapiente voluptatum quam rem pariatur est doloremque sequi quia modi corporis. Quod voluptas sunt esse dolorem, doloribus ratione dignissimos tempora perferendis consequatur ipsam eaque sequi voluptatem fuga aliquid sapiente ut. Sapiente doloremque deleniti harum itaque, eligendi ipsa! Minus deleniti id dignissimos rerum ad at earum, impedit in repudiandae iste nulla repellendus placeat esse eos quasi animi consectetur veniam sed non numquam voluptatibus dolorem! Minima asperiores excepturi exercitationem nostrum, optio incidunt beatae at doloremque hic eius autem et voluptates placeat eos! Et excepturi hic delectus vero corporis facere libero magnam veritatis aperiam, sint aut tempore optio eveniet id voluptas expedita? Modi non dignissimos doloremque cumque facere quis rem, ipsam debitis. Veniam possimus ea labore quasi deserunt cum vero distinctio animi, magnam consequuntur minima fugiat rem eos impedit, non quae iste maiores rerum? Asperiores debitis dignissimos excepturi doloremque deleniti? Eligendi harum quam, dicta dignissimos numquam accusamus asperiores sapiente quos hic consequatur delectus fugit! Aspernatur ad ex enim ducimus totam blanditiis facilis vero quod dolorem at obcaecati nam tempore, eligendi possimus nihil porro officiis impedit aut molestiae tenetur. Ratione cumque accusamus in, eius vel eos, doloribus corporis saepe, nobis quibusdam minima. Veniam harum adipisci error dolor accusamus. Iusto et quos quam tempore at inventore earum dignissimos aliquam maxime facilis temporibus fuga expedita repudiandae aspernatur quod nesciunt enim possimus, accusamus fugiat commodi, laudantium mollitia veniam quis! Ut nobis animi tenetur, distinctio voluptatibus dolorem assumenda libero ipsa maxime delectus perferendis inventore ea, sunt, ipsam soluta. Nulla commodi aliquid hic, tempore optio animi deserunt, consequuntur, sit sint nam officiis labore? Tempora iure ducimus sit at quibusdam minima repellendus eveniet, perferendis doloribus nulla eligendi nihil labore voluptates voluptatibus ea rem voluptate eum dolorem vitae, tempore iusto earum id, placeat reiciendis! Tempore, quaerat. Enim dolorem adipisci ipsum doloribus reprehenderit obcaecati similique voluptatem dignissimos, distinctio atque facere rerum quas accusantium nemo aut molestias qui autem illo deleniti totam inventore vitae est. Optio impedit perferendis alias temporibus exercitationem voluptatibus excepturi corrupti amet minima labore explicabo repellat dicta sed illum sapiente vel enim blanditiis aut perspiciatis magnam, voluptatem assumenda laborum error earum? Ducimus consectetur asperiores pariatur similique sint maxime iure nisi blanditiis debitis totam ut doloremque fugiat soluta cum error magni, nostrum accusamus tenetur magnam. Perferendis blanditiis nemo quia cumque voluptates omnis amet totam quos! Ab, autem mollitia? Nisi repellendus officia incidunt, odio debitis accusamus quibusdam recusandae, perferendis voluptatem, laboriosam neque! Provident molestiae inventore in molestias aliquam quasi quae explicabo nihil rerum magnam consequuntur eligendi commodi exercitationem reprehenderit magni voluptatum, repellat voluptates veniam pariatur alias dicta tempora, numquam assumenda quo. Accusamus eligendi accusantium earum consequuntur illum, est iure culpa autem minus eius aliquam explicabo totam praesentium soluta dignissimos expedita eaque asperiores voluptas nemo, illo ea, sequi repellat. Expedita vero repudiandae earum consequuntur voluptatibus consequatur soluta voluptates perspiciatis nisi? Facilis vero maxime debitis nihil aut nulla earum cum minima, quod dolores rem enim, soluta asperiores officia, ab vitae reprehenderit distinctio fugiat. Unde magni perferendis veniam! Eaque eos quisquam laboriosam quas deserunt nihil eligendi fuga debitis voluptatem sed, impedit quia dolorum distinctio repudiandae adipisci voluptas magni saepe quae tempora exercitationem. Vel fugit repellendus ea dolores nostrum aliquam sit quod veniam, temporibus placeat! Voluptatum eum incidunt, modi cumque illum quisquam sapiente sed est. Quaerat magnam eum totam reprehenderit itaque architecto est earum maiores. Sint quidem eaque deserunt autem ipsum enim voluptatibus quibusdam tempora cupiditate fugiat praesentium reiciendis odio velit beatae iusto numquam omnis dolorem, cum optio voluptates architecto neque voluptatum vel sunt. Minus fuga ducimus ipsa quas! Ex ipsa, nihil nobis esse reprehenderit vero blanditiis sed ea dolor repellendus commodi veniam nostrum vel accusamus animi voluptatem molestias dolores tenetur! Nostrum cupiditate hic alias officiis ducimus recusandae eum aperiam iure quasi obcaecati nesciunt modi iusto quo autem nemo laborum ratione cum tempore laboriosam laudantium, odio porro. Minima dolore distinctio dicta delectus. Illum numquam tempore ut laborum id eligendi dignissimos veniam in explicabo pariatur cupiditate quibusdam cum nulla saepe sunt excepturi recusandae consequuntur nesciunt dolores maxime, ex minus! Id fugiat sed ipsam quae illum commodi mollitia alias esse deserunt, aliquam minima et quos consequatur adipisci eveniet vel distinctio possimus dolor repellendus, repellat accusantium. Similique eius, asperiores dolorum odit dolore recusandae eum ea tempora fugit totam cumque cum, illo autem. Accusamus dignissimos facilis dolorem aspernatur eius aut itaque, aliquam voluptatem ab recusandae. Illo accusamus minima voluptatum, animi pariatur, sequi officiis delectus, itaque natus blanditiis dolorum labore! Voluptate quos dolorem adipisci repellendus, nesciunt sequi delectus tempora harum nam optio aliquid libero? Culpa commodi qui quisquam? Quia animi sit hic assumenda. Pariatur est, beatae amet doloribus error animi voluptate laboriosam voluptatibus autem. Perspiciatis laudantium nam perferendis quod, quisquam quo, aliquam dolore modi unde mollitia ea sapiente repudiandae voluptas doloremque assumenda? Quibusdam, suscipit molestias. Suscipit et eveniet quo ea, sequi delectus. Sunt quibusdam qui dolorum quae placeat accusamus delectus amet tenetur! Animi unde inventore sapiente veniam, voluptas minus, non est vitae, sed similique sint accusamus. Provident inventore quibusdam dolor esse architecto veritatis ut consequuntur molestiae ratione, nulla laudantium voluptatem sequi beatae doloremque repellat aliquid autem assumenda reprehenderit maiores debitis odio illo sit? Architecto sequi maxime natus officiis ipsum repellendus. Hic, labore ipsam! Quam quia labore numquam possimus, pariatur id, non recusandae neque quis dolor quod laboriosam. Esse libero possimus dolores recusandae. Repellat fuga earum ratione veritatis reiciendis dolorum quia eaque magnam nam distinctio, dolore dignissimos incidunt ipsum eveniet, vitae blanditiis et, ea corporis nostrum possimus ex! Vitae quo voluptatem nobis accusamus at recusandae nam omnis ipsum quasi a fugit incidunt nulla totam quam, voluptates quibusdam dolorum exercitationem? Voluptate inventore ipsum tenetur provident nihil itaque, dolores suscipit officiis et quae! Earum, debitis. Aut itaque modi officia provident ab laudantium, nam minima laboriosam veritatis sint ullam laborum esse suscipit nulla quae dolorum odio, harum rerum commodi. Reprehenderit, optio dolore. In, blanditiis. Culpa dolores, impedit in sequi sapiente non, nam reiciendis fugit exercitationem, doloremque qui minima tempora. Nihil earum itaque asperiores culpa totam impedit tempora, alias dolorum velit incidunt accusantium nulla consectetur ad reiciendis dolorem sunt facilis non aperiam quisquam natus iure dolor modi cum blanditiis? Adipisci deleniti unde ducimus porro eligendi laborum cum quis placeat hic pariatur harum perferendis, eos quo mollitia recusandae rerum quae praesentium. Consectetur saepe veritatis dolorem eaque! Ratione consectetur assumenda molestias corrupti, quisquam dolores hic quam."}/>
+      <div className="main">
+        <Title titleName={"FOYDALI MANBALAR"} />
+        <Myimg img={Img1} />
+        <Paragraph
+          text={
+            "Ijtimoiy tarmoqlarda o‘tkazilgan so‘rovnomalar asosida har bir o‘zbek o‘qib chiqishi tavsiya qilinadigan kitoblar ro‘yxatini aniqladi. Unga ko‘ra, har bir kishi o‘qib chiqishi kerak bo‘lgan kitoblar quyidagilardir:"
+          }
+        />
+        <div className="ektromismdiv">
+          <ul>
+            <li><b>1. </b>Qur'oni karimga oid kitoblar (Tafsiri Hilol, Tafsiri Irfon, Qur'oni karim ma'nolarining tarjimalari).</li>
+            <li><b>2. </b>Hadis kitoblari (Oltin Silsila, Hadis va Hayot, Riyozus-solihiyn va boshqa hadis kitoblari).</li>
+            <li><b>3. </b>O‘zbek davlatchiligiga oid kitoblar (Konstitutsiya, Prezident asarlari, qonunlar va h.k.).</li>
+            <li><b>4. </b>Hazrati Alisher Navoiy va boshqa mumtoz adabiyotimizga tegishli asarlar.</li>
+            <Title3 title3={"Shuningdek quyidagi kitoblar ham tavsiya etildi:"}/>
+            <li><b>5. </b>Al-Adab Al-Mufrad (Imom Buxoriy).</li>
+            <li><b>6. </b>Muxtasarul viqoya (Kifoya) (Shayx Muhammad Sodiq Muhammad Yusuf).</li>
+            <li><b>7. </b>Ibodati Islomiya (Ahmad Hodiy Maqsudiy).</li>
+            <li><b>8. </b>Sunniy aqidalar (Shayx Muhammad Sodiq Muhammad Yusuf).</li>
+            <li><b>9. </b>Payg‘ambarlar tarixi Islom tarixidir (Rahmatulloh Obidov).</li>
+            <li><b>10. </b>O‘tkan kunlar, Mehrobdan chayon (Abdulla Qodiriy).</li>
+            <li><b>11. </b>Turkiston qayg‘usi (Alixonto‘ra Sog‘uniy).</li>
+            <li><b>12. </b>Qazo bo‘lgan namoz (Xurshid Do‘stmuhammmad).</li>
+            <li><b>13. </b>Boburnoma (Zahiriddin Muhammad Bobur).</li>
+            <li><b>14. </b>Iqrornoma, Urush va tinchlik (Lev Tolstoy).</li>
+            <li><b>15. </b>Yulduzli tunlar, Ajdodlar dovoni (Pirimqul Qodirov).</li>
+            <li><b>16. </b>Tarixi Muhammadiy (Alixonto‘ra Sog‘uniy).</li>
+            <li><b>17. </b>Graf Monte Kristo (Aleksandr Dyuma).</li>
+            <li><b>18. </b>Robinzon Kruzo va uning sarguzashtlari (Daniyel Defo).</li>
+            <li><b>19. </b>Usta va Margarita (Mixail Bulgakov).</li>
+            <li><b>20. </b>Shum bola (G‘afur G‘ulom).</li>
+            <li><b>21. </b>Shohnoma (Firdavsiy).</li>
+            <li><b>22. </b>Anbiyolar qissasi (Rabg‘uziy).</li>
+            <li><b>23. </b>Mening Dog‘istonim (Rasul Hamzatov).</li>
+            <li><b>24. </b>Kalila va Dimna.</li>
+            
+            <li><b>25. </b>Saodat asri qissalari (Lutfiy Qozonchi)</li>
+            <li><b>26. </b>Jannatga yo‘l (Abdulla Oripov).</li>
+            <li><b>27. </b> Mo‘'jizalar sodir bo‘lmaydi (Li Myon Bak).</li>
+            <li><b>28. </b>Mantiqut tayr (Fariddiddin Attor).</li>
+            <li><b>29. </b>Amerika fojiasi (Teodor Drayzer).</li>
+            <li><b>30. </b>Jinoyat va jazo (Dostoyevskiy).</li>
+            <li><b>31. </b>Devoni hikmat (Ahmad Yassaviy).</li>
+            <li><b>32. </b>Qobusnoma (Kaykovus).</li>
+            <li><b>33. </b>Bolalik (Oybek).</li>
+            <li><b>34. </b>Daftar hoshiyasidagi bitiklar (O‘tkir Hoshimov).</li>
+            <li><b>35. </b>Odamiylik mulki (Tohir Malik).</li>
+            <li><b>36. </b>Kichik shahzoda (Antuan de Sent Ekzyuperi).</li>
+            <li><b>37. </b>Fozil kishilar shahri (Forobiy).</li>
+            <li><b>38. </b>Oshkora qotillik qissasi (Gabriel Markes).</li>
+            <li><b>39. </b>Kafansiz ko‘milganlar (Shukrullo).</li>
+            <li><b>40. </b>Ruhiy tarbiya, Xislatli hikmatlar sharhi (Shayx Muhammad Sodiq Muhammad Yusuf).</li>
+            <li><b>41. </b>Asrga tatigulik kun, Qiyomat, Jamila, Oq kema (Chingiz Aytmatov).</li>
+            <li><b>42. </b>Qaynona, O‘gay ona (Lutfiy Qozonchi).</li>
+            <li><b>43. </b>Bu dunyoda o‘lib bo‘lmaydi, Ot kishnagan oqshom, Otamdan qolgan dalalar, Oydinda yurgan odamlar (Tog‘ay Murod).</li>
+            <li><b>44. </b>Xulofoi roshidiyn (Rizouddin ibn Fahruddin).</li>
+            <li><b>45. </b>Oisha roziallohu anho (Abdulhamid Tahmoz).</li>
+            <li><b>46. </b>Gunohi kabiralar (Imomi Zahabiy).</li>
+            <li><b>47. </b>Shamoili Muhammadiya (Termiziy).</li>
+            <li><b>48. </b>Men kim sohibqiron Amir Temur (Marsel Brion).</li>
+            <li><b>49. </b>Nurul yaqin (Xuzariy).</li>
+            <li><b>50. </b>Fiqhul akbar (Abu Hanifa).</li>
+            <li><b>51. </b>Tahoviy aqidasi (Tahoviy)</li>
+            <li><b>52. </b>Ihyo ulumuddin (Imom G‘azzolliy).</li>
+            <li><b>53. </b>Temur tuzuklari (Sohibqiron Amir Temur).</li>
+            <li><b>54. </b>Ikki eshik orasi, Dunyoning ishlari (O‘tkir Hoshimov).</li>
+            <li><b>55. </b>Nur va soyalar (R. Tagor).</li>
+            <li><b>56. </b>Sayohatnoma (ibn Batuta).</li>
+            <li><b>57. </b>Mumu (Ivan Turgenev).</li>
+            <li><b>58. </b>Cho‘lpon she'rlari.</li>
+            <li><b>59. </b>Baxtiyor oila, Ijtimoiy odoblar (Shayx Muhammad Sodiq Muhammad Yusuf).</li>
+            <li><b>60. </b>Judolik diyori (Murod Mansur).</li>
+            <li><b>61. </b>Riyoziyot un-nafs (Imom G‘azzoliy).</li>
+            <li><b>62. </b>Qutadg‘u bilig (Yusuf Xos Hojib).</li>
+            <li><b>63. </b>Inson husni (Mirzakalon Ismoiliy).</li>
+            <li><b>64. </b>Iymon (Shayx Muhammad Sodiq Muhammad Yusuf).</li>
+            
+            <li><b>65. </b>Ajdodlarimiz fojiasi (Mirkarim Osim).</li>
+            <li><b>66. </b>Tanbehul g‘ofiliyn (Abu Lays Samarqandiy).</li>
+            <li><b>67. </b>So‘nggi o‘q (Tohir Malik).</li>
+            <li><b>68. </b>Halol nimayu harom nima (Tohir Malik).</li>
+            <li><b>69. </b>Rahiq al-maxtum (Safiyyur Rahmon Muborakfuriy).</li>
+            <li><b>70. </b>Ochiq xat, Din nasihatdir, Vasatiya, Ixtiloflar, sabablar va yechimlar (Shayx Muhammad Sodiq Muhammad Yusuf).</li>
+            <li><b>71. </b>Til nomusi (Ahmad A'zam).</li>
+            <li><b>72. </b>Guliston va Bo‘ston (Sa'diy).</li>
+            <li><b>73. </b>Jaloliddin Rumiy (Radiy Fish).</li>
+            <li><b>74. </b>Shavkat Rahmon she'rlari.</li>
+            <li><b>75. </b>Qatlnoma (Nabijon Boqiy).</li>
+            <li><b>76. </b>Mahtumquli she'rlari.</li>
+            <li><b>77. </b>Jimjitlik, Ufq (Said Ahmad).</li>
+            <li><b>78. </b>Yolg‘izlikning yuz yili (Gabriel Markes).</li>
+            <li><b>79. </b>Al-kimyogar (Paulo Koelo).</li>
+            <li><b>80. </b>Shaytanat (Tohir Malik).</li>
+            <li><b>81. </b>Tazkirat ul-avliyo (Fariddin Attor).</li>
+            <li><b>82. </b>Qo‘shchinor chiroqlari (Abdulla Qahhor).</li>
+            <li><b>83. </b>O‘kinma (Doktor Oiz Qarniy).</li>
+            <li><b>84. </b>Ming bir kecha.</li>
+            
+            <li><b>85. </b>Faust (Gyote).</li>
+            <li><b>86. </b>XXI asrda Islom va postmodern dunyoda qiblani topish (Timoti J Uinter).</li>
+            <li><b>87. </b>Ichindagi ichindadir (Jaloliddin Rumiy).</li>
+            <li><b>88. </b>Sabot ul-ojiziyn (So‘fi Ollohyor).</li>
+            <li><b>89. </b>Mukoshafatul qulub (Imom G‘azzolliy).</li>
+            <li><b>90. </b>Ulamolar nazdida vaqtning qadri (Abdul Fattoh Abu G‘udda).</li>
+            <li><b>91. </b>Sherlok Xolms sarguzashtlari (Artur Konon Doyl).</li>
+            <li><b>92. </b>Farengeyt bo‘yicha 451 gradus (Rey Bredberi).</li>
+            <li><b>93. </b>Sudxo‘rning o‘limi (Sadriddin Ayniy).</li>
+            <li><b>94. </b>Daftar hoshiyasidagi bitiklar (O‘tkir Hoshimov).</li>
+            <li><b>95. </b>Bu tog‘lar ulug‘ tog‘lar (Evril Turon).</li>
+            <li><b>96. </b>Sariq ajdar hamlasi (Mannop Egamberdiyev).</li>
+            <li><b>97. </b>Muvaffaqiyat kaliti (Deyl Karnegi).</li>
+            <li><b>98. </b>Masnaviy ma'naviy (Jaloliddin Rumiy).</li>
+            <li><b>99. </b>Jarayon (Frants Kafka).</li>
+            <li><b>100. </b>Iymonlashish umidi, Ov (Tohir Malik).</li>
+            
+          </ul>
+        </div>
       </div>
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Parentsresources
+export default Parentsresources;
