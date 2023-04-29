@@ -28,6 +28,7 @@ import Psychology from "./pages/parents/psychology/psychology";
 import Parentsresources from "./pages/parents/parentsresources/parentsresources";
 import ParentsItControl from "./pages/parents/monitoring/parentsItControl/parentsItControl";
 import Tv from "./pages/parents/monitoring/tv/tv";
+import Mediateka from "./pages/main/mediateka/mediateka";
 
 function App() {
 	return (
@@ -50,6 +51,7 @@ function App() {
 				</Route>
 			</Route>
 			
+			<Route path="/mediateka" element={<Mediateka />}/>
 			<Route path="/youngs/bad-habits" element={<Habits />}/>
 			<Route path="/youngs/bad-habits/addiction" element={<Addiction />}/>
 			<Route path="/youngs/bad-habits/smoking" element={<Smoking />}/>

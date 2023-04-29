@@ -61,17 +61,17 @@ const Resourses = () => {
 					</ul>
 				</div>
 				<div className="resourses__elements">
-					<div className="resourses__elements_rowOdd">
+					<div className="book">
 						<img src={img1} alt={img1} />
-						<div>
+						
 							<h2>bla bla</h2>
 							<p>Lorem ipsum dolor sit amet.</p>
 							<a href={pdf1} download={pdf1}>
 								<button>Yuklash</button>
 							</a>
-						</div>
 					</div>
-					<div className="resourses__elements_rowEven">
+					<div className="book">
+					<img src={img2} alt={img2} />
 						<div>
 							<h2>bla bla</h2>
 							<p>Lorem ipsum dolor sit amet.</p>
@@ -79,9 +79,8 @@ const Resourses = () => {
 								<button>Yuklash</button>
 							</a>
 						</div>
-						<img src={img2} alt={img2} />
 					</div>
-					<div className="resourses__elements_rowOdd">
+					<div className="book">
 						<img src={img3} alt={img3} />
 						<div>
 							<h2>bla bla</h2>
@@ -91,7 +90,8 @@ const Resourses = () => {
 							</a>
 						</div>
 					</div>
-					<div className="resourses__elements_rowEven">
+					<div className="book">
+					<img src={img4} alt={img4} />
 						<div>
 							<h2>bla bla</h2>
 							<p>Lorem ipsum dolor sit amet.</p>
@@ -99,9 +99,8 @@ const Resourses = () => {
 								<button>Yuklash</button>
 							</a>
 						</div>
-						<img src={img4} alt={img4} />
 					</div>
-					<div className="resourses__elements_rowOdd">
+					<div className="book">
 						<img src={img5} alt={img5} />
 						<div>
 							<h2>bla bla</h2>
@@ -111,7 +110,8 @@ const Resourses = () => {
 							</a>
 						</div>
 					</div>
-					<div className="resourses__elements_rowEven">
+					<div className="book">
+					<img src={img6} alt={img6} />
 						<div>
 							<h2>bla bla</h2>
 							<p>Lorem ipsum dolor sit amet.</p>
@@ -119,9 +119,8 @@ const Resourses = () => {
 								<button>Yuklash</button>
 							</a>
 						</div>
-						<img src={img6} alt={img6} />
 					</div>
-					<div className="resourses__elements_rowOdd">
+					<div className="book">
 						<img src={img7} alt={img7} />
 						<div>
 							<h2>bla bla</h2>
@@ -131,7 +130,8 @@ const Resourses = () => {
 							</a>
 						</div>
 					</div>
-					<div className="resourses__elements_rowEven">
+					<div className="book">
+					<img src={img8} alt={img8} />
 						<div>
 							<h2>bla bla</h2>
 							<p>Lorem ipsum dolor sit amet.</p>
@@ -139,9 +139,8 @@ const Resourses = () => {
 								<button>Yuklash</button>
 							</a>
 						</div>
-						<img src={img8} alt={img8} />
 					</div>
-					<div className="resourses__elements_rowOdd">
+					<div className="book">
 						<img src={img9} alt={img9} />
 						<div>
 							<h2>bla bla</h2>
@@ -151,7 +150,8 @@ const Resourses = () => {
 							</a>
 						</div>
 					</div>
-					<div className="resourses__elements_rowEven">
+					<div className="book">
+					<img src={img10} alt={img10} />
 						<div>
 							<h2>bla bla</h2>
 							<p>Lorem ipsum dolor sit amet.</p>
@@ -159,7 +159,6 @@ const Resourses = () => {
 								<button>Yuklash</button>
 							</a>
 						</div>
-						<img src={img10} alt={img10} />
 					</div>
 				</div>
 			</div>

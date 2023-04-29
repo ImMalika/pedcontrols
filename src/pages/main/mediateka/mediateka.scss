@@ -1,0 +1,14 @@
+.videos{
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    iframe{
+        max-width: 370px;
+        max-height: 250px;
+        border-radius: 20px;
+    }
+}
