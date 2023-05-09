@@ -5,14 +5,106 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
 .footer {
 	width: 100%;
-	padding: 3% 10%;
+	padding: 2rem 0 4rem;
 	// background: ;
-	background: linear-gradient(to right, #005baf, #006acd, #17aff8);
-background: linear-gradient(to right,#00063a,#1023ce,#75AFD1, );
-	color: $light;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	// background: linear-gradient(to right, #005baf, #006acd, #17aff8);
+	background: linear-gradient(to right,#00063a,#1023ce,#75AFD1, );
+	.foot{
+		width: 75%;
+		margin: 0 auto;
+		color: $light;
+		display: flex;
+		// align-items: center;
+		justify-content: space-between;
+		&__left{
+			display: flex;
+			width: 30%;
+			gap: 1rem;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: space-between;
+			.foot__left__logo{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				gap: .5rem;
+				&:hover{
+					color: white;
+				}
+				img{
+					width: 70px;
+				}
+				p{
+					font-size: 22px;
+					text-transform: uppercase;
+				}
+			}
+			
+			
+		}
+		&__right{
+			width: 70%;
+			display: flex;
+			// align-items: flex-end;
+			justify-content: flex-end;
+			gap: 10%;
+			ul{
+				line-height: 27px;
+				li{
+					font-family: Georgia, 'Times New Roman', Times, serif;
+					font-size: 16px;
+
+					cursor: pointer;
+					padding:.2rem .4rem;
+					border-radius: 10px;
+					&:hover{
+						background-color: #1023ce96;
+						color: white;
+					}
+					span{
+						font-weight: 700;
+						font-size: 18px;
+					}
+				}
+			}
+	
+		}
+	}
+	&__bottom{
+		width: 75%;
+		margin: 0 auto;
+		color: $light;
+		padding: 3rem 0 0;
+		&__icons{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 3rem;
+			font-size: 2rem;
+			padding: 1rem;
+			cursor: pointer;
+
+		}
+
+		&__section{
+			display: flex;
+			align-items: flex-end;
+			justify-content: space-between;
+			padding: 1rem 0;
+			p{
+				font-size: 18px;
+			}
+			ul{
+				display: flex;
+				gap: 1rem;
+				img{
+					width: 120px;
+					height: 40px;
+				}
+			}
+		}
+	}
 }
