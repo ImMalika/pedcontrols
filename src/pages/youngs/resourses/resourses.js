@@ -61,108 +61,109 @@ const Resourses = () => {
 					</ul>
 				</div>
 				<div className="resourses__elements">
-					<div className="resourses__elements_rowOdd">
+					<div className="book">
 						<img src={img1} alt={img1} />
-						<div>
-							<h2>bla bla</h2>
-							<p>Lorem ipsum dolor sit amet.</p>
-							<a href={pdf1} download={pdf1}>
-								<button>Yuklash</button>
-							</a>
+						<div className="book__info">
+						<h2>Bolalik</h2>
+						<p>Muso Toshmuhammad og'li Oybek</p>
+						<a href={pdf1} download={pdf1}>
+							<button>Yuklash</button>
+						</a>
 						</div>
 					</div>
-					<div className="resourses__elements_rowEven">
-						<div>
-							<h2>bla bla</h2>
-							<p>Lorem ipsum dolor sit amet.</p>
+					<div className="book">
+					<img src={img2} alt={img2} />
+						<div className="book__info">
+							<h2>Chol va dengiz</h2>
+							<p>Ernest Xeminguey</p>
 							<a href={pdf2} download={pdf2}>
 								<button>Yuklash</button>
 							</a>
 						</div>
-						<img src={img2} alt={img2} />
 					</div>
-					<div className="resourses__elements_rowOdd">
+					<div className="book">
 						<img src={img3} alt={img3} />
-						<div>
-							<h2>bla bla</h2>
-							<p>Lorem ipsum dolor sit amet.</p>
+						<div className="book__info">
+							<h2>Dunyoning ishlari</h2>
+							<p>O'tkir Hoshimov</p>
 							<a href={pdf3} download={pdf3}>
 								<button>Yuklash</button>
 							</a>
 						</div>
 					</div>
-					<div className="resourses__elements_rowEven">
-						<div>
-							<h2>bla bla</h2>
-							<p>Lorem ipsum dolor sit amet.</p>
+					<div className="book">
+					<img src={img4} alt={img4} />
+						<div className="book__info">
+							<h2>Kichkina Shahzoda</h2>
+							<p>Antuan de Sent Ekzyuperi</p>
 							<a href={pdf4} download={pdf4}>
 								<button>Yuklash</button>
 							</a>
 						</div>
-						<img src={img4} alt={img4} />
 					</div>
-					<div className="resourses__elements_rowOdd">
+					<div className="book">
 						<img src={img5} alt={img5} />
-						<div>
-							<h2>bla bla</h2>
-							<p>Lorem ipsum dolor sit amet.</p>
+						<div className="book__info">
+							<h2>O'gay ona</h2>
+							<p>Ahmad Lutfiy Qozonchi</p>
 							<a href={pdf5} download={pdf5}>
 								<button>Yuklash</button>
 							</a>
 						</div>
 					</div>
-					<div className="resourses__elements_rowEven">
-						<div>
-							<h2>bla bla</h2>
-							<p>Lorem ipsum dolor sit amet.</p>
+					<div className="book">
+					<img src={img6} alt={img6} />
+						<div className="book__info">
+							<h2>Oq kema</h2>
+							<p>Chingiz Aytmatov</p>
 							<a href={pdf6} download={pdf6}>
 								<button>Yuklash</button>
 							</a>
 						</div>
-						<img src={img6} alt={img6} />
 					</div>
-					<div className="resourses__elements_rowOdd">
+					<div className="book">
 						<img src={img7} alt={img7} />
-						<div>
-							<h2>bla bla</h2>
-							<p>Lorem ipsum dolor sit amet.</p>
+						<div className="book__info">
+							<h2>Ot kishnagan oqshom</h2>
+							<p>Tog'ay Murod</p>
 							<a href={pdf7} download={pdf7}>
 								<button>Yuklash</button>
 							</a>
 						</div>
 					</div>
-					<div className="resourses__elements_rowEven">
-						<div>
-							<h2>bla bla</h2>
-							<p>Lorem ipsum dolor sit amet.</p>
+					<div className="book">
+					<img src={img8} alt={img8} />
+						<div className="book__info">
+							<h2>Qobusnoma</h2>
+							<p>Kaykovus</p>
 							<a href={pdf8} download={pdf8}>
 								<button>Yuklash</button>
 							</a>
 						</div>
-						<img src={img8} alt={img8} />
 					</div>
-					<div className="resourses__elements_rowOdd">
+					<div className="book">
 						<img src={img9} alt={img9} />
-						<div>
-							<h2>bla bla</h2>
-							<p>Lorem ipsum dolor sit amet.</p>
+						<div className="book__info">
+							<h2>Shum bola</h2>
+							<p>G'ofur G'ulom</p>
 							<a href={pdf9} download={pdf9}>
 								<button>Yuklash</button>
 							</a>
 						</div>
 					</div>
-					<div className="resourses__elements_rowEven">
-						<div>
-							<h2>bla bla</h2>
-							<p>Lorem ipsum dolor sit amet.</p>
+					<div className="book">
+					<img src={img10} alt={img10} />
+						<div className="book__info">
+							<h2>Yulduzli tunlar</h2>
+							<p>Pirimqul Qodirov</p>
 							<a href={pdf10} download={pdf10}>
 								<button>Yuklash</button>
 							</a>
 						</div>
-						<img src={img10} alt={img10} />
 					</div>
 				</div>
 			</div>
+			<br /><br />
 			<Footer />
 		</div>
 	);

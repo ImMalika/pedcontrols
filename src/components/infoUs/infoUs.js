@@ -3,21 +3,26 @@ import "./infoUs.scss";
 import { Link } from "react-router-dom";
 import infoUsBG from "../../media/infoUsBG.svg";
 import exclamation from "../../media/exclamation.png";
+import Img1 from "../../media/homeimg1.png";
+import Img2 from "../../media/homeimg2.png";
 
-const Info1Data = [
-	{
-		img: "https://images.hindustantimes.com/rf/image_size_640x362/HT/p2/2015/12/01/Pictures/_c34102da-9849-11e5-b4f4-1b7a09ed2cea.jpg",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sint vitae sit sapiente pariatur explicabo, velit enim voluptatibus libero.lorem10 sit amet consectetur adipisicing elit. Ad sint vitae sit sapiente pariatur explicabo, velit enim voluptatibus libero.lorem10",
-		btnTitle: "davomi...",
-	},
-	{
-		img: "https://www.educationcorner.com/images/featured-importance-education.png",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sint vitae sit sapiente pariatur explicabo, velit enim voluptatibus libero.",
-		btnTitle: "davomi...",
-	},
-];
+// const Info1Data = [
+// 	{
+// 		img: "../../media/homeimg1.png",
+// 		description:
+// 			"	O‘smir yoshidagi bolalarning hushyorlik va ogohlik fazilatlarini shakllantirishdagi mavjud muammolarini o‘rganish bo‘yicha so‘rovnoma",
+// 		btnTitle: "Boshlash",
+// 	},
+// 	{
+// 		img: "../../media/homeimg2.png",
+// 		description:
+// 			"Ota-onalar uchun farzandining xulq-atvori va psixik xolati, tengdoshlari bilan o‘zaro munosabat xususiyatlari, me’yordan chetlashishlarning ehtimolli sabablari bo‘yicha so‘rovnoma",
+// 		btnTitle: "Boshlash",
+// 	},
+// ];
+
+
+
 const InfoUs = () => {
 	return (
 		<div className="info1 wrapper">
@@ -31,27 +36,33 @@ const InfoUs = () => {
 						className="info1__pedTitlesDiv-Texts-Logo"
 					/>
 					<p>
-						<b>Pedcontrols.uz</b> - xalqaro standartlarga javob beruvchi ilg‘or
-						raqamli ta’lim texnologiyasi bo‘lib, maktab o‘quvchilari uchun
-						sifatli uzluksiz masofaviy ta’lim taqdim etilishini ta’minlaydi.
-						Platformada o‘qituvchi va ota-onalar uchun ham o‘quvchilarning
-						o‘zlashtirish darajasini nazorat qilib borish, mavzular mazmuni
-						bilan tanishish singari keng imkoniyatlar taqdim etiladi.
+						<b>Pedcontrols.uz</b> - xalqaro standartlarga javob beruvchi ilg‘or raqamli ta’lim texnologiyasi bo‘lib, o‘smir yoshidagi bolalar va ota-onalar uchun sifatli uzluksiz masofaviy ta’lim taqdim etilishini ta’minlaydi. Platformada tashqi axborotlardan himoya qilish uchun o‘smir yoshlarda ularning hushyorlik va ogohlik fazilatlarini rivojlantirish hamda nazorat qilib borish, kiber makonda sodir etilgan hujumlar qurboniga aylanishiga qarshi immunitetni oshirishga doir dolzarb mavzular bilan tanishish singari keng imkoniyatlar taqdim etiladi. 
 					</p>
 				</div>
 			</div>
 			{/* <h2>Biz haqimizda</h2> */}
-			{Info1Data.map((item, index) => (
-				<div className="info1__div" key={index}>
-					<img className="info1__div-img" src={item.img} alt="" />
+			
+				<>
+				<div className="info1__div">
+					<img className="info1__div-img" src={Img1} alt="image" />
 					<div className="info1__div-texts">
-						<p className="info1__div-texts-text">{item.description}</p>
-						<Link to="/about-us" className="info1__div-texts-btn">
-							{item.btnTitle}
+						<p className="info1__div-texts-text">O‘smir yoshidagi bolalarning hushyorlik va ogohlik fazilatlarini shakllantirishdagi mavjud muammolarini o‘rganish bo‘yicha so‘rovnoma</p>
+						<Link to="" className="info1__div-texts-btn">
+							Boshlash
 						</Link>
 					</div>
 				</div>
-			))}
+				
+				<div className="info1__div">
+					<img className="info1__div-img" src={Img2} alt="image" />
+					<div className="info1__div-texts">
+						<p className="info1__div-texts-text">Ota-onalar uchun farzandining xulq-atvori va psixik xolati, tengdoshlari bilan o‘zaro munosabat xususiyatlari, me’yordan chetlashishlarning ehtimolli sabablari bo‘yicha so‘rovnoma</p>
+						<Link to="" className="info1__div-texts-btn">
+							Boshlash
+						</Link>
+					</div>
+				</div>
+				</>
 		</div>
 	);
 };

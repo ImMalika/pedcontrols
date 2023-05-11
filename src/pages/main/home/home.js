@@ -25,13 +25,10 @@ const Home = () => {
 			</div>
 			<div className="homeBG"></div>
 			<div className="info2 wrapper">
-				<h2>Modulli oquv dasturlari</h2>
 				<div className="info2__col1">
-					<p>
-						Поможем подтянуть и углубить школьные знания, улучшить оценки,
-						повысить интерес к учебе
-					</p>
-					<h3>Online tahdidlaridan himoyalash</h3>
+				<br />
+				<br />
+				<br />
 					<Carousel1 />
 				</div>
 				{/* <div className="info2__col2">
