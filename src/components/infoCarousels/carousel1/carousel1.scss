@@ -22,7 +22,7 @@
 		overflow: hidden;
 		img {
 			width: 100%;
-			height: 350px;
+			height: 280px;
 			object-fit: cover;
 			margin: 0 auto;
 			border-radius: $br_r_10;
@@ -58,8 +58,9 @@
 			object-fit: cover;
 		}
 		.link {
-			bottom: 5%;
-			left: 15%;
+			bottom: 3%;
+			// left: 15%;
+			margin: 0 auto;
 		}
 	}
 	.arrow {
@@ -71,7 +72,7 @@
 		transition: 0.1ms;
 		bottom: 45%;
 		font-size: 1.5rem;
-color: $light;
+		color: $light;
 		&:hover {
 			color: $primary;
 			transition: 0.1ms;

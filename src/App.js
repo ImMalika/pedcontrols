@@ -29,6 +29,8 @@ import Parentsresources from "./pages/parents/parentsresources/parentsresources"
 import ParentsItControl from "./pages/parents/monitoring/parentsItControl/parentsItControl";
 import Tv from "./pages/parents/monitoring/tv/tv";
 import Mediateka from "./pages/main/mediateka/mediateka";
+import Method1 from "./pages/parents/parentsmethods/method1";
+import Method2 from "./pages/parents/parentsmethods/method2";
 
 function App() {
 	return (
@@ -72,6 +74,8 @@ function App() {
 			<Route path="/parents/useful-advices" element={<ParentsAdvices/>}/>
 			<Route path="/parents/psychologist's-advice" element={<Psychology/>}/>
 			<Route path="/parents/useful-resources" element={<Parentsresources/>}/>
+			<Route path="/parents/method1" element={<Method1 />}/>
+			<Route path="/parents/method2" element={<Method2 />}/>
 			
 			
 

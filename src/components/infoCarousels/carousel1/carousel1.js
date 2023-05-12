@@ -5,42 +5,52 @@ import Slider from "react-slick";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import { FaArrowCircleRight, FaArrowCircleLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import Img1 from "../../../media/youngsmedia/carouselimg1.png";
+import Img2 from "../../../media/youngsmedia/carouselimg2.png";
+import Img3 from "../../../media/youngsmedia/internet.jpg"
+import Img4 from "../../../media/youngsmedia/smoking2.jpg";
+import Img5 from "../../../media/youngsmedia/lifestyle7.jpg";
+import Img6 from "../../../media/parentsmedia/advices4.jpg";
+import Img7 from "../../../media/parentsmedia/psychology10.jpg";
+
+
+
 const Carousel1 = () => {
 	const data = [
 		{
-			img: "https://www.bankofengland.co.uk/-/media/boe/images/education-and-engagement/education/teacher-resource-image-1-web.jpg?h=347&la=en&mh=347&mw=520&w=520&hash=76512627AB76D24E22CFC00C41AD0BA59F624BA9",
-			title: "img 1",
-			link: "/study",
+			img: Img2,
+			title:"img 1",
+			link: "/parents/method2",
 		},
 		{
-			img: "https://www.educationperfect.com/wp-content/uploads/2022/11/Generic_Happyhighschoolgirlusinglaptopinclassroom_1500px.webp",
+			img: Img7,
 			title: "img 2",
-			link: "/study",
+			link: "/parents/psychologist's-advice",
 		},
 		{
-			img: "https://alis.alberta.ca/media/2149/students-in-class.jpg?anchor=center&mode=crop&width=606&height=440&rnd=131868559330000000",
-			title: "img 3",
-			link: "/study",
+			img: Img5,
+			title:"img 1",
+			link: "/younges/lifestyle",
 		},
 		{
-			img: "https://www.cdc.gov/healthyyouth/protective/images/EDkQGdeXkAIiM0q.jpg?_=56749",
+			img: Img4,
 			title: "img 4",
-			link: "/study",
+			link: "/youngs/bad-habits/smoking",
 		},
 		{
-			img: "https://www.cdc.gov/healthyyouth/protective/images/EDkQGdeXkAIiM0q.jpg?_=56749",
+			img: Img6,
 			title: "img 4",
-			link: "/study",
+			link: "/parents/useful-advices",
 		},
 		{
-			img: "https://www.cdc.gov/healthyyouth/protective/images/EDkQGdeXkAIiM0q.jpg?_=56749",
+			img: Img1,
 			title: "img 4",
-			link: "/study",
+			link: "/parents/method1",
 		},
 		{
-			img: "https://www.cdc.gov/healthyyouth/protective/images/EDkQGdeXkAIiM0q.jpg?_=56749",
+			img: Img3,
 			title: "img 4",
-			link: "/study",
+			link: "/youngs/threats/internet-addiction",
 		},
 	];
 	const NextArrow = ({ onClick }) => (
@@ -73,7 +83,7 @@ const Carousel1 = () => {
 						key={index}
 						className={index === imageIndex ? "slide active" : "slide"}
 					>
-						<img src={item.img} alt={item.img} />
+						<img src={item.img} alt={item.title} />
 						<Link to={item.link} className="link">
 							{item.title}
 						</Link>
