@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import "./contact.scss"
 import { Nav } from "../../../components/navbar/nav";
 import navData from "../../../components/data/data.json";
 import Footer from "../../../components/footer/footer";
@@ -14,6 +15,7 @@ const Contact = () => {
              <div className="contactimg">
                 <img src={Img} alt="contactimage" />
              </div>
+             <br /><br /><br /><br /><br /><br /><br />
             </div>
             <Footer />
         </div>

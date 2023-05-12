@@ -5,7 +5,6 @@ import Slider from "react-slick";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import { FaArrowCircleRight, FaArrowCircleLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
-<<<<<<< HEAD
 import Img1 from "../../../media/youngsmedia/carouselimg1.png";
 import Img2 from "../../../media/youngsmedia/carouselimg2.png";
 import Img3 from "../../../media/youngsmedia/internet.jpg"
@@ -22,15 +21,7 @@ const Carousel1 = () => {
 			img: Img2,
 			title:"img 1",
 			link: "/parents/method2",
-=======
-import img1 from "../../../media/youngsmedia/badsites1.jpg"
-const Carousel1 = () => {
-	const data = [
-		{
-			img: img1,
-			title: "img 1",
-			link: "/study",
->>>>>>> a52fb404f3916e51b85445e93269d5c9263956e3
+
 		},
 		{
 			img: Img7,
